@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T14:29:32+00:00",
+  "updatedAt": "2026-06-26T16:09:27+00:00",
   "governors": [
     {
       "code": "11",
@@ -18,7 +18,7 @@
       "vision": "동행·매력 특별시 서울의 주요뉴스, 시민참여, 주요서비스, 참여 신청, 행사 및 축제, 자주찾은서비스, 시장실, 분야별정보, 새소식, 서울영상, 서울소식, 서울녹서등의 정보제공",
       "photoUrl": null,
       "source": "https://www.seoul.go.kr/; https://ko.wikipedia.org/wiki/서울특별시",
-      "lastCrawledAt": "2026-06-26T14:28:04+00:00",
+      "lastCrawledAt": "2026-06-26T16:09:25+00:00",
       "manualOverride": false
     },
     {
@@ -334,11 +334,11 @@
       "party": "더불어민주당",
       "termStart": null,
       "termEnd": null,
-      "slogan": "제주특별자치도",
-      "vision": "다함께 미래로, 빛나는 제주",
+      "slogan": null,
+      "vision": null,
       "photoUrl": null,
-      "source": "https://www.jeju.go.kr/; https://ko.wikipedia.org/wiki/제주특별자치도",
-      "lastCrawledAt": "2026-06-26T14:29:18+00:00",
+      "source": "https://ko.wikipedia.org/wiki/제주특별자치도",
+      "lastCrawledAt": "2026-06-26T16:09:27+00:00",
       "manualOverride": false
     }
   ]

@@ -20,6 +20,7 @@ overrides.json 에 직접 입력해 보정한다. 기존 값은 함부로 덮어
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -29,6 +30,8 @@ from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
+
+import nec
 
 # Windows 콘솔(cp949)에서도 한글/기호 출력이 깨지거나 멈추지 않도록 UTF-8로 강제
 for _stream in (sys.stdout, sys.stderr):
@@ -225,16 +228,31 @@ def extract_head_from_wiki(region: dict) -> dict:
     return out
 
 
-def crawl_region(region: dict) -> dict:
-    """한 시·도의 홈페이지에서 단체장 정보를 best-effort 수집."""
+def crawl_region(region: dict, nec_winners: dict[str, dict] | None = None) -> dict:
+    """한 시·도의 단체장 정보를 수집.
+
+    이름·정당: 선관위 당선인 API(있으면 공식·최우선) → 없으면 위키백과 폴백.
+    슬로건·비전: 공식 홈페이지에서 best-effort.
+    """
     result = {f: None for f in GOVERNOR_FIELDS}
     homepage = region["homepage"]
     paths = region.get("paths") or ["/"]
+    nec_winners = nec_winners or {}
+    head: dict = {}
 
-    # 1) 위키백과에서 이름·정당 (신뢰 가능한 단일 소스)
-    head = extract_head_from_wiki(region)
-    result["personName"] = head["personName"]
-    result["party"] = head["party"]
+    # 1) 이름·정당: 선관위 당선인 API 우선 (공식 당선 정보)
+    official = nec_winners.get(region["name"])
+    if official:
+        result["personName"] = official.get("personName")
+        result["party"] = official.get("party")
+        result["termStart"] = nec.TERM_START
+        result["termEnd"] = nec.TERM_END
+        head["necSource"] = "https://www.nec.go.kr"
+    else:
+        # 폴백: 위키백과 정보상자
+        head = extract_head_from_wiki(region)
+        result["personName"] = head["personName"]
+        result["party"] = head["party"]
 
     # 2) 홈페이지에서 슬로건·비전 (best-effort)
     for path in paths:
@@ -262,10 +280,11 @@ def crawl_region(region: dict) -> dict:
         if result["slogan"] and result["vision"]:
             break
 
-    # 출처: 홈페이지 + 위키 링크 병기
-    if head.get("wikiSource"):
+    # 출처: 홈페이지 + (선관위 또는 위키) 링크 병기
+    extra_source = head.get("necSource") or head.get("wikiSource")
+    if extra_source:
         result["source"] = "; ".join(
-            s for s in (result["source"], head["wikiSource"]) if s
+            s for s in (result["source"], extra_source) if s
         )
 
     result["lastCrawledAt"] = now_iso()
@@ -293,6 +312,16 @@ def main(argv: list[str]) -> int:
     targets = [r for r in regions if not only or r["code"] in only]
 
     print(f"수집 대상 {len(targets)}개 시·도")
+
+    # 선관위 당선인 API (서비스키가 있으면 1회 조회, 이름·정당의 공식 소스)
+    nec_key = os.environ.get("NEC_SERVICE_KEY")
+    if nec_key:
+        print("선관위 당선인 API 조회 중...")
+        nec_winners = nec.fetch_metro_winners(nec_key)
+    else:
+        print("(NEC_SERVICE_KEY 미설정 — 이름·정당은 위키백과로 수집)")
+        nec_winners = {}
+
     rows: list[dict] = []
 
     # 기존 결과를 유지하며 대상만 갱신 (부분 수집 지원)
@@ -309,7 +338,7 @@ def main(argv: list[str]) -> int:
 
         if region in targets:
             print(f"  - [{code}] {region['name']} 수집 중...")
-            crawled = crawl_region(region)
+            crawled = crawl_region(region, nec_winners)
         else:
             # 대상 외: 기존 크롤링 값 보존
             prev = existing.get(code, {})
