@@ -1,0 +1,16 @@
+{
+  "_comment": "수동 보정 데이터. 크롤링이 실패하거나 부정확할 때 여기에 code별로 값을 넣으면 크롤러 결과보다 우선합니다. 예시는 아래 형식을 참고하세요.",
+  "_example": {
+    "11": {
+      "personName": "홍길동",
+      "party": "○○당",
+      "termStart": "2026-07-01",
+      "termEnd": "2030-06-30",
+      "slogan": "다시 뛰는 서울",
+      "vision": "시민이 행복한 글로벌 도시",
+      "photoUrl": "https://www.seoul.go.kr/.../mayor.jpg",
+      "source": "https://www.seoul.go.kr/..."
+    }
+  },
+  "overrides": {}
+}

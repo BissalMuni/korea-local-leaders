@@ -1,0 +1,90 @@
+{
+  "_comment": "17개 광역자치단체 시드 + 크롤링 설정. paths는 슬로건/비전이 있을 법한 후보 경로. selectorHints는 해당 페이지에서 텍스트를 찾을 때 우선 탐색할 키워드.",
+  "regions": [
+    {
+      "code": "11", "name": "서울특별시", "shortName": "서울", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.seoul.go.kr", "lat": 37.5663, "lng": 126.9779,
+      "paths": ["/", "/main/index.jsp"]
+    },
+    {
+      "code": "26", "name": "부산광역시", "shortName": "부산", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.busan.go.kr", "lat": 35.1798, "lng": 129.0750,
+      "paths": ["/"]
+    },
+    {
+      "code": "27", "name": "대구광역시", "shortName": "대구", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.daegu.go.kr", "lat": 35.8714, "lng": 128.6014,
+      "paths": ["/"]
+    },
+    {
+      "code": "28", "name": "인천광역시", "shortName": "인천", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.incheon.go.kr", "lat": 37.4563, "lng": 126.7052,
+      "paths": ["/"]
+    },
+    {
+      "code": "29", "name": "광주광역시", "shortName": "광주", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.gwangju.go.kr", "lat": 35.1595, "lng": 126.8526,
+      "paths": ["/"]
+    },
+    {
+      "code": "30", "name": "대전광역시", "shortName": "대전", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.daejeon.go.kr", "lat": 36.3504, "lng": 127.3845,
+      "paths": ["/"]
+    },
+    {
+      "code": "31", "name": "울산광역시", "shortName": "울산", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.ulsan.go.kr", "lat": 35.5384, "lng": 129.3114,
+      "paths": ["/"]
+    },
+    {
+      "code": "36", "name": "세종특별자치시", "shortName": "세종", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.sejong.go.kr", "lat": 36.4800, "lng": 127.2890,
+      "paths": ["/"]
+    },
+    {
+      "code": "41", "name": "경기도", "shortName": "경기", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.gg.go.kr", "lat": 37.2750, "lng": 127.0095,
+      "paths": ["/"]
+    },
+    {
+      "code": "51", "name": "강원특별자치도", "shortName": "강원", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.gangwon.go.kr", "lat": 37.8854, "lng": 127.7298,
+      "paths": ["/"]
+    },
+    {
+      "code": "43", "name": "충청북도", "shortName": "충북", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.chungbuk.go.kr", "lat": 36.6357, "lng": 127.4914,
+      "paths": ["/"]
+    },
+    {
+      "code": "44", "name": "충청남도", "shortName": "충남", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.chungnam.go.kr", "lat": 36.6588, "lng": 126.6728,
+      "paths": ["/"]
+    },
+    {
+      "code": "52", "name": "전북특별자치도", "shortName": "전북", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.jeonbuk.go.kr", "lat": 35.8203, "lng": 127.1088,
+      "paths": ["/"]
+    },
+    {
+      "code": "46", "name": "전라남도", "shortName": "전남", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.jeonnam.go.kr", "lat": 34.8161, "lng": 126.4629,
+      "paths": ["/"]
+    },
+    {
+      "code": "47", "name": "경상북도", "shortName": "경북", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.gb.go.kr", "lat": 36.5760, "lng": 128.5056,
+      "paths": ["/"]
+    },
+    {
+      "code": "48", "name": "경상남도", "shortName": "경남", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.gyeongnam.go.kr", "lat": 35.2383, "lng": 128.6924,
+      "paths": ["/"]
+    },
+    {
+      "code": "50", "name": "제주특별자치도", "shortName": "제주", "type": "metropolitan",
+      "title": "도지사", "homepage": "https://www.jeju.go.kr", "lat": 33.4890, "lng": 126.4983,
+      "paths": ["/"]
+    }
+  ]
+}
