@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T16:09:27+00:00",
+  "updatedAt": "2026-06-26T23:30:35+00:00",
   "governors": [
     {
       "code": "11",
@@ -18,8 +18,8 @@
       "vision": "동행·매력 특별시 서울의 주요뉴스, 시민참여, 주요서비스, 참여 신청, 행사 및 축제, 자주찾은서비스, 시장실, 분야별정보, 새소식, 서울영상, 서울소식, 서울녹서등의 정보제공",
       "photoUrl": null,
       "source": "https://www.seoul.go.kr/; https://ko.wikipedia.org/wiki/서울특별시",
-      "lastCrawledAt": "2026-06-26T16:09:25+00:00",
-      "manualOverride": false
+      "lastCrawledAt": "2026-06-26T23:30:35+00:00",
+      "manualOverride": true
     },
     {
       "code": "26",
@@ -34,12 +34,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": "부산광역시",
+      "slogan": "다시 태어나도 살고 싶은 부산",
       "vision": "Busan is good 부산이라 좋다",
       "photoUrl": null,
       "source": "https://www.busan.go.kr/; https://ko.wikipedia.org/wiki/부산광역시",
       "lastCrawledAt": "2026-06-26T14:28:08+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "27",
@@ -54,12 +54,12 @@
       "party": "권한대행",
       "termStart": null,
       "termEnd": null,
-      "slogan": "자유와 활력이 넘치는 파워풀 대구 POWERFUL DAEGU",
+      "slogan": "자유와 활력이 넘치는 파워풀 대구",
       "vision": "대구광역시청의 공식 웹사이트입니다. 시정 소식, 민원 안내, 행정 정보 등을 제공합니다.",
       "photoUrl": null,
       "source": "https://www.daegu.go.kr/; https://ko.wikipedia.org/wiki/대구광역시",
       "lastCrawledAt": "2026-06-26T14:28:12+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "28",
@@ -74,12 +74,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": "인천비전슬로건",
+      "slogan": "인천의 꿈, 대한민국의 미래",
       "vision": null,
       "photoUrl": null,
       "source": "https://www.incheon.go.kr/; https://ko.wikipedia.org/wiki/인천광역시",
       "lastCrawledAt": "2026-06-26T14:28:16+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "29",
@@ -94,12 +94,12 @@
       "party": "더불어민주당",
       "termStart": null,
       "termEnd": null,
-      "slogan": "광주광역시청",
+      "slogan": "내일이 빛나는 기회도시 광주",
       "vision": "내일이 빛나는 기회도시 광주의 시정뉴스, 시민참여, 분야별 정보 안내",
       "photoUrl": null,
       "source": "https://www.gwangju.go.kr/; https://ko.wikipedia.org/wiki/광주광역시",
       "lastCrawledAt": "2026-06-26T14:28:20+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "30",
@@ -114,12 +114,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": "브랜드 슬로건",
+      "slogan": "일류경제도시 대전",
       "vision": null,
       "photoUrl": null,
       "source": "https://www.daejeon.go.kr/; https://ko.wikipedia.org/wiki/대전광역시",
       "lastCrawledAt": "2026-06-26T14:28:24+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "31",
@@ -134,12 +134,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": "브랜드슬로건",
+      "slogan": "새로 만드는 위대한 울산",
       "vision": null,
       "photoUrl": null,
       "source": "https://www.ulsan.go.kr/; https://ko.wikipedia.org/wiki/울산광역시",
       "lastCrawledAt": "2026-06-26T14:28:28+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "36",
@@ -154,12 +154,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": null,
+      "slogan": "창조와 도전의 미래전략수도 세종",
       "vision": null,
       "photoUrl": null,
       "source": "https://www.sejong.go.kr/; https://ko.wikipedia.org/wiki/세종특별자치시",
       "lastCrawledAt": "2026-06-26T14:28:32+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "41",
@@ -174,12 +174,12 @@
       "party": "더불어민주당",
       "termStart": null,
       "termEnd": null,
-      "slogan": "경기도청",
+      "slogan": "변화의 중심, 기회의 경기",
       "vision": "변화의 중심, 기회의 경기도의 주요뉴스, 도민참여, 행정 서비스 안내",
       "photoUrl": null,
       "source": "https://www.gg.go.kr/; https://ko.wikipedia.org/wiki/경기도",
       "lastCrawledAt": "2026-06-26T14:28:36+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "51",
@@ -194,12 +194,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": null,
+      "slogan": "새로운 강원도! 특별자치시대!",
       "vision": null,
       "photoUrl": null,
       "source": "https://ko.wikipedia.org/wiki/강원특별자치도",
       "lastCrawledAt": "2026-06-26T14:28:38+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "43",
@@ -214,12 +214,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": "충청북도 대표",
+      "slogan": "대한민국의 중심에 서다",
       "vision": "충청북도 안내, 소통광장, 도정소식, 분야별정보 및 관련사이트 등 제공",
       "photoUrl": null,
       "source": "https://www.chungbuk.go.kr/; https://ko.wikipedia.org/wiki/충청북도",
       "lastCrawledAt": "2026-06-26T14:29:32+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "44",
@@ -234,12 +234,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": "충청남도 누리집(홈페이지)",
+      "slogan": "힘쎈 충남, 대한민국의 힘",
       "vision": "힘쎈충남 대한민국의 힘, 충청남도 누리집(홈페이지)에 오신 것을 환영합니다.",
       "photoUrl": null,
       "source": "https://www.chungnam.go.kr/; https://ko.wikipedia.org/wiki/충청남도",
       "lastCrawledAt": "2026-06-26T14:29:05+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "52",
@@ -254,12 +254,12 @@
       "party": "더불어민주당",
       "termStart": null,
       "termEnd": null,
-      "slogan": null,
+      "slogan": "함께 혁신, 함께 성공, 새로운 전북",
       "vision": "전북특별자치도",
       "photoUrl": null,
       "source": "https://www.jeonbuk.go.kr/; https://ko.wikipedia.org/wiki/전북특별자치도",
       "lastCrawledAt": "2026-06-26T14:29:07+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "46",
@@ -274,12 +274,12 @@
       "party": "더불어민주당",
       "termStart": null,
       "termEnd": null,
-      "slogan": "전라남도청",
+      "slogan": "세계로 웅비하는 대도약 전남 행복시대",
       "vision": "생명의 땅 으뜸 전남 Land of Life, Jeonnam. 전라남도청",
       "photoUrl": null,
       "source": "https://www.jeonnam.go.kr/; https://ko.wikipedia.org/wiki/전라남도",
       "lastCrawledAt": "2026-06-26T14:29:10+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "47",
@@ -294,12 +294,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": "경북도청, 경상북도, 경북, 도청, Gyeongsangbuk",
+      "slogan": "경북의 힘으로! 새로운 대한민국",
       "vision": "경상북도청. 전자민원 서비스와 각 분야별 도정소식을 제공합니다.",
       "photoUrl": null,
       "source": "https://www.gb.go.kr/; https://ko.wikipedia.org/wiki/경상북도",
       "lastCrawledAt": "2026-06-26T14:29:13+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "48",
@@ -314,12 +314,12 @@
       "party": "국민의힘",
       "termStart": null,
       "termEnd": null,
-      "slogan": "경상남도",
+      "slogan": "활기찬 경남, 행복한 도민",
       "vision": "공존과 성장, 희망의 경남! 경남의 주요소식, 도민참여, 행정서비스안내",
       "photoUrl": null,
       "source": "https://www.gyeongnam.go.kr/; https://ko.wikipedia.org/wiki/경상남도",
       "lastCrawledAt": "2026-06-26T14:29:15+00:00",
-      "manualOverride": false
+      "manualOverride": true
     },
     {
       "code": "50",
@@ -334,12 +334,12 @@
       "party": "더불어민주당",
       "termStart": null,
       "termEnd": null,
-      "slogan": null,
+      "slogan": "다함께 미래로, 빛나는 제주",
       "vision": null,
       "photoUrl": null,
       "source": "https://ko.wikipedia.org/wiki/제주특별자치도",
       "lastCrawledAt": "2026-06-26T16:09:27+00:00",
-      "manualOverride": false
+      "manualOverride": true
     }
   ]
 }
