@@ -7,30 +7,49 @@ interface GovernorFile {
   governors: Governor[];
 }
 
-/** data/governors.json 을 빌드/서버 시점에 읽어온다. */
-function readData(): GovernorFile {
-  const file = path.join(process.cwd(), "data", "governors.json");
-  const raw = fs.readFileSync(file, "utf-8");
-  return JSON.parse(raw) as GovernorFile;
+function readFile(name: string): GovernorFile {
+  const file = path.join(process.cwd(), "data", name);
+  return JSON.parse(fs.readFileSync(file, "utf-8")) as GovernorFile;
 }
 
-/** 정렬된 전체 단체장 목록 + 갱신 시각 */
+/** 광역(시·도지사) 데이터. 3D 지도·광역 화면에서 사용. */
 export function getGovernors(): GovernorFile {
-  const data = readData();
-  const governors = [...data.governors].sort((a, b) =>
-    a.code.localeCompare(b.code),
-  );
+  const data = readFile("governors.json");
+  const governors = [...data.governors].sort((a, b) => a.code.localeCompare(b.code));
   return { updatedAt: data.updatedAt, governors };
 }
 
-export function getGovernor(code: string): Governor | undefined {
-  return readData().governors.find((g) => g.code === code);
+/** 기초(시장·군수·구청장) 데이터. 목록 화면에서 사용. */
+export function getBasics(): GovernorFile {
+  try {
+    return readFile("basic.json");
+  } catch {
+    return { updatedAt: "", governors: [] }; // 아직 미수집이어도 동작
+  }
 }
 
-/** 데이터 완성도(이름·슬로건·비전이 채워진 비율) 통계 */
+/** 광역 + 기초 전체. 목록/검색·상세 페이지에서 사용. */
+export function getAllGovernors(): GovernorFile {
+  const metro = getGovernors();
+  const basic = getBasics();
+  const updatedAt =
+    metro.updatedAt > basic.updatedAt ? metro.updatedAt : basic.updatedAt;
+  return { updatedAt, governors: [...metro.governors, ...basic.governors] };
+}
+
+export function getGovernor(code: string): Governor | undefined {
+  return getAllGovernors().governors.find((g) => g.code === code);
+}
+
+/** 데이터 완성도 통계 */
 export function getStats(governors: Governor[]) {
-  const total = governors.length;
-  const withName = governors.filter((g) => g.personName).length;
-  const withSlogan = governors.filter((g) => g.slogan).length;
-  return { total, withName, withSlogan };
+  const metro = governors.filter((g) => g.type === "metropolitan");
+  const basic = governors.filter((g) => g.type === "basic");
+  return {
+    total: governors.length,
+    metro: metro.length,
+    basic: basic.length,
+    withName: governors.filter((g) => g.personName).length,
+    withSlogan: governors.filter((g) => g.slogan).length,
+  };
 }

@@ -25,6 +25,11 @@ function GovernorCard({ g }: { g: Governor }) {
     >
       <div className="flex items-start justify-between gap-2">
         <div>
+          {g.type === "basic" && g.provinceName && (
+            <p className="text-xs text-gray-400 dark:text-gray-500">
+              {g.provinceName}
+            </p>
+          )}
           <h3 className="text-lg font-bold tracking-tight">{g.name}</h3>
           <p className="mt-0.5 text-sm text-gray-500 dark:text-gray-400">
             {g.personName ? `${g.personName} ${g.title}` : `${g.title} 정보 준비 중`}
@@ -58,6 +63,7 @@ export default function GovernorBrowser({
 }) {
   const [query, setQuery] = useState("");
   const [party, setParty] = useState<string | null>(null);
+  const [level, setLevel] = useState<"all" | "metropolitan" | "basic">("all");
 
   const parties = useMemo(() => {
     const set = new Set<string>();
@@ -68,13 +74,14 @@ export default function GovernorBrowser({
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return governors.filter((g) => {
+      if (level !== "all" && g.type !== level) return false;
       if (party && g.party !== party) return false;
       if (!q) return true;
-      return [g.name, g.shortName, g.personName, g.slogan, g.vision]
+      return [g.name, g.shortName, g.personName, g.slogan, g.vision, g.provinceName]
         .filter(Boolean)
         .some((field) => field!.toLowerCase().includes(q));
     });
-  }, [governors, query, party]);
+  }, [governors, query, party, level]);
 
   return (
     <div className="flex flex-col gap-5">
@@ -88,8 +95,23 @@ export default function GovernorBrowser({
         />
 
         <div className="flex flex-wrap gap-2">
+          <FilterChip active={level === "all"} onClick={() => setLevel("all")}>
+            전체 구분
+          </FilterChip>
+          <FilterChip
+            active={level === "metropolitan"}
+            onClick={() => setLevel("metropolitan")}
+          >
+            광역
+          </FilterChip>
+          <FilterChip active={level === "basic"} onClick={() => setLevel("basic")}>
+            기초
+          </FilterChip>
+        </div>
+
+        <div className="flex flex-wrap gap-2">
           <FilterChip active={party === null} onClick={() => setParty(null)}>
-            전체
+            전체 정당
           </FilterChip>
           {parties.map((p) => (
             <FilterChip

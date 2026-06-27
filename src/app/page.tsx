@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { getGovernors, getStats } from "@/lib/data";
+import { getAllGovernors, getStats } from "@/lib/data";
 import GovernorBrowser from "./GovernorBrowser";
 
 export default function Home() {
-  const { governors, updatedAt } = getGovernors();
+  const { governors, updatedAt } = getAllGovernors();
   const stats = getStats(governors);
   const updated = new Date(updatedAt).toLocaleDateString("ko-KR", {
     year: "numeric",
@@ -21,7 +21,7 @@ export default function Home() {
           전국 지자체장 비전·슬로건
         </h1>
         <p className="mt-3 max-w-2xl text-gray-600 dark:text-gray-400">
-          전국 17개 광역자치단체장의 이름·소속 정당·슬로건·비전을 한곳에서
+          전국 광역·기초 자치단체장의 이름·소속 정당·슬로건·비전을 한곳에서
           확인하세요. 새 단체장 취임과 홈페이지 개편에 맞춰 갱신됩니다.
         </p>
         <Link
@@ -31,9 +31,9 @@ export default function Home() {
           🗺️ 3D 지도로 보기
         </Link>
         <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-sm text-gray-500 dark:text-gray-400">
-          <span>광역 {stats.total}곳</span>
+          <span>광역 {stats.metro}곳</span>
+          <span>기초 {stats.basic}곳</span>
           <span>단체장 {stats.withName}명 확인</span>
-          <span>슬로건 {stats.withSlogan}곳 수집</span>
           <span>업데이트 {updated}</span>
         </div>
       </header>

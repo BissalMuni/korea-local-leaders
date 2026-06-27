@@ -11,9 +11,13 @@ export interface RegionSeed {
   /** 짧은 명칭 (예: "서울") */
   shortName: string;
   type: RegionType;
-  /** 단체장 직함 (예: "시장", "도지사") */
+  /** 단체장 직함 (예: "시장", "도지사", "구청장", "군수") */
   title: string;
-  /** 공식 홈페이지 */
+  /** 기초자치단체일 때 상위 광역 코드 (예: 종로구 -> "11") */
+  provinceCode?: string;
+  /** 기초자치단체일 때 상위 광역 명칭 (예: "서울특별시") */
+  provinceName?: string;
+  /** 공식 홈페이지 (기초는 비어 있을 수 있음) */
   homepage: string;
   /** 청사 위치 좌표 (지도용, 선택) */
   lat?: number;

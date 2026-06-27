@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getGovernor, getGovernors } from "@/lib/data";
+import { getGovernor, getAllGovernors } from "@/lib/data";
 import { partyBadgeClass } from "@/lib/parties";
 
 export function generateStaticParams() {
-  return getGovernors().governors.map((g) => ({ code: g.code }));
+  return getAllGovernors().governors.map((g) => ({ code: g.code }));
 }
 
 export async function generateMetadata({
@@ -59,6 +59,11 @@ export default async function RegionPage({
 
       <header className="mt-6 flex flex-wrap items-start justify-between gap-3">
         <div>
+          {g.type === "basic" && g.provinceName && (
+            <p className="text-sm text-gray-400 dark:text-gray-500">
+              {g.provinceName}
+            </p>
+          )}
           <h1 className="text-3xl font-extrabold tracking-tight">{g.name}</h1>
           <p className="mt-1 text-lg text-gray-600 dark:text-gray-300">
             {g.personName ? `${g.personName} ${g.title}` : `${g.title} 정보 준비 중`}
@@ -88,14 +93,18 @@ export default async function RegionPage({
             : EMPTY}
         </Field>
         <Field label="공식 홈페이지">
-          <a
-            href={g.homepage}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline dark:text-blue-400"
-          >
-            {g.homepage}
-          </a>
+          {g.homepage ? (
+            <a
+              href={g.homepage}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline dark:text-blue-400"
+            >
+              {g.homepage}
+            </a>
+          ) : (
+            EMPTY
+          )}
         </Field>
         <Field label="데이터 출처">
           {sources.length ? (
