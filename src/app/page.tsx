@@ -28,7 +28,7 @@ export default function Home() {
           href="/map"
           className="mt-4 inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
         >
-          🗺️ 3D 지도로 보기
+          🗺️ 지도로 보기
         </Link>
         <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-sm text-gray-500 dark:text-gray-400">
           <span>광역 {stats.metro}곳</span>
