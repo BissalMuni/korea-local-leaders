@@ -57,7 +57,7 @@ TIMEOUT = 15
 WIKI_API = "https://ko.wikipedia.org/w/api.php"
 # 정보상자에서 단체장 이름이 들어있는 파라미터 후보
 WIKI_HEAD_KEYS = ["단체장", "시장", "도지사", "지사"]
-WIKI_DELAY = 1.0  # 위키 API 호출 간 최소 간격(초) — 429 방지
+WIKI_DELAY = 1.6  # 위키 API 호출 간 최소 간격(초) — 429 방지 (정보상자+사진 2회 호출)
 
 # 슬로건/비전이 담긴 영역을 가리키는 키워드
 SLOGAN_KEYWORDS = ["슬로건", "시정구호", "도정구호", "시정방침", "도정방침", "비전", "캐치프레이즈"]
@@ -195,13 +195,40 @@ def fetch_wiki_infobox(title: str, retries: int = 2) -> dict[str, str]:
     return params
 
 
+def fetch_wiki_image(title: str, size: int = 400) -> str | None:
+    """위키백과 문서의 대표 이미지(인물 사진 등) URL을 반환. 없으면 None."""
+    if not title:
+        return None
+    params = {
+        "action": "query", "prop": "pageimages", "piprop": "thumbnail",
+        "pithumbsize": str(size), "redirects": "1", "format": "json",
+        "titles": title,
+    }
+    for attempt in range(3):
+        time.sleep(WIKI_DELAY)
+        try:
+            resp = requests.get(WIKI_API, params=params, headers=HEADERS, timeout=TIMEOUT)
+            if resp.status_code == 429:
+                time.sleep(WIKI_DELAY * (attempt + 2))
+                continue
+            resp.raise_for_status()
+            pages = resp.json()["query"]["pages"]
+            page = next(iter(pages.values()))
+            thumb = page.get("thumbnail")
+            return thumb["source"] if thumb else None
+        except Exception:  # noqa: BLE001 - 사진은 부가정보, 실패해도 무시
+            return None
+    return None
+
+
 def extract_head_from_wiki(region: dict) -> dict:
     """위키백과에서 단체장 이름·정당을 추출. (이름/정당의 신뢰 가능한 단일 소스)"""
-    out = {"personName": None, "party": None, "wikiSource": None}
+    out = {"personName": None, "party": None, "wikiSource": None, "photoUrl": None}
     params = fetch_wiki_infobox(region["name"])
     if not params:
         return out
 
+    raw_title: str | None = None  # 인물 문서 원제목(동음이의 포함) — 사진 조회용
     for key in WIKI_HEAD_KEYS:
         if key not in params:
             continue
@@ -212,7 +239,9 @@ def extract_head_from_wiki(region: dict) -> dict:
             plain = clean(re.sub(r"<ref.*?</ref>|<ref[^>]*/>", "", value, flags=re.S))
             if plain and 2 <= len(plain) <= 4:
                 out["personName"] = plain
+                raw_title = plain
         else:
+            raw_title = links[0]
             out["personName"] = strip_disambig(links[0])
             # 같은 줄에 정당 링크가 함께 있으면 두 번째 링크가 정당
             if len(links) >= 2:
@@ -224,6 +253,7 @@ def extract_head_from_wiki(region: dict) -> dict:
             out["party"] = plinks[0] if plinks else clean(party_param)
         if out["personName"]:
             out["wikiSource"] = f"https://ko.wikipedia.org/wiki/{region['name']}"
+            out["photoUrl"] = fetch_wiki_image(raw_title or out["personName"])
             break
     return out
 
@@ -253,6 +283,11 @@ def crawl_region(region: dict, nec_winners: dict[str, dict] | None = None) -> di
         head = extract_head_from_wiki(region)
         result["personName"] = head["personName"]
         result["party"] = head["party"]
+        result["photoUrl"] = head.get("photoUrl")
+
+    # 선관위 경로 등으로 사진이 없으면 이름으로 위키 사진 보강
+    if result["personName"] and not result["photoUrl"]:
+        result["photoUrl"] = fetch_wiki_image(result["personName"])
 
     # 2) 홈페이지에서 슬로건·비전 (best-effort)
     for path in paths:
@@ -336,12 +371,16 @@ def main(argv: list[str]) -> int:
             "code", "name", "shortName", "type", "title", "homepage", "lat", "lng"
         ) if k in region}
 
+        prev = existing.get(code, {})
         if region in targets:
             print(f"  - [{code}] {region['name']} 수집 중...")
             crawled = crawl_region(region, nec_winners)
+            # 전송 실패 등으로 비어버린 값은 이전 수집값으로 보존(데이터 손실 방지)
+            for f in GOVERNOR_FIELDS:
+                if not crawled.get(f) and prev.get(f):
+                    crawled[f] = prev[f]
         else:
             # 대상 외: 기존 크롤링 값 보존
-            prev = existing.get(code, {})
             crawled = {f: prev.get(f) for f in GOVERNOR_FIELDS}
 
         row = merge(seed, crawled, overrides.get(code))

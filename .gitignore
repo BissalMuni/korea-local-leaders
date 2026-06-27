@@ -45,3 +45,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# 임시 원본 데이터 (전처리 입력)
+._*.json
