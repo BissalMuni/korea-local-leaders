@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getGovernors, getStats } from "@/lib/data";
 import GovernorBrowser from "./GovernorBrowser";
 
@@ -23,6 +24,12 @@ export default function Home() {
           전국 17개 광역자치단체장의 이름·소속 정당·슬로건·비전을 한곳에서
           확인하세요. 새 단체장 취임과 홈페이지 개편에 맞춰 갱신됩니다.
         </p>
+        <Link
+          href="/map"
+          className="mt-4 inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
+        >
+          🗺️ 3D 지도로 보기
+        </Link>
         <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-sm text-gray-500 dark:text-gray-400">
           <span>광역 {stats.total}곳</span>
           <span>단체장 {stats.withName}명 확인</span>
