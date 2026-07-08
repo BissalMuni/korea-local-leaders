@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { partyBadgeClass } from "@/lib/parties";
 
 export type FieldKey = "homepage" | "photoUrl" | "slogan" | "ci" | "pledges";
+type Flag = "up" | "down";
 
 export interface ReviewRow {
   code: string;
@@ -35,8 +36,9 @@ const FIELDS: { key: FieldKey; label: string; kind: Kind }[] = [
   { key: "pledges", label: "주요공약", kind: "list" },
 ];
 
-const DONE_KEY = "localcity-review-done";
+const FLAG_KEY = "localcity-review-flags";
 const sk = (code: string, field: FieldKey) => `${code}|${field}`;
+type Filter = "all" | "unflagged" | "down" | "up";
 
 export default function ReviewClient({
   rows,
@@ -75,23 +77,25 @@ export default function ReviewClient({
 
   const [cur, setCur] = useState(0);
   const [skipEmpty, setSkipEmpty] = useState(false);
+  const [autoNext, setAutoNext] = useState(true);
+  const [filter, setFilter] = useState<Filter>("all");
   const [layout, setLayout] = useState<"h" | "v">("h");
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
-  const [done, setDone] = useState<Set<string>>(new Set());
+  const [flags, setFlags] = useState<Record<string, Flag>>({});
 
-  // localStorage 로 검수 완료 상태 유지
+  // localStorage 로 좋아요/싫어요 플래그 유지
   useEffect(() => {
     try {
-      const raw = localStorage.getItem(DONE_KEY);
-      if (raw) setDone(new Set(JSON.parse(raw) as string[]));
+      const raw = localStorage.getItem(FLAG_KEY);
+      if (raw) setFlags(JSON.parse(raw) as Record<string, Flag>);
     } catch {
       /* noop */
     }
   }, []);
-  const persist = useCallback((next: Set<string>) => {
-    setDone(next);
+  const persist = useCallback((next: Record<string, Flag>) => {
+    setFlags(next);
     try {
-      localStorage.setItem(DONE_KEY, JSON.stringify([...next]));
+      localStorage.setItem(FLAG_KEY, JSON.stringify(next));
     } catch {
       /* noop */
     }
@@ -102,7 +106,7 @@ export default function ReviewClient({
   const field = FIELDS.find((f) => f.key === current.field)!;
   const value = row.values[field.key];
   const source = row.sources[field.key];
-  const hasValue = Array.isArray(value) ? value.length > 0 : Boolean(value);
+  const curFlag = flags[sk(current.code, current.field)];
 
   const hasVal = useCallback(
     (i: number) => {
@@ -113,16 +117,29 @@ export default function ReviewClient({
     },
     [seq, rowByCode],
   );
+  const matchFilter = useCallback(
+    (i: number) => {
+      if (filter === "all") return true;
+      const f = flags[sk(seq[i].code, seq[i].field)];
+      if (filter === "unflagged") return !f;
+      return f === filter;
+    },
+    [filter, flags, seq],
+  );
+  const passes = useCallback(
+    (i: number) => (!skipEmpty || hasVal(i)) && matchFilter(i),
+    [skipEmpty, hasVal, matchFilter],
+  );
 
   const step = useCallback(
     (dir: 1 | -1) => {
       setCur((c) => {
         let i = c + dir;
-        while (i >= 0 && i < seq.length && skipEmpty && !hasVal(i)) i += dir;
-        return Math.max(0, Math.min(seq.length - 1, i));
+        while (i >= 0 && i < seq.length && !passes(i)) i += dir;
+        return i >= 0 && i < seq.length ? i : c;
       });
     },
-    [seq.length, skipEmpty, hasVal],
+    [seq.length, passes],
   );
 
   const gotoField = (code: string, fkey: FieldKey) => {
@@ -131,13 +148,17 @@ export default function ReviewClient({
   };
   const gotoInstitution = (code: string) => gotoField(code, "homepage");
 
-  const toggleDone = useCallback(() => {
-    const key = sk(current.code, current.field);
-    const next = new Set(done);
-    if (next.has(key)) next.delete(key);
-    else next.add(key);
-    persist(next);
-  }, [current, done, persist]);
+  const setFlag = useCallback(
+    (kind: Flag) => {
+      const key = sk(current.code, current.field);
+      const next = { ...flags };
+      if (next[key] === kind) delete next[key];
+      else next[key] = kind;
+      persist(next);
+      if (autoNext && next[key]) step(1);
+    },
+    [current, flags, persist, autoNext, step],
+  );
 
   const toggleProv = (code: string) =>
     setExpanded((prev) => {
@@ -147,18 +168,19 @@ export default function ReviewClient({
       return n;
     });
 
-  // 키보드: ← → 이동, Space/x 확인 토글
+  // 키보드: ← → 이동, ↑ 좋아요 · ↓ 싫어요
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement;
-      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA")) return;
+      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT")) return;
       if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
       else if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
-      else if (e.key === "x" || e.key === "X") { e.preventDefault(); toggleDone(); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); setFlag("up"); }
+      else if (e.key === "ArrowDown") { e.preventDefault(); setFlag("down"); }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [step, toggleDone]);
+  }, [step, setFlag]);
 
   // 현재 항목이 접힌 광역 아래면 자동 펼침
   useEffect(() => {
@@ -169,11 +191,69 @@ export default function ReviewClient({
     }
   }, [row]);
 
-  const isDone = done.has(sk(current.code, current.field));
-  const progress = done.size;
+  const counts = useMemo(() => {
+    let up = 0, down = 0;
+    for (const v of Object.values(flags)) v === "up" ? up++ : down++;
+    return { up, down };
+  }, [flags]);
+
+  // 기관별 싫어요 개수(트리 배지)
+  const downByCode = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const [key, f] of Object.entries(flags)) {
+      if (f !== "down") continue;
+      const code = key.split("|")[0];
+      m.set(code, (m.get(code) ?? 0) + 1);
+    }
+    return m;
+  }, [flags]);
+
+  const jumpFirst = (f: Filter) => {
+    setFilter(f);
+    const idx = seq.findIndex((_, i) => {
+      const fl = flags[sk(seq[i].code, seq[i].field)];
+      if (f === "all") return true;
+      if (f === "unflagged") return !fl;
+      return fl === f;
+    });
+    if (idx >= 0) setCur(idx);
+  };
+
+  const exportDown = () => {
+    const items = seq
+      .map((s) => ({ s, f: flags[sk(s.code, s.field)] }))
+      .filter((x) => x.f === "down")
+      .map(({ s }) => {
+        const r = rowByCode.get(s.code)!;
+        const v = r.values[s.field];
+        return {
+          code: r.code,
+          name: r.name,
+          type: r.type,
+          title: r.title,
+          field: s.field,
+          value: v ?? null,
+          source: r.sources[s.field],
+        };
+      });
+    const payload = { count: items.length, items };
+    const text = JSON.stringify(payload, null, 2);
+    // 다운로드
+    const blob = new Blob([text], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "review_dislikes.json";
+    a.click();
+    URL.revokeObjectURL(url);
+    // 클립보드 복사(가능하면)
+    navigator.clipboard?.writeText(text).catch(() => {});
+  };
+
+  const totalFlagged = counts.up + counts.down;
 
   return (
-    <div className="flex h-[calc(100vh-0px)] flex-col">
+    <div className="flex h-screen flex-col">
       {/* 상단 바 */}
       <header className="flex flex-wrap items-center gap-x-4 gap-y-2 border-b border-gray-200 bg-white px-4 py-2 dark:border-gray-800 dark:bg-gray-950">
         <Link href="/" className="text-sm text-blue-600 hover:underline dark:text-blue-400">
@@ -181,22 +261,40 @@ export default function ReviewClient({
         </Link>
         <h1 className="text-sm font-bold">데이터 검수</h1>
         <span className="text-xs text-gray-500 dark:text-gray-400">
-          {cur + 1} / {seq.length} · 확인 {progress}
+          {cur + 1} / {seq.length} · 👍 {counts.up} · 👎 {counts.down} · 남음{" "}
+          {seq.length - totalFlagged}
         </span>
-        <div className="ml-auto flex items-center gap-2 text-xs">
+        <div className="ml-auto flex flex-wrap items-center gap-2 text-xs">
+          <select
+            value={filter}
+            onChange={(e) => jumpFirst(e.target.value as Filter)}
+            className="rounded border border-gray-300 bg-white px-1.5 py-0.5 dark:border-gray-700 dark:bg-gray-900"
+          >
+            <option value="all">전체 보기</option>
+            <option value="unflagged">미표시만</option>
+            <option value="down">👎 싫어요만</option>
+            <option value="up">👍 좋아요만</option>
+          </select>
           <label className="flex items-center gap-1">
-            <input
-              type="checkbox"
-              checked={skipEmpty}
-              onChange={(e) => setSkipEmpty(e.target.checked)}
-            />
+            <input type="checkbox" checked={skipEmpty} onChange={(e) => setSkipEmpty(e.target.checked)} />
             빈 값 건너뛰기
+          </label>
+          <label className="flex items-center gap-1">
+            <input type="checkbox" checked={autoNext} onChange={(e) => setAutoNext(e.target.checked)} />
+            표시 후 자동 다음
           </label>
           <button
             onClick={() => setLayout((l) => (l === "h" ? "v" : "h"))}
             className="rounded border border-gray-300 px-2 py-0.5 dark:border-gray-700"
           >
             {layout === "h" ? "가로 분할" : "세로 분할"}
+          </button>
+          <button
+            onClick={exportDown}
+            disabled={counts.down === 0}
+            className="rounded bg-red-600 px-2 py-0.5 font-medium text-white disabled:opacity-40"
+          >
+            👎 {counts.down}개 내보내기
           </button>
         </div>
       </header>
@@ -207,6 +305,7 @@ export default function ReviewClient({
           {provinces.map((p) => {
             const kids = basicsByProv.get(p.code) ?? [];
             const open = expanded.has(p.code);
+            const pDown = downByCode.get(p.code) ?? 0;
             return (
               <div key={p.code}>
                 <div
@@ -226,25 +325,38 @@ export default function ReviewClient({
                   )}
                   <button
                     onClick={() => gotoInstitution(p.code)}
-                    className="flex-1 truncate py-1 pr-2 text-left font-semibold"
+                    className="flex flex-1 items-center gap-1 truncate py-1 pr-2 text-left font-semibold"
                   >
-                    {p.name}
+                    <span className="truncate">{p.name}</span>
+                    {pDown > 0 && (
+                      <span className="flex-none rounded-full bg-red-500 px-1.5 text-[10px] text-white">
+                        {pDown}
+                      </span>
+                    )}
                   </button>
                 </div>
                 {open &&
-                  kids.map((k) => (
-                    <button
-                      key={k.code}
-                      onClick={() => gotoInstitution(k.code)}
-                      className={`block w-full truncate py-1 pl-8 pr-2 text-left ${
-                        current.code === k.code
-                          ? "bg-blue-100 font-medium dark:bg-blue-900/40"
-                          : "text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
-                      }`}
-                    >
-                      {k.name}
-                    </button>
-                  ))}
+                  kids.map((k) => {
+                    const kDown = downByCode.get(k.code) ?? 0;
+                    return (
+                      <button
+                        key={k.code}
+                        onClick={() => gotoInstitution(k.code)}
+                        className={`flex w-full items-center gap-1 truncate py-1 pl-8 pr-2 text-left ${
+                          current.code === k.code
+                            ? "bg-blue-100 font-medium dark:bg-blue-900/40"
+                            : "text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+                        }`}
+                      >
+                        <span className="truncate">{k.name}</span>
+                        {kDown > 0 && (
+                          <span className="flex-none rounded-full bg-red-500 px-1.5 text-[10px] text-white">
+                            {kDown}
+                          </span>
+                        )}
+                      </button>
+                    );
+                  })}
               </div>
             );
           })}
@@ -255,16 +367,12 @@ export default function ReviewClient({
           {/* 기관 헤더 + 필드 탭 */}
           <div className="border-b border-gray-200 px-4 py-2 dark:border-gray-800">
             <div className="flex flex-wrap items-center gap-2">
-              {row.provinceName && (
-                <span className="text-xs text-gray-400">{row.provinceName}</span>
-              )}
+              {row.provinceName && <span className="text-xs text-gray-400">{row.provinceName}</span>}
               <span className="text-lg font-bold">{row.name}</span>
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 {row.personName ? `${row.personName} ${row.title}` : row.title}
               </span>
-              <span
-                className={`rounded-full px-2 py-0.5 text-xs ${partyBadgeClass(row.party)}`}
-              >
+              <span className={`rounded-full px-2 py-0.5 text-xs ${partyBadgeClass(row.party)}`}>
                 {row.party ?? "정당 미상"}
               </span>
             </div>
@@ -273,7 +381,7 @@ export default function ReviewClient({
                 const v = row.values[f.key];
                 const filled = Array.isArray(v) ? v.length > 0 : Boolean(v);
                 const active = current.field === f.key;
-                const d = done.has(sk(row.code, f.key));
+                const fl = flags[sk(row.code, f.key)];
                 return (
                   <button
                     key={f.key}
@@ -284,7 +392,7 @@ export default function ReviewClient({
                         : "border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200"
                     }`}
                   >
-                    {d && "✓ "}
+                    {fl === "up" ? "👍 " : fl === "down" ? "👎 " : ""}
                     {f.label}
                     <span className={active ? "text-blue-100" : "text-gray-400"}>
                       {filled ? "" : " ·비어있음"}
@@ -296,12 +404,7 @@ export default function ReviewClient({
           </div>
 
           {/* 비교 뷰: 크롤링 값 | 출처 페이지 */}
-          <div
-            className={`flex min-h-0 flex-1 ${
-              layout === "h" ? "flex-row" : "flex-col"
-            }`}
-          >
-            {/* 크롤링 값 패널 */}
+          <div className={`flex min-h-0 flex-1 ${layout === "h" ? "flex-row" : "flex-col"}`}>
             <section
               className={`flex min-h-0 flex-col overflow-auto p-4 ${
                 layout === "h"
@@ -320,7 +423,6 @@ export default function ReviewClient({
               <ValuePanel kind={field.kind} value={value} />
             </section>
 
-            {/* 출처 페이지 패널 */}
             <section className="flex min-h-0 flex-1 flex-col">
               <div className="flex items-center gap-2 border-b border-gray-200 px-3 py-1.5 text-xs dark:border-gray-800">
                 <span className="font-semibold text-gray-500">출처 페이지</span>
@@ -368,29 +470,43 @@ export default function ReviewClient({
             </section>
           </div>
 
-          {/* 하단 이동 바 */}
+          {/* 하단: 좋아요/싫어요 + 이동 */}
           <footer className="flex items-center gap-3 border-t border-gray-200 px-4 py-2 dark:border-gray-800">
             <button
               onClick={() => step(-1)}
-              disabled={cur === 0}
-              className="rounded border border-gray-300 px-3 py-1 text-sm disabled:opacity-40 dark:border-gray-700"
+              className="rounded border border-gray-300 px-3 py-1 text-sm dark:border-gray-700"
             >
               ← 이전
             </button>
             <button
+              onClick={() => setFlag("up")}
+              className={`rounded px-4 py-1 text-sm font-semibold ${
+                curFlag === "up"
+                  ? "bg-green-600 text-white"
+                  : "border border-green-600 text-green-700 dark:text-green-400"
+              }`}
+            >
+              👍 좋아요
+            </button>
+            <button
+              onClick={() => setFlag("down")}
+              className={`rounded px-4 py-1 text-sm font-semibold ${
+                curFlag === "down"
+                  ? "bg-red-600 text-white"
+                  : "border border-red-600 text-red-700 dark:text-red-400"
+              }`}
+            >
+              👎 싫어요
+            </button>
+            <button
               onClick={() => step(1)}
-              disabled={cur === seq.length - 1}
-              className="rounded border border-gray-300 px-3 py-1 text-sm disabled:opacity-40 dark:border-gray-700"
+              className="rounded border border-gray-300 px-3 py-1 text-sm dark:border-gray-700"
             >
               다음 →
             </button>
-            <label className="flex cursor-pointer items-center gap-2 text-sm">
-              <input type="checkbox" checked={isDone} onChange={toggleDone} />
-              이 항목 확인함{" "}
-              <span className="text-xs text-gray-400">(단축키 x)</span>
-            </label>
             <span className="ml-auto text-xs text-gray-400">
-              ← → 로 이동 · 데이터 {new Date(updatedAt).toLocaleDateString("ko-KR")}
+              ← → 이동 · ↑ 좋아요 · ↓ 싫어요 · 데이터{" "}
+              {new Date(updatedAt).toLocaleDateString("ko-KR")}
             </span>
           </footer>
         </main>
@@ -408,9 +524,7 @@ function ValuePanel({
 }) {
   const empty = Array.isArray(value) ? value.length === 0 : !value;
   if (empty)
-    return (
-      <p className="text-sm text-gray-400 dark:text-gray-500">(값 없음 / null)</p>
-    );
+    return <p className="text-sm text-gray-400 dark:text-gray-500">(값 없음 / null)</p>;
 
   if (kind === "image")
     return (
@@ -449,7 +563,6 @@ function ValuePanel({
       </ol>
     );
 
-  // text
   return (
     <p className="text-xl font-bold leading-snug text-gray-900 dark:text-gray-100">
       “{value as string}”
