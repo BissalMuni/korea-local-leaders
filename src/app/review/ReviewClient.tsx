@@ -168,6 +168,23 @@ export default function ReviewClient({
       return n;
     });
 
+  // 기초가 있는 광역 코드들 + 전체 펼치기/접기
+  const provWithKids = useMemo(
+    () =>
+      provinces
+        .filter((p) => (basicsByProv.get(p.code)?.length ?? 0) > 0)
+        .map((p) => p.code),
+    [provinces, basicsByProv],
+  );
+  const expandAll = () => setExpanded(new Set(provWithKids));
+  const collapseAll = () => setExpanded(new Set());
+
+  // 처음 진입 시 모든 광역을 펼쳐 기초가 바로 보이게 한다
+  useEffect(() => {
+    setExpanded(new Set(provWithKids));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // 키보드: ← → 이동, ↑ 좋아요 · ↓ 싫어요
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -301,65 +318,88 @@ export default function ReviewClient({
 
       <div className="flex min-h-0 flex-1">
         {/* 트리 네비게이션 */}
-        <nav className="w-60 flex-none overflow-y-auto border-r border-gray-200 bg-gray-50 text-sm dark:border-gray-800 dark:bg-gray-900">
-          {provinces.map((p) => {
-            const kids = basicsByProv.get(p.code) ?? [];
-            const open = expanded.has(p.code);
-            const pDown = downByCode.get(p.code) ?? 0;
-            return (
-              <div key={p.code}>
-                <div
-                  className={`flex items-center ${
-                    current.code === p.code ? "bg-blue-100 dark:bg-blue-900/40" : ""
-                  }`}
-                >
-                  {kids.length > 0 ? (
-                    <button
-                      onClick={() => toggleProv(p.code)}
-                      className="w-6 flex-none py-1 text-gray-400 hover:text-gray-700"
-                    >
-                      {open ? "▾" : "▸"}
-                    </button>
-                  ) : (
-                    <span className="w-6 flex-none" />
-                  )}
-                  <button
-                    onClick={() => gotoInstitution(p.code)}
-                    className="flex flex-1 items-center gap-1 truncate py-1 pr-2 text-left font-semibold"
+        <nav className="flex w-72 flex-none flex-col overflow-hidden border-r border-gray-200 bg-gray-50 text-sm dark:border-gray-800 dark:bg-gray-900">
+          <div className="flex items-center gap-2 border-b border-gray-200 px-3 py-1.5 text-xs dark:border-gray-800">
+            <span className="font-semibold text-gray-500">지자체 목록</span>
+            <button
+              onClick={expandAll}
+              className="ml-auto rounded border border-gray-300 px-2 py-0.5 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-800"
+            >
+              전체 펼치기
+            </button>
+            <button
+              onClick={collapseAll}
+              className="rounded border border-gray-300 px-2 py-0.5 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-800"
+            >
+              전체 접기
+            </button>
+          </div>
+          <div className="min-h-0 flex-1 overflow-y-auto">
+            {provinces.map((p) => {
+              const kids = basicsByProv.get(p.code) ?? [];
+              const open = expanded.has(p.code);
+              const pDown = downByCode.get(p.code) ?? 0;
+              return (
+                <div key={p.code} className="border-b border-gray-100 dark:border-gray-800/60">
+                  <div
+                    className={`flex items-stretch ${
+                      current.code === p.code ? "bg-blue-100 dark:bg-blue-900/40" : ""
+                    }`}
                   >
-                    <span className="truncate">{p.name}</span>
-                    {pDown > 0 && (
-                      <span className="flex-none rounded-full bg-red-500 px-1.5 text-[10px] text-white">
-                        {pDown}
-                      </span>
-                    )}
-                  </button>
-                </div>
-                {open &&
-                  kids.map((k) => {
-                    const kDown = downByCode.get(k.code) ?? 0;
-                    return (
+                    {kids.length > 0 ? (
                       <button
-                        key={k.code}
-                        onClick={() => gotoInstitution(k.code)}
-                        className={`flex w-full items-center gap-1 truncate py-1 pl-8 pr-2 text-left ${
-                          current.code === k.code
-                            ? "bg-blue-100 font-medium dark:bg-blue-900/40"
-                            : "text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
-                        }`}
+                        onClick={() => toggleProv(p.code)}
+                        aria-label={open ? "접기" : "펼치기"}
+                        className="flex w-9 flex-none items-center justify-center text-lg text-gray-500 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-700"
                       >
-                        <span className="truncate">{k.name}</span>
-                        {kDown > 0 && (
-                          <span className="flex-none rounded-full bg-red-500 px-1.5 text-[10px] text-white">
-                            {kDown}
-                          </span>
-                        )}
+                        {open ? "▾" : "▶"}
                       </button>
-                    );
-                  })}
-              </div>
-            );
-          })}
+                    ) : (
+                      <span className="w-9 flex-none" />
+                    )}
+                    <button
+                      onClick={() => gotoInstitution(p.code)}
+                      className="flex flex-1 items-center gap-1.5 truncate py-2 pr-2 text-left text-base font-bold"
+                    >
+                      <span className="truncate">{p.name}</span>
+                      {kids.length > 0 && (
+                        <span className="flex-none rounded-full bg-gray-200 px-1.5 text-[11px] font-medium text-gray-600 dark:bg-gray-700 dark:text-gray-300">
+                          {kids.length}
+                        </span>
+                      )}
+                      {pDown > 0 && (
+                        <span className="flex-none rounded-full bg-red-500 px-1.5 text-[11px] text-white">
+                          👎{pDown}
+                        </span>
+                      )}
+                    </button>
+                  </div>
+                  {open &&
+                    kids.map((k) => {
+                      const kDown = downByCode.get(k.code) ?? 0;
+                      return (
+                        <button
+                          key={k.code}
+                          onClick={() => gotoInstitution(k.code)}
+                          className={`flex w-full items-center gap-1 truncate border-l-4 py-1.5 pl-8 pr-2 text-left ${
+                            current.code === k.code
+                              ? "border-blue-500 bg-blue-100 font-medium dark:bg-blue-900/40"
+                              : "border-transparent text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+                          }`}
+                        >
+                          <span className="truncate">{k.name}</span>
+                          {kDown > 0 && (
+                            <span className="flex-none rounded-full bg-red-500 px-1.5 text-[10px] text-white">
+                              👎{kDown}
+                            </span>
+                          )}
+                        </button>
+                      );
+                    })}
+                </div>
+              );
+            })}
+          </div>
         </nav>
 
         {/* 본문 */}
