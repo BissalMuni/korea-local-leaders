@@ -24,12 +24,20 @@ export default function Home() {
           전국 광역·기초 자치단체장의 이름·소속 정당·슬로건·비전을 한곳에서
           확인하세요. 새 단체장 취임과 홈페이지 개편에 맞춰 갱신됩니다.
         </p>
-        <Link
-          href="/map"
-          className="mt-4 inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
-        >
-          🗺️ 지도로 보기
-        </Link>
+        <div className="mt-4 flex flex-wrap gap-2">
+          <Link
+            href="/map"
+            className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
+          >
+            🗺️ 지도로 보기
+          </Link>
+          <Link
+            href="/review"
+            className="inline-flex items-center gap-2 rounded-xl border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800"
+          >
+            🔍 데이터 검수
+          </Link>
+        </div>
         <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-sm text-gray-500 dark:text-gray-400">
           <span>광역 {stats.metro}곳</span>
           <span>기초 {stats.basic}곳</span>
