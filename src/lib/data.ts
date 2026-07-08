@@ -51,5 +51,6 @@ export function getStats(governors: Governor[]) {
     basic: basic.length,
     withName: governors.filter((g) => g.personName).length,
     withSlogan: governors.filter((g) => g.slogan).length,
+    withHomepage: governors.filter((g) => g.homepage).length,
   };
 }

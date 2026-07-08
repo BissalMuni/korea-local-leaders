@@ -58,16 +58,38 @@ export default async function RegionPage({
       </Link>
 
       <header className="mt-6 flex flex-wrap items-start justify-between gap-3">
-        <div>
-          {g.type === "basic" && g.provinceName && (
-            <p className="text-sm text-gray-400 dark:text-gray-500">
-              {g.provinceName}
-            </p>
+        <div className="flex items-start gap-4">
+          {/* 기관장 사진 */}
+          {g.photoUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={g.photoUrl}
+              alt={`${g.personName ?? g.name} ${g.title}`}
+              className="h-24 w-20 flex-none rounded-lg object-cover object-top shadow-sm ring-1 ring-gray-200 dark:ring-gray-700"
+            />
           )}
-          <h1 className="text-3xl font-extrabold tracking-tight">{g.name}</h1>
-          <p className="mt-1 text-lg text-gray-600 dark:text-gray-300">
-            {g.personName ? `${g.personName} ${g.title}` : `${g.title} 정보 준비 중`}
-          </p>
+          <div>
+            {g.type === "basic" && g.provinceName && (
+              <p className="text-sm text-gray-400 dark:text-gray-500">
+                {g.provinceName}
+              </p>
+            )}
+            <div className="flex items-center gap-2">
+              {/* 기관 CI */}
+              {g.ci && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={g.ci}
+                  alt={`${g.name} CI`}
+                  className="h-7 w-auto max-w-[7rem] object-contain"
+                />
+              )}
+              <h1 className="text-3xl font-extrabold tracking-tight">{g.name}</h1>
+            </div>
+            <p className="mt-1 text-lg text-gray-600 dark:text-gray-300">
+              {g.personName ? `${g.personName} ${g.title}` : `${g.title} 정보 준비 중`}
+            </p>
+          </div>
         </div>
         <span
           className={`inline-flex items-center rounded-full px-3 py-1 text-sm font-medium ${partyBadgeClass(
@@ -82,6 +104,24 @@ export default async function RegionPage({
         <blockquote className="mt-6 rounded-2xl bg-blue-50 p-6 text-xl font-bold text-blue-900 dark:bg-blue-950/50 dark:text-blue-200">
           “{g.slogan}”
         </blockquote>
+      )}
+
+      {g.pledges && g.pledges.length > 0 && (
+        <section className="mt-6 rounded-2xl border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+          <h2 className="text-sm font-medium text-gray-500 dark:text-gray-400">
+            주요공약
+          </h2>
+          <ol className="mt-3 space-y-2">
+            {g.pledges.map((p, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="flex-none font-bold text-blue-600 dark:text-blue-400">
+                  {i + 1}
+                </span>
+                <span className="text-gray-900 dark:text-gray-100">{p}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
       )}
 
       <dl className="mt-8 rounded-2xl border border-gray-200 bg-white px-5 dark:border-gray-800 dark:bg-gray-900">

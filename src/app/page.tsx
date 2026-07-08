@@ -34,6 +34,7 @@ export default function Home() {
           <span>광역 {stats.metro}곳</span>
           <span>기초 {stats.basic}곳</span>
           <span>단체장 {stats.withName}명 확인</span>
+          <span>홈페이지 {stats.withHomepage}곳</span>
           <span>업데이트 {updated}</span>
         </div>
       </header>

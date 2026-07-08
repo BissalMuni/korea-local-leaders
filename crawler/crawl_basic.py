@@ -36,6 +36,8 @@ for _s in (sys.stdout, sys.stderr):
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DATA = ROOT / "data" / "basic.json"
+HOMEPAGES_FILE = ROOT / "crawler" / "basic_homepages.json"
+PHOTOS_FILE = ROOT / "crawler" / "basic_photos.json"
 WIKI_API = "https://ko.wikipedia.org/w/api.php"
 WIKI_PAGE = "제9회 전국동시지방선거 기초자치단체장"
 HEADERS = {"User-Agent": "korea-local-leaders/0.1 (data prep)"}
@@ -170,10 +172,38 @@ def fetch_records() -> list[dict]:
     return records
 
 
+def load_homepages() -> dict[str, str]:
+    """crawler/basic_homepages.json 의 code -> homepage 매핑을 읽는다(없으면 빈 dict)."""
+    if not HOMEPAGES_FILE.exists():
+        print("  (basic_homepages.json 없음 — homepage 는 빈 값으로 둠)")
+        return {}
+    data = json.loads(HOMEPAGES_FILE.read_text(encoding="utf-8"))
+    return {
+        code: h.get("homepage", "")
+        for code, h in data.get("homepages", {}).items()
+        if h.get("homepage")
+    }
+
+
+def load_photos() -> dict[str, str]:
+    """crawler/basic_photos.json 의 code -> 기관장 사진 URL(육안검증 완료) 매핑."""
+    if not PHOTOS_FILE.exists():
+        return {}
+    data = json.loads(PHOTOS_FILE.read_text(encoding="utf-8"))
+    return {
+        code: p.get("photoUrl", "")
+        for code, p in data.get("photos", {}).items()
+        if p.get("photoUrl")
+    }
+
+
 def main() -> int:
     print("위키 9회 기초단체장 파싱 중...")
     records = fetch_records()
     print(f"  당선자 {len(records)}명 파싱")
+    homepages = load_homepages()
+    photos = load_photos()
+    print(f"  홈페이지 매핑 {len(homepages)}곳 · 기관장 사진 {len(photos)}곳 로드")
 
     # 광역별로 묶어 정렬 후 코드 부여 (광역코드 + 2자리 일련번호)
     rows: list[dict] = []
@@ -187,9 +217,11 @@ def main() -> int:
                 "code": code, "name": r["municipality"], "shortName": r["municipality"],
                 "type": "basic", "title": r["title"],
                 "provinceCode": prov, "provinceName": CODE_TO_PROV[prov],
-                "homepage": "", "personName": r["name"], "party": r["party"],
+                "homepage": homepages.get(code, ""), "personName": r["name"], "party": r["party"],
                 "termStart": TERM_START, "termEnd": TERM_END,
-                "slogan": None, "vision": None, "photoUrl": None,
+                "slogan": None, "vision": None,
+                "photoUrl": photos.get(code) or None,
+                "ci": None, "pledges": None,
                 "source": f"https://ko.wikipedia.org/wiki/{WIKI_PAGE}",
                 "lastCrawledAt": now_iso(), "manualOverride": False,
             })

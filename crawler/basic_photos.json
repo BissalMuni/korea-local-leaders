@@ -1,0 +1,209 @@
+{
+  "_comment": "기초 기관장 사진 큐레이션. 각 인사말 페이지에서 자동추출 후 육안검증(실제 인물 초상만). crawl_basic.py 가 소비.",
+  "photos": {
+    "1101": {
+      "name": "종로구",
+      "photoUrl": "https://www.jongno.go.kr/mayor/open_content/common/images/main2026/section1-mayor.png",
+      "source": "https://www.jongno.go.kr/mayorMain.do",
+      "verified": true
+    },
+    "1103": {
+      "name": "용산구",
+      "photoUrl": "https://www.yongsan.go.kr/static/mayor/img/main2026/visual_center1.png",
+      "source": "https://www.yongsan.go.kr/mayor/main/main.do",
+      "verified": true
+    },
+    "1104": {
+      "name": "성동구",
+      "photoUrl": "https://www.sd.go.kr/site/main/images/contents/cts1694_img.jpg",
+      "source": "https://www.sd.go.kr/main/contents.do?key=1694&",
+      "verified": true
+    },
+    "1105": {
+      "name": "광진구",
+      "photoUrl": "https://www.gwangjin.go.kr/static/mayor/img/images2026/cz_figure_img.jpg",
+      "source": "https://www.gwangjin.go.kr/mayor/main/main.do",
+      "verified": true
+    },
+    "1112": {
+      "name": "은평구",
+      "photoUrl": "https://www.ep.go.kr/site/mayor/images/sub/visual_image.png",
+      "source": "https://www.ep.go.kr/mayor/contents.do?key=1510",
+      "verified": true
+    },
+    "1116": {
+      "name": "강서구",
+      "photoUrl": "https://www.gangseo.seoul.kr/humanframe/theme/mayor/assets/image/content/img_mayor6.png",
+      "source": "https://www.gangseo.seoul.kr/gs050470",
+      "verified": true
+    },
+    "1119": {
+      "name": "영등포구",
+      "photoUrl": "https://www.ydp.go.kr/site/mayor/images/main/man_2026.png",
+      "source": "https://www.ydp.go.kr/mayor/index.do",
+      "verified": true
+    },
+    "1120": {
+      "name": "동작구",
+      "photoUrl": "https://www.dongjak.go.kr/static/mayor/img/main/aoa_slier_img01.png",
+      "source": "https://www.dongjak.go.kr/mayor/main/main.do",
+      "verified": true
+    },
+    "1121": {
+      "name": "관악구",
+      "photoUrl": "https://www.gwanak.go.kr/images/mayor/m4/hope_mayor_03.png",
+      "source": "https://www.gwanak.go.kr/site/mayor/04/10401000000002016051301.jsp",
+      "verified": true
+    },
+    "2612": {
+      "name": "강서구",
+      "photoUrl": "https://www.bsgangseo.go.kr/mayor/img/main/v-mem01_2026.png",
+      "source": "https://www.bsgangseo.go.kr/mayor/main.do",
+      "verified": true
+    },
+    "2615": {
+      "name": "사상구",
+      "photoUrl": "https://www.sasang.go.kr/img/mayor/main_new/m_mayor2026.jpg",
+      "source": "https://www.sasang.go.kr/mayor/index.sasang",
+      "verified": true
+    },
+    "2702": {
+      "name": "동구",
+      "photoUrl": "https://www.dong.daegu.kr/mayor/img/main/v000.jpg",
+      "source": "https://www.dong.daegu.kr/mayor/main.do",
+      "verified": true
+    },
+    "2705": {
+      "name": "북구",
+      "photoUrl": "https://www.buk.daegu.kr/cmsh/mayor/images/mayor_pic01_2026.jpg",
+      "source": "https://www.buk.daegu.kr/mayor/index.do?menu_id=00000358",
+      "verified": true
+    },
+    "2708": {
+      "name": "달성군",
+      "photoUrl": "https://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/mayor202202/images/main/img_main01.jpg",
+      "source": "https://www.dalseong.daegu.kr/mayor/index.do",
+      "verified": true
+    },
+    "2801": {
+      "name": "영종구",
+      "photoUrl": "https://www.yeongjong.go.kr/headman/baner/process.file.do?sn=27&pass=y",
+      "source": "https://www.yeongjong.go.kr/headman/main.do",
+      "verified": true
+    },
+    "2802": {
+      "name": "제물포구",
+      "photoUrl": "https://www.jemulpo.go.kr/headman/img/main/pic_main_visual_deco.png",
+      "source": "https://www.jemulpo.go.kr/headman/",
+      "verified": true
+    },
+    "2803": {
+      "name": "미추홀구",
+      "photoUrl": "https://www.michuhol.go.kr/ward/images/sub/img_greeting2026_01.png",
+      "source": "https://www.michuhol.go.kr/ward/main.do",
+      "verified": true
+    },
+    "2808": {
+      "name": "서구",
+      "photoUrl": "https://seo.dofnet.kr/open_content/main/img2023/headman2026.png?v1.2",
+      "source": "https://www.seohae.go.kr/open_content/main/seogu/headman.jsp",
+      "verified": true
+    },
+    "2809": {
+      "name": "검단구",
+      "photoUrl": "https://www.geomdan.go.kr/headman/img/contents/pic_modal_greeting01.png",
+      "source": "https://www.geomdan.go.kr/headman/",
+      "verified": true
+    },
+    "2905": {
+      "name": "광산구",
+      "photoUrl": "https://www.gwangsan.go.kr/home/mayor/images/main/img_director_v3.png",
+      "source": "https://www.gwangsan.go.kr/mayor",
+      "verified": true
+    },
+    "4117": {
+      "name": "양주시",
+      "photoUrl": "https://www.yangju.go.kr/site/www/images/contents/mayor_img.png",
+      "source": "https://www.yangju.go.kr/mayor/contents.do?key=4377",
+      "verified": true
+    },
+    "4122": {
+      "name": "안성시",
+      "photoUrl": "https://www.anseong.go.kr/mayor/img/main/main_visual04.png",
+      "source": "https://www.anseong.go.kr/mayor/main.do",
+      "verified": true
+    },
+    "4129": {
+      "name": "양평군",
+      "photoUrl": "https://www.yp21.go.kr/site/gunsu/images/main/visual_img1.jpg",
+      "source": "https://www.yp21.go.kr/gunsu/index.do",
+      "verified": true
+    },
+    "4309": {
+      "name": "괴산군",
+      "photoUrl": "https://www.goesan.go.kr/site/chief/images/main/con03_img.png",
+      "source": "https://www.goesan.go.kr/chief/index.do",
+      "verified": true
+    },
+    "4401": {
+      "name": "천안시",
+      "photoUrl": "https://www.cheonan.go.kr/assets/images/main/mayor/mayor.png",
+      "source": "https://www.cheonan.go.kr/mayor.do",
+      "verified": true
+    },
+    "4403": {
+      "name": "보령시",
+      "photoUrl": "https://www.brcn.go.kr/images/mayor/common/img_mayor26.png",
+      "source": "https://www.brcn.go.kr/mayor.do",
+      "verified": true
+    },
+    "4405": {
+      "name": "서산시",
+      "photoUrl": "https://www.seosan.go.kr/site/mayor/images/contents/cts1022_img.jpg",
+      "source": "https://www.seosan.go.kr/mayor/contents.do?key=1022",
+      "verified": true
+    },
+    "4603": {
+      "name": "순천시",
+      "photoUrl": "https://www.suncheon.go.kr/kr/img/contents/minsun9_mayor.png",
+      "source": "https://www.suncheon.go.kr/kr/news/0010/0001",
+      "verified": true
+    },
+    "4801": {
+      "name": "창원시",
+      "photoUrl": "https://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/mayor_img/mayor18.png",
+      "source": "https://www.changwon.go.kr/cwportal/10671/10724.web",
+      "verified": true
+    },
+    "4803": {
+      "name": "통영시",
+      "photoUrl": "https://www.tongyeong.go.kr/_res/mayor2026/img/vpr1.png",
+      "source": "https://www.tongyeong.go.kr/mayor/mayor2026.web",
+      "verified": true
+    },
+    "4805": {
+      "name": "김해시",
+      "photoUrl": "https://www.gimhae.go.kr/_res/mayor/img/main3/vpr1/v10012026.jpg",
+      "source": "https://www.gimhae.go.kr/mayor.web",
+      "verified": true
+    },
+    "4811": {
+      "name": "창녕군",
+      "photoUrl": "https://www.cng.go.kr/_res/mayor/img/main/vpr20260602_01.jpg",
+      "source": "https://www.cng.go.kr/mayor.web",
+      "verified": true
+    },
+    "4812": {
+      "name": "고성군",
+      "photoUrl": "https://www.goseong.go.kr/upload_data/board_data/BBS_0000187/178288679797210.png",
+      "source": "https://www.goseong.go.kr/mayor/index.goseong?menuCd=DOM_000002806001000000",
+      "verified": true
+    },
+    "4813": {
+      "name": "남해군",
+      "photoUrl": "https://www.namhae.go.kr/_res/mayor/img/main/vpr1/2026_v1001.jpg",
+      "source": "https://www.namhae.go.kr/mayor/Index.do ",
+      "verified": true
+    }
+  }
+}

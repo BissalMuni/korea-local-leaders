@@ -1,0 +1,1594 @@
+{
+  "_comment": "기초 227곳 공식 홈페이지 큐레이션. 서브에이전트 검색+접속검증 산출. crawl_basic.py 가 소비.",
+  "homepages": {
+    "1101": {
+      "code": "1101",
+      "name": "종로구",
+      "homepage": "https://www.jongno.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1102": {
+      "code": "1102",
+      "name": "중구",
+      "homepage": "https://www.junggu.seoul.kr",
+      "verified": true,
+      "note": "서울시 중구청 확인. go.kr 아닌 seoul.kr 도메인"
+    },
+    "1103": {
+      "code": "1103",
+      "name": "용산구",
+      "homepage": "https://www.yongsan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1104": {
+      "code": "1104",
+      "name": "성동구",
+      "homepage": "https://www.sd.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1105": {
+      "code": "1105",
+      "name": "광진구",
+      "homepage": "https://www.gwangjin.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1106": {
+      "code": "1106",
+      "name": "동대문구",
+      "homepage": "https://www.ddm.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1107": {
+      "code": "1107",
+      "name": "중랑구",
+      "homepage": "https://www.jungnang.go.kr",
+      "verified": true,
+      "note": "WebSearch로 공식 도메인 확인(최상단 결과 '중랑구청 공식 홈페이지'). WebFetch는 Malformed HTTP로 라이브 콘텐츠 확인 실패 | HTTP 200 직접 검증"
+    },
+    "1108": {
+      "code": "1108",
+      "name": "성북구",
+      "homepage": "https://www.sb.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1109": {
+      "code": "1109",
+      "name": "강북구",
+      "homepage": "https://www.gangbuk.go.kr",
+      "verified": true,
+      "note": "WebSearch로 공식 도메인 확인(최상단 결과 '강북구청'). WebFetch 루트는 빈 콘텐츠 반환 | HTTP 200 직접 검증"
+    },
+    "1110": {
+      "code": "1110",
+      "name": "도봉구",
+      "homepage": "https://www.dobong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1111": {
+      "code": "1111",
+      "name": "노원구",
+      "homepage": "https://www.nowon.kr",
+      "verified": true,
+      "note": "go.kr 아닌 nowon.kr 도메인"
+    },
+    "1112": {
+      "code": "1112",
+      "name": "은평구",
+      "homepage": "https://www.ep.go.kr",
+      "verified": true,
+      "note": "루트가 /www/index.do로 302 리다이렉트되나 동일 호스트. 은평구청 확인"
+    },
+    "1113": {
+      "code": "1113",
+      "name": "서대문구",
+      "homepage": "https://www.sdm.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1114": {
+      "code": "1114",
+      "name": "마포구",
+      "homepage": "https://www.mapo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1115": {
+      "code": "1115",
+      "name": "양천구",
+      "homepage": "https://www.yangcheon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1116": {
+      "code": "1116",
+      "name": "강서구",
+      "homepage": "https://www.gangseo.seoul.kr",
+      "verified": true,
+      "note": "go.kr 아닌 seoul.kr 도메인. 강서구청 확인"
+    },
+    "1117": {
+      "code": "1117",
+      "name": "구로구",
+      "homepage": "https://www.guro.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1118": {
+      "code": "1118",
+      "name": "금천구",
+      "homepage": "https://www.geumcheon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1119": {
+      "code": "1119",
+      "name": "영등포구",
+      "homepage": "https://www.ydp.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1120": {
+      "code": "1120",
+      "name": "동작구",
+      "homepage": "https://www.dongjak.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1121": {
+      "code": "1121",
+      "name": "관악구",
+      "homepage": "https://www.gwanak.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1122": {
+      "code": "1122",
+      "name": "서초구",
+      "homepage": "https://www.seocho.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1123": {
+      "code": "1123",
+      "name": "강남구",
+      "homepage": "https://www.gangnam.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1124": {
+      "code": "1124",
+      "name": "송파구",
+      "homepage": "https://www.songpa.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "1125": {
+      "code": "1125",
+      "name": "강동구",
+      "homepage": "https://www.gangdong.go.kr",
+      "verified": true,
+      "note": "WebSearch로 공식 도메인 확인(최상단 결과 '강동구청'). WebFetch 루트는 빈 콘텐츠 반환 | HTTP 200 직접 검증"
+    },
+    "2601": {
+      "code": "2601",
+      "name": "중구",
+      "homepage": "https://www.bsjunggu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2602": {
+      "code": "2602",
+      "name": "서구",
+      "homepage": "https://www.bsseogu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2603": {
+      "code": "2603",
+      "name": "동구",
+      "homepage": "https://www.bsdonggu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2604": {
+      "code": "2604",
+      "name": "영도구",
+      "homepage": "https://www.yeongdo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2605": {
+      "code": "2605",
+      "name": "부산진구",
+      "homepage": "https://www.busanjin.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2606": {
+      "code": "2606",
+      "name": "동래구",
+      "homepage": "https://www.dongnae.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2607": {
+      "code": "2607",
+      "name": "남구",
+      "homepage": "https://www.bsnamgu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2608": {
+      "code": "2608",
+      "name": "북구",
+      "homepage": "https://www.bsbukgu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2609": {
+      "code": "2609",
+      "name": "해운대구",
+      "homepage": "https://www.haeundae.go.kr",
+      "verified": true,
+      "note": "WebFetch 403 차단, 공식 검색결과로 .go.kr 공식 도메인 확인"
+    },
+    "2610": {
+      "code": "2610",
+      "name": "사하구",
+      "homepage": "https://www.saha.go.kr",
+      "verified": true,
+      "note": "WebFetch 403 차단, 공식 검색결과로 .go.kr 공식 도메인 확인"
+    },
+    "2611": {
+      "code": "2611",
+      "name": "금정구",
+      "homepage": "https://www.geumjeong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2612": {
+      "code": "2612",
+      "name": "강서구",
+      "homepage": "https://www.bsgangseo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2613": {
+      "code": "2613",
+      "name": "연제구",
+      "homepage": "https://www.yeonje.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2614": {
+      "code": "2614",
+      "name": "수영구",
+      "homepage": "https://www.suyeong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2615": {
+      "code": "2615",
+      "name": "사상구",
+      "homepage": "https://www.sasang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2616": {
+      "code": "2616",
+      "name": "기장군",
+      "homepage": "https://www.gijang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2701": {
+      "code": "2701",
+      "name": "중구",
+      "homepage": "https://www.jung.daegu.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2702": {
+      "code": "2702",
+      "name": "동구",
+      "homepage": "https://www.dong.daegu.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2703": {
+      "code": "2703",
+      "name": "서구",
+      "homepage": "https://www.dgs.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2704": {
+      "code": "2704",
+      "name": "남구",
+      "homepage": "https://www.nam.daegu.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2705": {
+      "code": "2705",
+      "name": "북구",
+      "homepage": "https://www.buk.daegu.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2706": {
+      "code": "2706",
+      "name": "수성구",
+      "homepage": "https://www.suseong.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2707": {
+      "code": "2707",
+      "name": "달서구",
+      "homepage": "https://www.dalseo.daegu.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2708": {
+      "code": "2708",
+      "name": "달성군",
+      "homepage": "https://www.dalseong.daegu.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2709": {
+      "code": "2709",
+      "name": "군위군",
+      "homepage": "https://www.gunwi.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2801": {
+      "code": "2801",
+      "name": "영종구",
+      "homepage": "https://www.yeongjong.go.kr",
+      "verified": true,
+      "note": "2026-07-01 신설, 홈페이지 정식 개통 확인"
+    },
+    "2802": {
+      "code": "2802",
+      "name": "제물포구",
+      "homepage": "https://www.jemulpo.go.kr",
+      "verified": true,
+      "note": "2026-07-01 신설(중구 내륙+동구 통합), 홈페이지 개통 확인"
+    },
+    "2803": {
+      "code": "2803",
+      "name": "미추홀구",
+      "homepage": "https://www.michuhol.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2804": {
+      "code": "2804",
+      "name": "연수구",
+      "homepage": "https://www.yeonsu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2805": {
+      "code": "2805",
+      "name": "남동구",
+      "homepage": "https://www.namdong.go.kr",
+      "verified": true,
+      "note": "WebFetch 인증서 오류로 페이지 직접확인 불가, 공식 도메인 검색으로 확인"
+    },
+    "2806": {
+      "code": "2806",
+      "name": "부평구",
+      "homepage": "https://www.icbp.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2807": {
+      "code": "2807",
+      "name": "계양구",
+      "homepage": "https://www.gyeyang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2808": {
+      "code": "2808",
+      "name": "서구",
+      "homepage": "https://www.seohae.go.kr",
+      "verified": true,
+      "note": "2026-07-01 개편으로 '서해구'로 개명, 도메인 seo.incheon.kr->seohae.go.kr 이전. basic.json 명칭은 '서구'"
+    },
+    "2809": {
+      "code": "2809",
+      "name": "검단구",
+      "homepage": "https://www.geomdan.go.kr",
+      "verified": true,
+      "note": "2026-07-01 신설(서구 북부 분구), 홈페이지 개통 확인"
+    },
+    "2810": {
+      "code": "2810",
+      "name": "강화군",
+      "homepage": "https://www.ganghwa.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2811": {
+      "code": "2811",
+      "name": "옹진군",
+      "homepage": "https://www.ongjin.go.kr",
+      "verified": true,
+      "note": "WebFetch 인증서 오류로 페이지 직접확인 불가, 공식 도메인 검색으로 확인"
+    },
+    "2901": {
+      "code": "2901",
+      "name": "동구",
+      "homepage": "https://www.donggu.kr",
+      "verified": true,
+      "note": "go.kr 아닌 donggu.kr 도메인 (donggu.gwangju.kr 은 TLS 인증서 불일치)"
+    },
+    "2902": {
+      "code": "2902",
+      "name": "서구",
+      "homepage": "https://www.seogu.gwangju.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2903": {
+      "code": "2903",
+      "name": "남구",
+      "homepage": "https://www.namgu.gwangju.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2904": {
+      "code": "2904",
+      "name": "북구",
+      "homepage": "https://bukgu.gwangju.kr",
+      "verified": true,
+      "note": ""
+    },
+    "2905": {
+      "code": "2905",
+      "name": "광산구",
+      "homepage": "https://www.gwangsan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3001": {
+      "code": "3001",
+      "name": "동구",
+      "homepage": "https://www.donggu.go.kr",
+      "verified": true,
+      "note": "한국어 랜딩 경로 /dg/kor"
+    },
+    "3002": {
+      "code": "3002",
+      "name": "중구",
+      "homepage": "https://www.djjunggu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3003": {
+      "code": "3003",
+      "name": "서구",
+      "homepage": "https://www.seogu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3004": {
+      "code": "3004",
+      "name": "유성구",
+      "homepage": "https://www.yuseong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3005": {
+      "code": "3005",
+      "name": "대덕구",
+      "homepage": "https://www.daedeok.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3101": {
+      "code": "3101",
+      "name": "중구",
+      "homepage": "https://www.junggu.ulsan.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3102": {
+      "code": "3102",
+      "name": "남구",
+      "homepage": "https://www.ulsannamgu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3103": {
+      "code": "3103",
+      "name": "동구",
+      "homepage": "https://www.donggu.ulsan.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3104": {
+      "code": "3104",
+      "name": "북구",
+      "homepage": "https://www.bukgu.ulsan.kr",
+      "verified": true,
+      "note": ""
+    },
+    "3105": {
+      "code": "3105",
+      "name": "울주군",
+      "homepage": "https://www.ulju.ulsan.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4101": {
+      "code": "4101",
+      "name": "수원시",
+      "homepage": "https://www.suwon.go.kr",
+      "verified": true,
+      "note": "수원특례시청"
+    },
+    "4102": {
+      "code": "4102",
+      "name": "용인시",
+      "homepage": "https://www.yongin.go.kr",
+      "verified": true,
+      "note": "용인특례시청"
+    },
+    "4103": {
+      "code": "4103",
+      "name": "고양시",
+      "homepage": "https://www.goyang.go.kr",
+      "verified": true,
+      "note": "고양특례시청, WebSearch로 확인"
+    },
+    "4104": {
+      "code": "4104",
+      "name": "화성시",
+      "homepage": "https://www.hscity.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4105": {
+      "code": "4105",
+      "name": "성남시",
+      "homepage": "https://www.seongnam.go.kr",
+      "verified": true,
+      "note": "WebFetch 인증서 체인 경고, WebSearch로 확인"
+    },
+    "4106": {
+      "code": "4106",
+      "name": "부천시",
+      "homepage": "https://www.bucheon.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4107": {
+      "code": "4107",
+      "name": "남양주시",
+      "homepage": "https://www.nyj.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4108": {
+      "code": "4108",
+      "name": "안산시",
+      "homepage": "https://www.ansan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4109": {
+      "code": "4109",
+      "name": "평택시",
+      "homepage": "https://www.pyeongtaek.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4110": {
+      "code": "4110",
+      "name": "안양시",
+      "homepage": "https://www.anyang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4111": {
+      "code": "4111",
+      "name": "시흥시",
+      "homepage": "https://www.siheung.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4112": {
+      "code": "4112",
+      "name": "파주시",
+      "homepage": "https://www.paju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4113": {
+      "code": "4113",
+      "name": "김포시",
+      "homepage": "https://www.gimpo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4114": {
+      "code": "4114",
+      "name": "의정부시",
+      "homepage": "https://www.ui4u.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4115": {
+      "code": "4115",
+      "name": "광주시",
+      "homepage": "https://www.gjcity.go.kr",
+      "verified": true,
+      "note": "경기도 광주시(광주광역시 아님) 확인"
+    },
+    "4116": {
+      "code": "4116",
+      "name": "하남시",
+      "homepage": "https://www.hanam.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4117": {
+      "code": "4117",
+      "name": "양주시",
+      "homepage": "https://www.yangju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4118": {
+      "code": "4118",
+      "name": "광명시",
+      "homepage": "https://www.gm.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4119": {
+      "code": "4119",
+      "name": "군포시",
+      "homepage": "https://www.gunpo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4120": {
+      "code": "4120",
+      "name": "오산시",
+      "homepage": "https://www.osan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4121": {
+      "code": "4121",
+      "name": "이천시",
+      "homepage": "https://www.icheon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4122": {
+      "code": "4122",
+      "name": "안성시",
+      "homepage": "https://www.anseong.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4123": {
+      "code": "4123",
+      "name": "구리시",
+      "homepage": "https://www.guri.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4124": {
+      "code": "4124",
+      "name": "포천시",
+      "homepage": "https://www.pocheon.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4125": {
+      "code": "4125",
+      "name": "의왕시",
+      "homepage": "https://www.uiwang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4126": {
+      "code": "4126",
+      "name": "여주시",
+      "homepage": "https://www.yeoju.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4127": {
+      "code": "4127",
+      "name": "동두천시",
+      "homepage": "https://www.ddc.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4128": {
+      "code": "4128",
+      "name": "과천시",
+      "homepage": "https://www.gccity.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4129": {
+      "code": "4129",
+      "name": "양평군",
+      "homepage": "https://www.yp21.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4130": {
+      "code": "4130",
+      "name": "가평군",
+      "homepage": "https://www.gp.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4131": {
+      "code": "4131",
+      "name": "연천군",
+      "homepage": "https://www.yeoncheon.go.kr",
+      "verified": true,
+      "note": "WebSearch로 확인"
+    },
+    "4301": {
+      "code": "4301",
+      "name": "청주시",
+      "homepage": "https://www.cheongju.go.kr",
+      "verified": true,
+      "note": "루트가 intro.cheongju.go.kr 인트로 페이지로 302 이동, 공식 확인"
+    },
+    "4302": {
+      "code": "4302",
+      "name": "충주시",
+      "homepage": "https://www.chungju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4303": {
+      "code": "4303",
+      "name": "제천시",
+      "homepage": "https://www.jecheon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4304": {
+      "code": "4304",
+      "name": "보은군",
+      "homepage": "https://www.boeun.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4305": {
+      "code": "4305",
+      "name": "옥천군",
+      "homepage": "https://www.oc.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4306": {
+      "code": "4306",
+      "name": "영동군",
+      "homepage": "https://www.yd21.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4307": {
+      "code": "4307",
+      "name": "증평군",
+      "homepage": "https://www.jp.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4308": {
+      "code": "4308",
+      "name": "진천군",
+      "homepage": "https://www.jincheon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4309": {
+      "code": "4309",
+      "name": "괴산군",
+      "homepage": "https://www.goesan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4310": {
+      "code": "4310",
+      "name": "음성군",
+      "homepage": "https://www.eumseong.go.kr",
+      "verified": true,
+      "note": "대표 누리집 www/index.do"
+    },
+    "4311": {
+      "code": "4311",
+      "name": "단양군",
+      "homepage": "https://www.danyang.go.kr",
+      "verified": true,
+      "note": "루트가 /dy21 로 302 이동, 공식 확인"
+    },
+    "4401": {
+      "code": "4401",
+      "name": "천안시",
+      "homepage": "https://www.cheonan.go.kr",
+      "verified": true,
+      "note": "루트가 http://www.cheonan.go.kr/kor.do 로 302 리다이렉트"
+    },
+    "4402": {
+      "code": "4402",
+      "name": "공주시",
+      "homepage": "https://www.gongju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4403": {
+      "code": "4403",
+      "name": "보령시",
+      "homepage": "https://www.brcn.go.kr",
+      "verified": true,
+      "note": "도메인이 boryeong 이 아니라 brcn"
+    },
+    "4404": {
+      "code": "4404",
+      "name": "아산시",
+      "homepage": "https://www.asan.go.kr",
+      "verified": true,
+      "note": "WebFetch 본문은 JS 렌더링으로 공백, 공식 go.kr 도메인은 검색으로 확인"
+    },
+    "4405": {
+      "code": "4405",
+      "name": "서산시",
+      "homepage": "https://www.seosan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4406": {
+      "code": "4406",
+      "name": "논산시",
+      "homepage": "https://www.nonsan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4407": {
+      "code": "4407",
+      "name": "계룡시",
+      "homepage": "https://www.gyeryong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4408": {
+      "code": "4408",
+      "name": "당진시",
+      "homepage": "https://www.dangjin.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4409": {
+      "code": "4409",
+      "name": "금산군",
+      "homepage": "https://www.geumsan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4410": {
+      "code": "4410",
+      "name": "부여군",
+      "homepage": "https://www.buyeo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4411": {
+      "code": "4411",
+      "name": "서천군",
+      "homepage": "https://www.seocheon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4412": {
+      "code": "4412",
+      "name": "청양군",
+      "homepage": "https://www.cheongyang.go.kr",
+      "verified": true,
+      "note": "루트가 http://www.cheongyang.go.kr/kor.do 로 302 리다이렉트"
+    },
+    "4413": {
+      "code": "4413",
+      "name": "홍성군",
+      "homepage": "https://www.hongseong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4414": {
+      "code": "4414",
+      "name": "예산군",
+      "homepage": "https://www.yesan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4415": {
+      "code": "4415",
+      "name": "태안군",
+      "homepage": "https://www.taean.go.kr",
+      "verified": true,
+      "note": "WebFetch 본문은 JS 렌더링으로 공백, 공식 go.kr 도메인은 검색으로 확인"
+    },
+    "4601": {
+      "code": "4601",
+      "name": "목포시",
+      "homepage": "https://www.mokpo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4602": {
+      "code": "4602",
+      "name": "여수시",
+      "homepage": "https://www.yeosu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4603": {
+      "code": "4603",
+      "name": "순천시",
+      "homepage": "https://www.suncheon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4604": {
+      "code": "4604",
+      "name": "나주시",
+      "homepage": "https://www.naju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4605": {
+      "code": "4605",
+      "name": "광양시",
+      "homepage": "https://www.gwangyang.go.kr",
+      "verified": true,
+      "note": "인증서 체인 경고로 WebSearch 확인"
+    },
+    "4606": {
+      "code": "4606",
+      "name": "담양군",
+      "homepage": "https://www.damyang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4607": {
+      "code": "4607",
+      "name": "곡성군",
+      "homepage": "https://www.gokseong.go.kr",
+      "verified": true,
+      "note": "인증서 체인 경고로 WebSearch 확인"
+    },
+    "4608": {
+      "code": "4608",
+      "name": "구례군",
+      "homepage": "https://www.gurye.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4609": {
+      "code": "4609",
+      "name": "고흥군",
+      "homepage": "https://www.goheung.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4610": {
+      "code": "4610",
+      "name": "보성군",
+      "homepage": "https://www.boseong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4611": {
+      "code": "4611",
+      "name": "화순군",
+      "homepage": "https://www.hwasun.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4612": {
+      "code": "4612",
+      "name": "장흥군",
+      "homepage": "https://www.jangheung.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4613": {
+      "code": "4613",
+      "name": "강진군",
+      "homepage": "https://www.gangjin.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4614": {
+      "code": "4614",
+      "name": "해남군",
+      "homepage": "https://www.haenam.go.kr",
+      "verified": true,
+      "note": "인증서 체인 경고로 WebSearch 확인"
+    },
+    "4615": {
+      "code": "4615",
+      "name": "영암군",
+      "homepage": "https://www.yeongam.go.kr",
+      "verified": true,
+      "note": "WebFetch 차단으로 WebSearch 확인"
+    },
+    "4616": {
+      "code": "4616",
+      "name": "무안군",
+      "homepage": "https://www.muan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4617": {
+      "code": "4617",
+      "name": "함평군",
+      "homepage": "https://www.hampyeong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4618": {
+      "code": "4618",
+      "name": "영광군",
+      "homepage": "https://www.yeonggwang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4619": {
+      "code": "4619",
+      "name": "장성군",
+      "homepage": "https://www.jangseong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4620": {
+      "code": "4620",
+      "name": "완도군",
+      "homepage": "https://www.wando.go.kr",
+      "verified": true,
+      "note": "WebFetch 빈 응답으로 WebSearch 확인"
+    },
+    "4621": {
+      "code": "4621",
+      "name": "진도군",
+      "homepage": "https://www.jindo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4622": {
+      "code": "4622",
+      "name": "신안군",
+      "homepage": "https://www.shinan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4701": {
+      "code": "4701",
+      "name": "포항시",
+      "homepage": "https://www.pohang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4702": {
+      "code": "4702",
+      "name": "경주시",
+      "homepage": "https://www.gyeongju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4703": {
+      "code": "4703",
+      "name": "김천시",
+      "homepage": "https://www.gc.go.kr",
+      "verified": true,
+      "note": "gimcheon.go.kr는 인증서 오류, 공식은 gc.go.kr"
+    },
+    "4704": {
+      "code": "4704",
+      "name": "안동시",
+      "homepage": "https://www.andong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4705": {
+      "code": "4705",
+      "name": "구미시",
+      "homepage": "https://www.gumi.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4706": {
+      "code": "4706",
+      "name": "영주시",
+      "homepage": "https://www.yeongju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4707": {
+      "code": "4707",
+      "name": "영천시",
+      "homepage": "https://www.yc.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4708": {
+      "code": "4708",
+      "name": "상주시",
+      "homepage": "https://www.sangju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4709": {
+      "code": "4709",
+      "name": "문경시",
+      "homepage": "https://www.gbmg.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4710": {
+      "code": "4710",
+      "name": "경산시",
+      "homepage": "https://www.gbgs.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4711": {
+      "code": "4711",
+      "name": "의성군",
+      "homepage": "https://www.usc.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4712": {
+      "code": "4712",
+      "name": "청송군",
+      "homepage": "https://www.cs.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4713": {
+      "code": "4713",
+      "name": "영양군",
+      "homepage": "https://www.yyg.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4714": {
+      "code": "4714",
+      "name": "영덕군",
+      "homepage": "https://www.yd.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4715": {
+      "code": "4715",
+      "name": "청도군",
+      "homepage": "https://www.cheongdo.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4716": {
+      "code": "4716",
+      "name": "고령군",
+      "homepage": "https://www.goryeong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4717": {
+      "code": "4717",
+      "name": "성주군",
+      "homepage": "https://www.sj.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4718": {
+      "code": "4718",
+      "name": "칠곡군",
+      "homepage": "https://www.chilgok.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4719": {
+      "code": "4719",
+      "name": "예천군",
+      "homepage": "https://www.ycg.kr",
+      "verified": true,
+      "note": "go.kr 아닌 ycg.kr이 공식 도메인"
+    },
+    "4720": {
+      "code": "4720",
+      "name": "봉화군",
+      "homepage": "https://www.bonghwa.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4721": {
+      "code": "4721",
+      "name": "울진군",
+      "homepage": "https://www.uljin.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4722": {
+      "code": "4722",
+      "name": "울릉군",
+      "homepage": "https://www.ulleung.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4801": {
+      "code": "4801",
+      "name": "창원시",
+      "homepage": "https://www.changwon.go.kr",
+      "verified": true,
+      "note": "창원특례시"
+    },
+    "4802": {
+      "code": "4802",
+      "name": "진주시",
+      "homepage": "https://www.jinju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4803": {
+      "code": "4803",
+      "name": "통영시",
+      "homepage": "https://www.tongyeong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4804": {
+      "code": "4804",
+      "name": "사천시",
+      "homepage": "https://www.sacheon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4805": {
+      "code": "4805",
+      "name": "김해시",
+      "homepage": "https://www.gimhae.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4806": {
+      "code": "4806",
+      "name": "밀양시",
+      "homepage": "https://www.miryang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4807": {
+      "code": "4807",
+      "name": "거제시",
+      "homepage": "https://www.geoje.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4808": {
+      "code": "4808",
+      "name": "양산시",
+      "homepage": "https://www.yangsan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4809": {
+      "code": "4809",
+      "name": "의령군",
+      "homepage": "https://www.uiryeong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4810": {
+      "code": "4810",
+      "name": "함안군",
+      "homepage": "https://www.haman.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4811": {
+      "code": "4811",
+      "name": "창녕군",
+      "homepage": "https://www.cng.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4812": {
+      "code": "4812",
+      "name": "고성군",
+      "homepage": "https://www.goseong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4813": {
+      "code": "4813",
+      "name": "남해군",
+      "homepage": "https://www.namhae.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4814": {
+      "code": "4814",
+      "name": "하동군",
+      "homepage": "https://www.hadong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4815": {
+      "code": "4815",
+      "name": "산청군",
+      "homepage": "https://www.sancheong.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4816": {
+      "code": "4816",
+      "name": "함양군",
+      "homepage": "https://www.hygn.go.kr",
+      "verified": true,
+      "note": "hamyang.go.kr 아님, hygn.go.kr"
+    },
+    "4817": {
+      "code": "4817",
+      "name": "거창군",
+      "homepage": "https://www.geochang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "4818": {
+      "code": "4818",
+      "name": "합천군",
+      "homepage": "https://www.hc.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5101": {
+      "code": "5101",
+      "name": "춘천시",
+      "homepage": "https://www.chuncheon.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 춘천시청 공식 전자정부 누리집"
+    },
+    "5102": {
+      "code": "5102",
+      "name": "원주시",
+      "homepage": "https://www.wonju.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 원주시청 홈페이지"
+    },
+    "5103": {
+      "code": "5103",
+      "name": "강릉시",
+      "homepage": "https://www.gn.go.kr",
+      "verified": true,
+      "note": "WebSearch 확인: 강릉시청 대표 홈페이지(WebFetch 인증서 오류로 검색 확인)"
+    },
+    "5104": {
+      "code": "5104",
+      "name": "동해시",
+      "homepage": "https://www.dh.go.kr",
+      "verified": true,
+      "note": "WebSearch 확인: 동해시청 대표 홈페이지(donghae.go.kr 아님, dh.go.kr)"
+    },
+    "5105": {
+      "code": "5105",
+      "name": "태백시",
+      "homepage": "https://www.taebaek.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: intro.jsp 리다이렉트, 태백시청 대표 누리집"
+    },
+    "5106": {
+      "code": "5106",
+      "name": "속초시",
+      "homepage": "https://www.sokcho.go.kr",
+      "verified": true,
+      "note": "WebSearch 확인: 속초시청 대표 홈페이지(WebFetch 인증서 오류로 검색 확인)"
+    },
+    "5107": {
+      "code": "5107",
+      "name": "삼척시",
+      "homepage": "https://www.samcheok.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 삼척시청"
+    },
+    "5108": {
+      "code": "5108",
+      "name": "홍천군",
+      "homepage": "https://www.hongcheon.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 홍천군청 대표 누리집"
+    },
+    "5109": {
+      "code": "5109",
+      "name": "횡성군",
+      "homepage": "https://www.hsg.go.kr",
+      "verified": true,
+      "note": "WebSearch 확인: 횡성군청 대표 홈페이지(WebFetch 접속 차단으로 검색 확인)"
+    },
+    "5110": {
+      "code": "5110",
+      "name": "영월군",
+      "homepage": "https://www.yw.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 영월군청 공식 전자정부 누리집"
+    },
+    "5111": {
+      "code": "5111",
+      "name": "평창군",
+      "homepage": "https://www.pc.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 평창군 행정"
+    },
+    "5112": {
+      "code": "5112",
+      "name": "정선군",
+      "homepage": "https://www.jeongseon.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 정선군청 대표 누리집"
+    },
+    "5113": {
+      "code": "5113",
+      "name": "철원군",
+      "homepage": "https://www.cwg.go.kr",
+      "verified": true,
+      "note": "WebSearch 확인: 철원군청 대표 홈페이지(WebFetch 인증서 오류로 검색 확인)"
+    },
+    "5114": {
+      "code": "5114",
+      "name": "화천군",
+      "homepage": "https://www.ihc.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 화천군청 공식 전자정부 누리집"
+    },
+    "5115": {
+      "code": "5115",
+      "name": "양구군",
+      "homepage": "https://www.yanggu.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 양구군청"
+    },
+    "5116": {
+      "code": "5116",
+      "name": "인제군",
+      "homepage": "https://www.inje.go.kr",
+      "verified": true,
+      "note": "WebSearch 확인: 인제군청 대표 홈페이지(WebFetch 인증서 오류로 검색 확인)"
+    },
+    "5117": {
+      "code": "5117",
+      "name": "고성군",
+      "homepage": "https://www.gwgs.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 강원고성군청(강원특별자치도, goseong.go.kr는 경남 고성)"
+    },
+    "5118": {
+      "code": "5118",
+      "name": "양양군",
+      "homepage": "https://www.yangyang.go.kr",
+      "verified": true,
+      "note": "WebFetch 확인: 양양('해오름의 고장') 대표 사이트"
+    },
+    "5201": {
+      "code": "5201",
+      "name": "전주시",
+      "homepage": "https://www.jeonju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5202": {
+      "code": "5202",
+      "name": "군산시",
+      "homepage": "https://www.gunsan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5203": {
+      "code": "5203",
+      "name": "익산시",
+      "homepage": "https://www.iksan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5204": {
+      "code": "5204",
+      "name": "정읍시",
+      "homepage": "https://www.jeongeup.go.kr",
+      "verified": true,
+      "note": "루트는 /index.jeongeup 로 302 리다이렉트"
+    },
+    "5205": {
+      "code": "5205",
+      "name": "남원시",
+      "homepage": "https://www.namwon.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5206": {
+      "code": "5206",
+      "name": "김제시",
+      "homepage": "https://www.gimje.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5207": {
+      "code": "5207",
+      "name": "완주군",
+      "homepage": "https://www.wanju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5208": {
+      "code": "5208",
+      "name": "진안군",
+      "homepage": "https://www.jinan.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5209": {
+      "code": "5209",
+      "name": "무주군",
+      "homepage": "https://www.muju.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5210": {
+      "code": "5210",
+      "name": "장수군",
+      "homepage": "https://www.jangsu.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5211": {
+      "code": "5211",
+      "name": "임실군",
+      "homepage": "https://www.imsil.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5212": {
+      "code": "5212",
+      "name": "순창군",
+      "homepage": "https://www.sunchang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5213": {
+      "code": "5213",
+      "name": "고창군",
+      "homepage": "https://www.gochang.go.kr",
+      "verified": true,
+      "note": ""
+    },
+    "5214": {
+      "code": "5214",
+      "name": "부안군",
+      "homepage": "https://www.buan.go.kr",
+      "verified": true,
+      "note": ""
+    }
+  }
+}

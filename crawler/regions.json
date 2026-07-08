@@ -48,8 +48,8 @@
     },
     {
       "code": "51", "name": "강원특별자치도", "shortName": "강원", "type": "metropolitan",
-      "title": "도지사", "homepage": "https://www.gangwon.go.kr", "lat": 37.8854, "lng": 127.7298,
-      "paths": ["/"]
+      "title": "도지사", "homepage": "https://state.gwd.go.kr", "lat": 37.8854, "lng": 127.7298,
+      "paths": ["/portal", "/"]
     },
     {
       "code": "43", "name": "충청북도", "shortName": "충북", "type": "metropolitan",

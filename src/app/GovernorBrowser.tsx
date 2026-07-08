@@ -30,7 +30,17 @@ function GovernorCard({ g }: { g: Governor }) {
               {g.provinceName}
             </p>
           )}
-          <h3 className="text-lg font-bold tracking-tight">{g.name}</h3>
+          <div className="flex items-center gap-1.5">
+            {g.ci && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={g.ci}
+                alt={`${g.name} CI`}
+                className="h-5 w-auto max-w-[4rem] object-contain"
+              />
+            )}
+            <h3 className="text-lg font-bold tracking-tight">{g.name}</h3>
+          </div>
           <p className="mt-0.5 text-sm text-gray-500 dark:text-gray-400">
             {g.personName ? `${g.personName} ${g.title}` : `${g.title} 정보 준비 중`}
           </p>

@@ -38,8 +38,12 @@ export interface Governor extends RegionSeed {
   slogan: string | null;
   /** 비전 (한 문장 이상) */
   vision: string | null;
-  /** 프로필 사진 URL */
+  /** 프로필 사진 URL (기관장 사진) */
   photoUrl: string | null;
+  /** 기관 CI/로고 이미지 URL (심볼마크) */
+  ci: string | null;
+  /** 주요공약 (5대 공약 등). 없으면 null */
+  pledges: string[] | null;
   /** 데이터 출처 URL */
   source: string | null;
   /** 마지막 수집 시각 (ISO) */

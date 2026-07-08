@@ -32,6 +32,7 @@ import requests
 from bs4 import BeautifulSoup
 
 import nec
+from extract import extract_ci
 
 # Windows 콘솔(cp949)에서도 한글/기호 출력이 깨지거나 멈추지 않도록 UTF-8로 강제
 for _stream in (sys.stdout, sys.stderr):
@@ -66,7 +67,7 @@ SLOGAN_KEYWORDS = ["슬로건", "시정구호", "도정구호", "시정방침", 
 # 단체장 정보 필드 (시드 외에 채워지는 값들)
 GOVERNOR_FIELDS = [
     "personName", "party", "termStart", "termEnd",
-    "slogan", "vision", "photoUrl", "source", "lastCrawledAt",
+    "slogan", "vision", "photoUrl", "ci", "pledges", "source", "lastCrawledAt",
 ]
 
 
@@ -258,17 +259,28 @@ def extract_head_from_wiki(region: dict) -> dict:
     return out
 
 
-def crawl_region(region: dict, nec_winners: dict[str, dict] | None = None) -> dict:
+def crawl_region(
+    region: dict,
+    nec_winners: dict[str, dict] | None = None,
+    nec_pledges: dict[str, list[str]] | None = None,
+) -> dict:
     """한 시·도의 단체장 정보를 수집.
 
     이름·정당: 선관위 당선인 API(있으면 공식·최우선) → 없으면 위키백과 폴백.
-    슬로건·비전: 공식 홈페이지에서 best-effort.
+    슬로건·비전·CI: 공식 홈페이지에서 best-effort.
+    주요공약: 선관위 후보자 공약 API(키·데이터 있을 때) → 없으면 null.
     """
     result = {f: None for f in GOVERNOR_FIELDS}
     homepage = region["homepage"]
     paths = region.get("paths") or ["/"]
     nec_winners = nec_winners or {}
+    nec_pledges = nec_pledges or {}
     head: dict = {}
+
+    # 주요공약: 시·도명으로 매칭 (공백 제거 키)
+    pledges = nec_pledges.get(region["name"].replace(" ", ""))
+    if pledges:
+        result["pledges"] = pledges
 
     # 1) 이름·정당: 선관위 당선인 API 우선 (공식 당선 정보)
     official = nec_winners.get(region["name"])
@@ -305,6 +317,8 @@ def crawl_region(region: dict, nec_winners: dict[str, dict] | None = None) -> di
             result["slogan"] = slogan
         if vision and not result["vision"]:
             result["vision"] = vision
+        if not result["ci"]:
+            result["ci"] = extract_ci(soup, url)
 
         # 이름/정당/임기는 시·도 홈페이지에서 신뢰성 있게 추출되지 않으므로
         # 크롤러가 채우지 않는다(틀린 값 방지). overrides.json 으로 보정한다.
@@ -350,11 +364,14 @@ def main(argv: list[str]) -> int:
 
     # 선관위 당선인 API (서비스키가 있으면 1회 조회, 이름·정당의 공식 소스)
     nec_key = os.environ.get("NEC_SERVICE_KEY")
+    nec_pledges: dict[str, list[str]] = {}
     if nec_key:
         print("선관위 당선인 API 조회 중...")
         nec_winners = nec.fetch_metro_winners(nec_key)
+        print("선관위 후보자 공약 API 조회 중...")
+        nec_pledges = nec.fetch_pledges(nec_key, nec.SG_TYPE_METRO_HEAD)
     else:
-        print("(NEC_SERVICE_KEY 미설정 — 이름·정당은 위키백과로 수집)")
+        print("(NEC_SERVICE_KEY 미설정 — 이름·정당은 위키백과, 공약은 null)")
         nec_winners = {}
 
     rows: list[dict] = []
@@ -374,7 +391,7 @@ def main(argv: list[str]) -> int:
         prev = existing.get(code, {})
         if region in targets:
             print(f"  - [{code}] {region['name']} 수집 중...")
-            crawled = crawl_region(region, nec_winners)
+            crawled = crawl_region(region, nec_winners, nec_pledges)
             # 전송 실패 등으로 비어버린 값은 이전 수집값으로 보존(데이터 손실 방지)
             for f in GOVERNOR_FIELDS:
                 if not crawled.get(f) and prev.get(f):
