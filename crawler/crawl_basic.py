@@ -43,13 +43,20 @@ WIKI_PAGE = "제9회 전국동시지방선거 기초자치단체장"
 HEADERS = {"User-Agent": "korea-local-leaders/0.1 (data prep)"}
 TERM_START, TERM_END = "2026-07-01", "2030-06-30"
 
-# 우리 광역 코드 -> 정식 명칭
+# 우리 광역 코드 -> 정식 명칭 (코드 생성/그룹핑용. 29·46은 내부적으로 유지해
+# 기존 기초 코드 29xx/46xx 를 보존하되, 출력 소속은 UNIFY 로 통합시로 합친다)
 CODE_TO_PROV = {
     "11": "서울특별시", "26": "부산광역시", "27": "대구광역시", "28": "인천광역시",
     "29": "광주광역시", "30": "대전광역시", "31": "울산광역시", "36": "세종특별자치시",
     "41": "경기도", "51": "강원특별자치도", "43": "충청북도", "44": "충청남도",
     "52": "전북특별자치도", "46": "전라남도", "47": "경상북도", "48": "경상남도",
     "50": "제주특별자치도",
+}
+# 2026-07-01 전남광주통합특별시 출범: 옛 광주(29)·전남(46) 소속 기초를 통합시(29)로.
+# 코드 접두어(29xx/46xx)는 보존하고 provinceCode/Name만 통합값으로 emit.
+UNIFY = {
+    "29": ("29", "전남광주통합특별시"),
+    "46": ("29", "전남광주통합특별시"),
 }
 # 섹션 헤더 명칭 -> 광역 코드 (통합시 기본값은 전남 46)
 SECTION_TO_CODE = {
@@ -213,10 +220,11 @@ def main() -> int:
         for r in group:
             seq[prov] = seq.get(prov, 0) + 1
             code = f"{prov}{seq[prov]:02d}"
+            pcode, pname = UNIFY.get(prov, (prov, CODE_TO_PROV[prov]))
             rows.append({
                 "code": code, "name": r["municipality"], "shortName": r["municipality"],
                 "type": "basic", "title": r["title"],
-                "provinceCode": prov, "provinceName": CODE_TO_PROV[prov],
+                "provinceCode": pcode, "provinceName": pname,
                 "homepage": homepages.get(code, ""), "personName": r["name"], "party": r["party"],
                 "termStart": TERM_START, "termEnd": TERM_END,
                 "slogan": None, "vision": None,

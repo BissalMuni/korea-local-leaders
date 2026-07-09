@@ -48,11 +48,14 @@ BASIC_EXTRA_KEYS = ["provinceCode", "provinceName"]
 # 시드에서 오는 값이라 절대 비어선 안 되는 필드
 REQUIRED_NON_NULL = ["code", "name", "shortName", "type", "title"]
 
-# 광역 17곳 표준 행정코드 (regions.json 과 동일)
+# 광역 16곳 표준 행정코드 (regions.json 과 동일)
+# 2026-07-01 전남광주통합특별시 출범으로 전남(46)이 광주(29)에 통합되어 16곳.
 EXPECTED_METRO_CODES = {
     "11", "26", "27", "28", "29", "30", "31", "36",
-    "41", "43", "44", "46", "47", "48", "50", "51", "52",
+    "41", "43", "44", "47", "48", "50", "51", "52",
 }
+# 통합으로 한 광역이 여러 legacy 코드 접두어의 기초를 가질 수 있음(코드 보존)
+MERGED_PREFIXES = {"29": {"29", "46"}}
 
 
 class Report:
@@ -109,8 +112,8 @@ def main() -> int:
     check_keys(basic, COMMON_KEYS + BASIC_EXTRA_KEYS, "basic", rep)
 
     # 광역 개수·코드
-    if len(metro) != 17:
-        rep.err(f"광역 개수가 17이 아닙니다: {len(metro)}")
+    if len(metro) != 16:
+        rep.err(f"광역 개수가 16이 아닙니다: {len(metro)}")
     metro_codes = {r.get("code") for r in metro}
     missing = EXPECTED_METRO_CODES - metro_codes
     extra = metro_codes - EXPECTED_METRO_CODES
@@ -149,7 +152,8 @@ def main() -> int:
                 f"basic[{rid}]: provinceName '{r.get('provinceName')}' "
                 f"가 코드 {pc}({name_by_code.get(pc)})와 불일치"
             )
-        if rid and not (len(str(rid)) == 4 and str(rid).startswith(str(pc))):
+        allowed = MERGED_PREFIXES.get(str(pc), {str(pc)})
+        if rid and not (len(str(rid)) == 4 and any(str(rid).startswith(p) for p in allowed)):
             rep.warn(f"basic code '{rid}' 형식 이상(광역코드+2자리 일련번호 기대)")
 
     # 완성도 경고(실패 아님) — 점진 보완 현황 가시화

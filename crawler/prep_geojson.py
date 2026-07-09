@@ -42,6 +42,37 @@ CANONICAL_NAME = {
     "강원도": "강원특별자치도",
     "전라북도": "전북특별자치도",
 }
+# 2026-07-01 전남광주통합특별시 출범: 광주(29)에 전남(46) 폴리곤을 흡수 병합
+MERGE_FEATURES = {"keep": "29", "absorb": "46", "name": "전남광주통합특별시"}
+
+
+def _polys(geom: dict) -> list:
+    if geom["type"] == "Polygon":
+        return [geom["coordinates"]]
+    if geom["type"] == "MultiPolygon":
+        return list(geom["coordinates"])
+    return []
+
+
+def merge_features(features: list[dict]) -> list[dict]:
+    """MERGE_FEATURES 설정대로 두 시·도 폴리곤을 하나의 MultiPolygon으로 합친다."""
+    keep, absorb = MERGE_FEATURES["keep"], MERGE_FEATURES["absorb"]
+    polys: list = []
+    out: list[dict] = []
+    keep_feat = None
+    for f in features:
+        c = f["properties"]["code"]
+        if c in (keep, absorb):
+            polys += _polys(f["geometry"])
+            if c == keep:
+                keep_feat = f
+        else:
+            out.append(f)
+    if keep_feat is not None:
+        keep_feat["properties"]["name"] = MERGE_FEATURES["name"]
+        keep_feat["geometry"] = {"type": "MultiPolygon", "coordinates": polys}
+        out.append(keep_feat)
+    return out
 
 
 def round_ring(ring: list) -> list:
@@ -97,6 +128,8 @@ def main(argv: list[str]) -> int:
             },
             "geometry": simplify_geometry(f["geometry"]),
         })
+
+    features = merge_features(features)  # 전남광주통합특별시 병합
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     out = {"type": "FeatureCollection", "features": features}

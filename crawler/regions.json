@@ -22,8 +22,8 @@
       "paths": ["/"]
     },
     {
-      "code": "29", "name": "광주광역시", "shortName": "광주", "type": "metropolitan",
-      "title": "시장", "homepage": "https://www.gwangju.go.kr", "lat": 35.1595, "lng": 126.8526,
+      "code": "29", "name": "전남광주통합특별시", "shortName": "전남광주", "type": "metropolitan",
+      "title": "시장", "homepage": "https://www.jeonnam-gwangju.go.kr", "lat": 35.1595, "lng": 126.8526,
       "paths": ["/"]
     },
     {
@@ -64,11 +64,6 @@
     {
       "code": "52", "name": "전북특별자치도", "shortName": "전북", "type": "metropolitan",
       "title": "도지사", "homepage": "https://www.jeonbuk.go.kr", "lat": 35.8203, "lng": 127.1088,
-      "paths": ["/"]
-    },
-    {
-      "code": "46", "name": "전라남도", "shortName": "전남", "type": "metropolitan",
-      "title": "도지사", "homepage": "https://www.jeonnam.go.kr", "lat": 34.8161, "lng": 126.4629,
       "paths": ["/"]
     },
     {
