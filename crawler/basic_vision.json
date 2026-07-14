@@ -148,7 +148,7 @@
     "1103": {
       "name": "용산구",
       "slogan": "미래도시 용산",
-      "ci": "https://www.yongsan.go.kr/static/portal/img/main2026/footer_logo.png",
+      "ci": "https://www.yongsan.go.kr/static/portal/img/sub/ci.png",
       "photoUrl": "https://www.yongsan.go.kr/static/mayor/img/main2026/visual_center1.png",
       "photoSource": "https://www.yongsan.go.kr/mayor/main/main.do",
       "pledges": null,
@@ -160,12 +160,13 @@
         "pledges": "low"
       },
       "notes": "홈/열린구청장실 상단에 '미래도시 용산' 브랜드 슬로건이 반복 노출됨(footer_logo alt에도 동일). CI는 헤더 심볼마크가 스냅샷에 별도 캡처되지 않아, ciImages 중 브랜드 로고인 footer_logo.png(alt '미래도시 용산 International Yongsan') 선택. bi.png는 og:image라 제외. 구청장(김경대) 정장 상반신 초상은 greeting 화면 히어로에 확인되며, greetingSnapshot의 visual_center1.png(alt '비주얼 이미지', 747x552, top 223)가 인물 컷아웃으로 판단되어 선택. 공약: pledge(menuNo=200976)은 '여성친화도시' 비전·5대 목표로 구정 전반 공약 아님, pledge2(menuNo=201383)은 청년정책네트워크 활동 안내라 둘 다 구청장 핵심공약으로 볼 수 없어 null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "1105": {
       "name": "광진구",
       "slogan": "살기편한 행복광진",
-      "ci": "https://www.gwangjin.go.kr/static/logo/gwangjinCI.png",
+      "ci": "https://www.gwangjin.go.kr/static/portal/img/cts/200199/200199_CI.jpg",
       "photoUrl": "https://www.gwangjin.go.kr/static/mayor/img/images2026/cz_figure_img.jpg",
       "photoSource": "https://www.gwangjin.go.kr/mayor/main/main.do",
       "pledges": [
@@ -184,7 +185,9 @@
         "pledges": "high"
       },
       "notes": "slogan: 헤더/비전페이지에 반복 노출되는 구정 슬로건 '살기편한 행복광진'. ci: ciImages 중 gwangjinCI.png는 alt가 og:image이나 파일명이 공식 CI 심볼마크. slogan_gray.png는 슬로건 로고이므로 CI로는 gwangjinCI.png 선택(med). photo: greeting.jpg에 구청장 김경호 정장 상반신 초상 확인, greetingSnapshot의 cz_figure_img.jpg(652x728, 파일명 figure, top 206 메인 인물영역)가 해당 초상. pledges: pledge.jpg는 '민선9기 비전 및 핵심전략' 페이지로 6대 핵심전략을 공약 핵심가치로 추출. pledge2(온라인정책방)는 게시안내 페이지라 배제.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.gwangjin.go.kr/portal/cmmn/file/fileDown.do?atchFileId=3fd879a5aa70bb48e900ecfd02fc3b200921e6e64db3b5f19c7681ac4812d2b4&fileSn=3"
     },
     "1109": {
       "name": "강북구",
@@ -201,12 +204,13 @@
         "pledges": "low"
       },
       "notes": "슬로건: greeting 히어로 '귀 기울이고 포용하는 강북 / 행복한 강북구가 시작됩니다'와 홈 헤더 '강북, 희망! 당신에게 힘이 됩니다' 후보 중 구정 비전 캐치프레이즈로 채택. ci: ciImages 중 헤더 심볼 logo@2x.png(og:image 태그이나 실제 로고), flag_gg.gif·ANC 배너는 배제. photo: greetingSnapshot의 main_mayor_img.png(파일명 mayor), greeting 화면에서 정장 상반신 구청장 초상 확인. pledges: pledge=정책제안안내(제안 안내), pledge2=정책연구정보 PRISM 안내로 실제 공약 없음 → null. greeting에 '세종대왕이 태어난 도시/활력 넘치는 경제도시/품격 있는 문화도시' 비전이 있으나 pledge 페이지 소산 아님.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "1110": {
       "name": "도봉구",
       "slogan": "다시 뛰는 도봉! 도봉의 미래를 만들어 갑니다",
-      "ci": "https://www.dobong.go.kr/images/2025/main/logo.png",
+      "ci": "https://www.dobong.go.kr/Open_content/images/img_RSPIOO_A1_00025_1.gif",
       "photoUrl": "https://www.dobong.go.kr/images/2026/main/main_ceo_img.png",
       "photoSource": "https://www.dobong.go.kr/",
       "pledges": null,
@@ -218,7 +222,9 @@
         "pledges": "low"
       },
       "notes": "슬로건은 홈 히어로 배너의 캐치프레이즈('다시 뛰는 도봉! 도봉의 미래를 만들어 갑니다', 도봉구청장 김동욱). CI는 헤더 심볼마크 logo.png(2025, alt 도봉구, 111x32). 구청장 초상은 홈 contentImages의 main_ceo_img.png(598x588, 파일명 ceo)로 히어로 인물사진과 일치. 인사말 페이지 contentImages에는 초상 없음(WA 인증마크뿐). pledge/pledge2는 각각 '청년정책 비전'·'1인가구 정책 비전'으로 특정 분야 정책 페이지일 뿐 구청장 구정 공약/핵심가치가 아니므로 null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.dobong.go.kr/FILE/link/www/depth06/%EB%8F%84%EB%B4%89%EA%B5%AC_%EB%A7%88%ED%81%AC.zip"
     },
     "1111": {
       "name": "노원구",
@@ -240,7 +246,7 @@
     "1112": {
       "name": "은평구",
       "slogan": "북한산 큰숲, 은평",
-      "ci": "https://www.ep.go.kr/common/images/layout/logo.png",
+      "ci": "https://www.ep.go.kr/site/www/images/contents/symbol_img1.jpg",
       "photoUrl": "https://www.ep.go.kr/site/mayor/images/sub/visual_image2.png",
       "photoSource": "https://www.ep.go.kr/mayor/contents.do?key=6846",
       "pledges": null,
@@ -252,12 +258,14 @@
         "pledges": "low"
       },
       "notes": "슬로건은 헤더 로고 alt '북한산 큰숲, 은평'에서 확인. CI는 greetingSnapshot.ciImages의 header logo.png(114x78, alt '북한산 큰숲, 은평'). 구청장 초상은 pledge(민선9기 공약체계) 페이지 헥사곤 인물사진으로 pledgeSnapshot.contentImages visual_image2.png(alt '구청장 사진'). 공약: pledge.jpg 매니페스토 공약체계는 '민선9기 공약 실천 계획 수립 예정(2026.12.중)' 플레이스홀더로 실제 공약 없음. pledge2.jpg는 청년정책 비전(부서 특정)으로 구정 전반 공약 아님 → pledges null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.ep.go.kr/downloadContentsFile.do?key=777&fileNo=113734"
     },
     "1113": {
       "name": "서대문구",
       "slogan": "모두 함께 만드는 서대문 전성시대",
-      "ci": "https://www.sdm.go.kr/lib/n24/img/M_logo.png",
+      "ci": "https://www.sdm.go.kr/images/common/img_s1.gif",
       "photoUrl": "https://www.sdm.go.kr/lib/chief2026/images/main.jpg",
       "photoSource": "https://www.sdm.go.kr/index.do",
       "pledges": null,
@@ -269,12 +277,14 @@
         "pledges": "low"
       },
       "notes": "슬로건은 홈 히어로 배너의 '모두 함께 만드는 서대문 전성시대' 캐치프레이즈(구청장 박은가). CI는 헤더 심볼마크 M_logo.png(ciImages). photoUrl은 chief2026/images/main.jpg로 alt에 '서대문구청장 입니다(구청장님 사진 포함)'라 인물 포함이나 단독 정장 초상이 아닌 복합 배너라 med. pledge 페이지는 인권제도 구축, pledge2는 저작권정책으로 실제 공약 아님 → pledges null. 두 pledge 스냅샷 contentImages 모두 비어 있음.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.sdm.go.kr/fileUpload/work/wesdm/general/seodaemun_png.zip"
     },
     "1114": {
       "name": "마포구",
       "slogan": "다시 뛰는 마포! 함께하는 미래",
-      "ci": "https://www.mapo.go.kr/design/theme/mapo2024/images/common/logo_new1.png",
+      "ci": "https://www.mapo.go.kr/design/theme/mapo/images/sub/symbol_logo.png",
       "photoUrl": "https://www.mapo.go.kr/design/theme/mayor/images/Itd_man2026b.png",
       "photoSource": "https://www.mapo.go.kr/site/mayor/content/mayor0101",
       "pledges": null,
@@ -286,12 +296,13 @@
         "pledges": "high"
       },
       "notes": "슬로건 '다시 뛰는 마포! 함께하는 미래'는 홈/인사말 화면에 캐치프레이즈로 반복 표기됨. CI는 헤더 심볼마크 logo_new1.png(alt '다시 뛰는 마포! 함께하는 미래 MAPO', 286x45). 구청장 유동균 초상은 인사말 페이지의 Itd_man2026b.png(alt '구청장 사진', 370x407, 정장 상반신)로 확인. pledge/pledge2 두 페이지 모두 부서안내(복지정책과·가족정책과 주요업무 목록)로 실제 공약/핵심가치가 아니므로 pledges는 null 처리.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "1115": {
       "name": "양천구",
       "slogan": "살고싶은 도시 살기좋은 양천",
-      "ci": "https://www.yangcheon.go.kr/images/yangcheon/common/top-h1-logo-2.png",
+      "ci": "https://www.yangcheon.go.kr/images/yangcheon/m4/m1040204_img1.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -303,7 +314,9 @@
         "pledges": "low"
       },
       "notes": "슬로건은 홈/인사말 헤더 및 다수 alt에 반복 노출된 '살고싶은 도시 살기좋은 양천'로 확정. CI는 헤더 심볼마크 top-h1-logo-2.png(alt 슬로건, 197x54) 선택; SMS배너·전체메뉴아이콘·og:image는 배제. 구청장(이기재) 초상은 greeting.jpg에서 정장 상반신 확인되나 greetingSnapshot.contentImages에는 타이틀텍스트 이미지(title_chief_text_02, new_title_01)뿐이라 실제 인물사진 URL 부재; 홈 contentImages의 '이기재_1.png'는 alt '팝업 이미지'(1703x2263 세로형 팝업)로 초상 콘텐츠 아님 → photoUrl null. pledge.jpg는 매니페스토 개념설명, pledge2.jpg는 영유아 보육정책 페이지로 실제 공약/핵심가치 목록이 아니어서 pledges null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.yangcheon.go.kr/common/files/Download.do?cfIdx=CF00004060&cfGroup=COMMON&cfRename=d09bbba9-d9ed-4c13-bfbc-32791c073db6.zip"
     },
     "1116": {
       "name": "강서구",
@@ -359,7 +372,7 @@
     "1119": {
       "name": "영등포구",
       "slogan": "희망 행복 미래도시 영등포",
-      "ci": "https://www.ydp.go.kr/site/www/images/common/h1_2026.png",
+      "ci": "https://www.ydp.go.kr/site/www/images/contents/cts2895_img.png",
       "photoUrl": "https://www.ydp.go.kr/site/mayor/images/main/man_2026.png",
       "photoSource": "https://www.ydp.go.kr/mayor/index.do",
       "pledges": null,
@@ -371,7 +384,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 헤더 로고 alt '희망 행복 미래도시 영등포'에서 확인(구정 슬로건). 인사말 페이지 캐치프레이즈 '천하제일 영등포, 그 오래된 미래를 향해'도 있으나 정식 슬로건은 헤더 것 채택. CI는 헤더 심볼마크 h1_2026.png. 초상은 인사말 페이지에서 정장 상반신 구청장 조유진 확인, greetingSnapshot의 man_2026.png(alt '구청장 사진') 선택. pledge/pledge2 URL은 모두 key=3463 '저작권정책' 페이지로 실제 공약 없음 → pledges null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.ydp.go.kr/DATA/download/www/cts2895_file1.zip"
     },
     "1120": {
       "name": "동작구",
@@ -423,7 +438,7 @@
     "1122": {
       "name": "서초구",
       "slogan": "오늘 행복하고 내일이 기다려지는 서초",
-      "ci": "https://www.seocho.go.kr/images/seocho_2025/layout/top_logo.svg",
+      "ci": "https://www.seocho.go.kr/images/seocho/m5/symbol1.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -442,24 +457,29 @@
         "pledges": "med"
       },
       "notes": "슬로건은 헤더 로고 alt('오늘 행복하고 내일이 기다려지는 서초')로 홈 상단에 노출, 구정 캐치프레이즈로 확인. CI는 헤더 심볼마크 top_logo.svg(190x46); 나머지 ciImages는 날씨아이콘·og:image라 배제. greeting.jpg는 구청장 인사말이 아니라 '옴부즈만 인사말' 페이지였고 구청장 초상 URL이 스냅샷 배열에 없음(greetingSnapshot.contentImages는 웹접근성 마크뿐). 홈 배너에 전성수 구청장 사진이 보이나 대응 인물사진 URL이 배열에 없어 photoUrl null. pledges는 pledge.jpg '스마트도시 비전' 페이지의 핵심가치 6개로, 선거공약이 아닌 스마트도시 정책 핵심가치라 med.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.seocho.go.kr/common/files/Download.do?cfIdx=CF00000203&cfGroup=COMMON&cfRename=9a436094-c742-4fa4-b32f-d57c7a052825.ai"
     },
     "1123": {
       "name": "강남구",
-      "slogan": null,
-      "ci": null,
+      "slogan": "강남을 힘차게! 구민을 신나게! 강남 대전환!",
+      "ci": "https://www.gangnam.go.kr/assets/images/contents/04/040401_img01.png",
+      "ciDownload": "https://www.gangnam.go.kr/assets/images/logo/gn_ci_png_2026.zip",
+      "sloganImage": "https://www.gangnam.go.kr/assets/images/logo/gn_slogan_png_2026.zip?20260714",
       "photoUrl": "https://www.gangnam.go.kr/assets/leader/image/202606/main-person.png",
       "photoSource": "https://www.gangnam.go.kr/leader/main.do",
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
-        "slogan": "low",
-        "ci": "low",
+        "slogan": "high",
+        "ci": "high",
         "photo": "high",
-        "pledges": "high"
+        "pledges": "low"
       },
-      "notes": "슬로건: 홈 헤더는 기관명 '강남구'만 표시, 인사말 페이지 '강남을 펼치자! 구민을 신나게!'는 구청장 캠페인 문구로 구정 슬로건 아님 → null. CI: 홈 ciImages는 GNB 배너 비주얼(img_gnb_visual0X)이고 인사말/공약 페이지 logo.png는 '열린구청장실' 로고라 강남구 심볼마크 없음 → null. photo: 인사말 페이지에 구청장 김현기 정장 상반신 초상 확인, greetingSnapshot contentImages의 main-person.png(alt '김현기') 선택. pledges: 민선9기 공약 페이지가 '공약사업을 준비하고 있습니다' 준비중 안내라 실제 공약 없음 → null.",
-      "verified": true
+      "notes": "육안검증(강남소개 > CI·슬로건 전용 페이지 /contents/identity/1/view.do?mid=ID06_040406 직접 확인). 슬로건(민선9기 공식): '강남을 힘차게! 구민을 신나게! 강남 대전환!!'(붓글씨 원문 기준; 2번째 줄은 공식 페이지상 '신나게'). CI: 강남구 심볼마크(GN DEEP BLUE, PANTONE 7687 C) — 표시용 PNG 040401_img01.png, 다운로드 gn_ci_png_2026.zip(PNG)·gn_ci_2026.zip(AI). photo: 구청장 김현기 초상 main-person.png. pledges: 강남구청이 '준비 중' 안내라 미공개 → null. 참고: 이 CI는 대문(홈)이 아니라 '구소개 > CI·슬로건' 전용 다운로드 페이지에 있었음.",
+      "verified": true,
+      "manual": true
     },
     "1124": {
       "name": "송파구",
@@ -498,7 +518,7 @@
     "2601": {
       "name": "중구",
       "slogan": "구민이 주인되는 행복도시 중구",
-      "ci": "https://www.bsjunggu.go.kr/img/junggu/common_new/logo.png",
+      "ci": "https://www.bsjunggu.go.kr/img/junggu/s5_3_1_img1.gif",
       "photoUrl": "https://www.bsjunggu.go.kr/img/mayor/sub/s4_2_1_2_img01.jpg",
       "photoSource": "https://www.bsjunggu.go.kr/mayor/index.junggu?menuCd=DOM_000000307000000000",
       "pledges": [
@@ -516,12 +536,14 @@
         "pledges": "high"
       },
       "notes": "슬로건: 인사말·공약 페이지 모두 '구민이 주인되는 행복도시 중구' 캐치프레이즈 확인('Nice 6-25(공약과 실천)' 브랜딩). CI: 헤더 심볼마크 logo.png(alt 부산광역시 중구). photo: 공약 페이지의 구청장 정장 상반신 초상(파일명 s4_2_1_2_img01, alt에 구청장명 최진봉 포함), greeting.jpg는 연설 사진이라 배제. pledges: 공약 페이지 '비전' 섹션의 6대분야 25개 공약 중 비전 5개 항목 추출. pledge2(정책통계지도)는 공약 아님이라 배제.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.bsjunggu.go.kr/down/bsjunggu/simbol_jpg.zip"
     },
     "2602": {
       "name": "서구",
       "slogan": "딱! 살기 좋은 도시 서구",
-      "ci": "https://www.bsseogu.go.kr/img/portal/common/logo.png",
+      "ci": "https://www.bsseogu.go.kr/img/portal/sub/s4_01_06_img01.jpg",
       "photoUrl": "https://www.bsseogu.go.kr/img/ceo/new_main/ceo_img_240109.png",
       "photoSource": "https://www.bsseogu.go.kr/ceo/index.bsseogu",
       "pledges": [
@@ -539,12 +561,14 @@
         "pledges": "med"
       },
       "notes": "슬로건 '딱! 살기 좋은 도시 서구'는 홈·인사말·매니페스토 페이지에 공통 노출되어 확실. CI는 ciImages[0] logo.png(alt '부산광역시 서구...')로 헤더 심볼마크. 인사말 페이지에 구청장(공한수) 정장 상반신 초상이 확인되나 독립 인물사진 URL은 스냅샷 배열에 없고, 초상이 합성된 인사말 히어로 배너 ceo_img_240109.png만 존재하여 이를 선택(med). 매니페스토 페이지는 '민선9기 공약사업 준비중, 2026-10-08까지 게시 예정' 안내이나, 해당 페이지 이미지(260701.jpg) alt와 인사말 '구민과의 약속(구정목표)'에 명시된 5대 구정목표를 핵심가치 공약으로 채택(med). pledge2는 취임식 사진갤러리라 제외.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.bsseogu.go.kr/customuser/download/filedown.bsseogu?filename=/portal/04/seogu_logo.zip"
     },
     "2603": {
       "name": "동구",
       "slogan": "북항에서 세계로, 미래를 여는 행복 동구",
-      "ci": "https://www.bsdonggu.go.kr/images/common/logo2025.png",
+      "ci": "https://www.bsdonggu.go.kr/user_res/cont_file/donggu/images/img_060203_01.gif",
       "photoUrl": "https://www.bsdonggu.go.kr/images/main/mayor_bg0703.png",
       "photoSource": "https://www.bsdonggu.go.kr/index.donggu",
       "pledges": null,
@@ -556,12 +580,13 @@
         "pledges": "low"
       },
       "notes": "슬로건은 인사말 본문의 민선9기 비전 '북항에서 세계로, 미래를 여는 행복 동구'로 확인(홈 팝업 '북항시대 동구!'도 동일 맥락). CI는 헤더 심볼마크 logo2025.png(alt 부산광역시 동구청). 구청장 강철호 초상은 인사말·홈 상단에서 확인되나 greetingSnapshot.contentImages가 비어 초상 파일 URL 없음; 홈 비주얼 영역 배경이미지 mayor_bg0703.png(파일명 mayor, 410x510 인물영역)를 초상 후보로 선택(med). 공약: pledge=홈페이지, pledge2=부서안내(복지정책과) 목록으로 실제 공약 리스트 아님 → null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2604": {
       "name": "영도구",
       "slogan": "해양문화가 숨 쉬는 고장",
-      "ci": "https://www.yeongdo.go.kr/_res/portal/img/inc/logo@2x.png",
+      "ci": "https://www.yeongdo.go.kr/_res/portal/img/sub/p00555_img01.jpg",
       "photoUrl": "https://www.yeongdo.go.kr/_res/portal/img/sub/p03291_img02_2026.jpg",
       "photoSource": "https://www.yeongdo.go.kr/00492/00493/03291.web",
       "pledges": [
@@ -577,12 +602,13 @@
         "pledges": "high"
       },
       "notes": "슬로건은 홈 히어로 배너 '해양문화가 숨 쉬는 고장'. 인사말 부제 '사람을 품고, 미래를 여는 영도'도 있음. CI는 헤더 로고 logo@2x.png. photo는 인사말 페이지 배너 이미지 p03291_img02_2026.jpg(alt '영도구청장 김철훈', 정장 상반신 확인)이나 인물+텍스트 합성 배너라 med. pledge.jpg는 sgis 정책통계지도(지도)로 공약 아님→제외. pledge2(비전과 전략)의 2030 비전 '친환경 해양문화특구 영도', GOAL 3개를 핵심가치로 사용. CORE VALUE는 성장·브랜드·사람.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2605": {
       "name": "부산진구",
       "slogan": "부산의 중심, 도약하는 부산진구",
-      "ci": null,
+      "ci": "https://www.busanjin.go.kr/images/Potal_/content/symbol.png",
       "photoUrl": "https://www.busanjin.go.kr/images/Head_/main/mvis_mem_new.png",
       "photoSource": "https://www.busanjin.go.kr/mayor/index.busanjin",
       "pledges": [
@@ -600,7 +626,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 인사말·구정비전 페이지 상단에 반복 노출된 '부산의 중심, 도약하는 부산진구'. CI: snapshot.ciImages 및 각 페이지 ciImages가 비어있고 pledge 스냅샷의 t-logo.png는 og:image 라벨이라 헤더 심볼마크로 확신 불가 → null. 구청장 김영욱 초상은 구청장실(greeting) 상단 비주얼에서 확인, greetingSnapshot의 mvis_mem_new.png(407x437, 메인비주얼 인물)를 초상으로 선택(정장 아닌 흰셔츠 반신). 공약은 구정비전 페이지의 구정목표 5개(pledge.jpg). pledge2.jpg는 부서안내 표라 공약 아님.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.busanjin.go.kr/board/download.busanjin?boardId=BBS_0000192&paging=ok&startPage=1&dataSid=3781612&command=update&fileSid=129188",
+      "ciSource": null
     },
     "2606": {
       "name": "동래구",
@@ -646,7 +674,7 @@
     "2608": {
       "name": "북구",
       "slogan": "구민과 함께, 미래를 여는 북구",
-      "ci": "https://www.bsbukgu.go.kr/images/common/footer_logo.jpg",
+      "ci": "https://www.bsbukgu.go.kr/images/portal/sub/hs_01.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -664,7 +692,9 @@
         "pledges": "high"
       },
       "notes": "슬로건: 인사말/공약 페이지 모두 '구민과 함께, 미래를 여는 북구' 표시, 전용 슬로건 이미지 slogan_260630.jpg(alt 일치) 확인. CI: ciImages에 footer_logo.jpg만 존재(헤더 심볼마크 별도 없음)로 이를 로고로 선택. 사진: greetingSnapshot의 top_img01_new.png(alt='정명희 구청장')이 유일한 구청장 이미지이나 정장 상반신 실사 초상이 아닌 캐릭터/일러스트 형태여서 low. 공약: pledge(민선9기) 페이지 '민선9기 공약 추진방향' 5개 항목을 pledge01.jpg alt 및 화면에서 추출. pledge2(비전2030)는 PDF 목록 페이지라 제외.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.bsbukgu.go.kr/board/download.bsbukgu?boardId=BBS_0000001&paging=ok&startPage=1&dataSid=443&command=update&fileSid=681"
     },
     "2609": {
       "name": "해운대구",
@@ -693,7 +723,7 @@
     "2610": {
       "name": "사하구",
       "slogan": "구민과 함께, 미래로 도약하는 사하",
-      "ci": null,
+      "ci": "https://www.saha.go.kr/portal/images/sub/symbol_saha.jpg",
       "photoUrl": "https://www.saha.go.kr/common/jsp/common/imgViewer.jsp?basePath=/webdata/egov_uploadFile/&streFileNm=VIS_202606290357210350&orignlFileNm=%EB%A9%94%EC%9D%B8%EB%B0%B0%EB%84%88.jpg&ext=jpg&width=640&height=&mode=originView",
       "photoSource": "https://www.saha.go.kr/mayor",
       "pledges": null,
@@ -705,12 +735,14 @@
         "pledges": "low"
       },
       "notes": "인사말/구청장실(greeting.jpg)에 구청장 김태석 정장 상반신 초상 확인. greetingSnapshot.contentImages의 '메인배너'(VIS_202606290357210350, 640x628)가 해당 초상 배너로 판단 → photoUrl. slogan은 헤더 캐치프레이즈 '구민과 함께, 미래로 도약하는 사하'(home.jpg 상단 로고 옆) 채택. ci: 홈 ciImages에는 심볼마크 없이 SNS아이콘·버튼(소통공감/동네북/사하사진첩)만 존재, greeting의 toplogo.png는 워드마크(헤더 심볼 아님)라 배제 → null. pledges: pledge.jpg는 홈(main.do#vi_saha 관광/뉴스), pledge2.jpg는 '정책포럼'(정책토론 개념 설명 페이지)로 실제 공약 목록 없음 → null.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.saha.go.kr/portal/Downfiles/symbol_ai_2022.zip",
+      "ciSource": null
     },
     "2611": {
       "name": "금정구",
       "slogan": "변화와 성장으로 함께 뛰는 금정",
-      "ci": "https://www.geumjeong.go.kr/img/geumjeong/common_new/logo.png",
+      "ci": "https://www.geumjeong.go.kr/new_img/geumjeong/sub/s4_2_2_1_mark01(2023).gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -728,12 +760,14 @@
         "pledges": "high"
       },
       "notes": "슬로건은 인사말 페이지 캐치프레이즈 '변화와 성장으로 함께 뛰는 금정'(홈 팝업 '변화와 성장 더 살기좋은 금정'과 일치). CI는 헤더 로고 logo.png. 구청장 윤일현 초상은 인사말 화면에서 확인되나 인물사진 URL이 어떤 스냅샷 contentImages 배열에도 없어(그곳엔 5대 핵심가치 그래픽 mayor_goal2026.png만 존재) photoUrl=null. pledge 페이지는 '2030 금정 비전 중장기발전계획 재정비' PDF 목록, pledge2는 환경오염행정처분알림으로 실제 공약 아님. 대신 인사말 페이지에 명시된 5대 핵심가치를 공약으로 사용(greetingSnapshot alt로 확인).",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.geumjeong.go.kr/download/gj_mark.ai"
     },
     "2612": {
       "name": "강서구",
       "slogan": "변화의 시작, 함께 뛰는 강서",
-      "ci": "https://www.bsgangseo.go.kr/common/img/common/m_logo.png",
+      "ci": "https://www.bsgangseo.go.kr/portal/img/contents/06/br_symbol_flag.jpg",
       "photoUrl": "https://www.bsgangseo.go.kr/mayor/img/contents/01/mayor_pic_2026.png",
       "photoSource": "https://www.bsgangseo.go.kr/mayor/contents.do?mid=0101000000",
       "pledges": [
@@ -751,12 +785,13 @@
         "pledges": 0.9
       },
       "notes": "슬로건은 홈 배너·구정목표 페이지에서 '변화의 시작, 함께 뛰는 강서'로 확인. CI는 헤더 심볼로고 m_logo.png(alt 부산광역시 강서구청), 태극기 배너·날씨 아이콘 제외. 인사말 페이지에 구청장 초상 확인(박상준), 해당 페이지 contentImages의 mayor_pic_2026.png 사용(단 alt는 '김형찬'으로 갱신 안 됨). 민선9기 공약사항(pledge) 페이지는 '페이지준비중'이라 제외, 대신 구정목표(pledge2)의 5대 핵심가치를 공약/핵심가치로 채택.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2613": {
       "name": "연제구",
       "slogan": "새로운 변화 꿈을 여는 연제",
-      "ci": "https://www.yeonje.go.kr/portal/img/common/logo.png",
+      "ci": "https://www.yeonje.go.kr/portal/img/02/01020000_09.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -768,7 +803,8 @@
         "pledges": 0.85
       },
       "notes": "slogan은 헤더 로고 alt 및 og:description '새로운 변화 꿈을 여는 연제'로 확인. ci는 헤더 심볼로고(portal logo.png). 인사말 페이지(greeting.jpg)는 구청장이 아이들과 수박을 든 현장활동 사진뿐이며 별도 정면 초상 이미지가 contentImages에 특정되지 않아 photoUrl=null. pledge 페이지는 '매니페스토란' 개념 설명(공약 아님), pledge2는 복지정책과 부서안내라 실제 공약/핵심가치 없음 → pledges=null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2614": {
       "name": "수영구",
@@ -785,12 +821,13 @@
         "pledges": 0.0
       },
       "notes": "슬로건은 열린청장실(greeting) 비주얼의 '아름다운 도시 행복한 주민이 행복한 명품도시 수영'에서 확인. CI는 헤더 심볼로고 top_logo_on_2020.png(alt '수영구'). 구청장(강성태) 초상은 greeting 화면에 보이나 greetingSnapshot.contentImages에는 뉴스·행사 사진(BBS_0000016)만 있고 인물 초상 URL이 없어 photoUrl=null. pledge(매니페스토란)는 '서비스 준비중(8월중 정비 예정)' 안내페이지, pledge2는 '정부 정책 안내' 게시판이라 실제 공약 아님 → pledges=null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2615": {
       "name": "사상구",
       "slogan": "힘 있는 변화, 살고 싶은 사상",
-      "ci": "https://www.sasang.go.kr/img/sasang/common_new/logo.png",
+      "ci": "https://www.sasang.go.kr/img/sasang/sub/s4_1_7_img13.jpg",
       "photoUrl": "https://www.sasang.go.kr/img/sasang/main_new/m_mayor2026.png",
       "photoSource": "https://www.sasang.go.kr/index.sasang",
       "pledges": [
@@ -810,7 +847,9 @@
         "pledges": 0.9
       },
       "notes": "슬로건은 홈/구정목표(pledge) 화면 모두에서 '힘 있는 변화, 살고 싶은 사상' 확인. CI는 헤더 심볼로고(신나는 사상, logo.png). 구청장 초상은 홈 화면 '사상구청 서태경입니다' 옆 인물사진(m_mayor2026.png, alt=사상구청장 사진). greeting.jpg는 장학회 이사장(정창교) 사진이라 미사용. pledges는 구정목표 페이지 민선9기 구정목표 인포그래픽의 7개 핵심가치. pledge2는 인구정책/총인구 통계라 공약 아님(null).",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.sasang.go.kr/down/sasang/s4_1_7_down1_1.zip"
     },
     "2616": {
       "name": "기장군",
@@ -849,7 +888,7 @@
     "2702": {
       "name": "동구",
       "slogan": "내일이 더 기대되는 동구",
-      "ci": "https://www.dong.daegu.kr/common/img/common/m_logo.png",
+      "ci": "https://www.dong.daegu.kr/portal/img/content/06/symbolic_typ1.png",
       "photoUrl": "https://www.dong.daegu.kr/mayor/img/main/v000.jpg",
       "photoSource": "https://www.dong.daegu.kr/mayor/main.do",
       "pledges": null,
@@ -861,12 +900,13 @@
         "pledges": 0.9
       },
       "notes": "슬로건은 헤더 로고 alt '따듯한 공동체 내일이 더 기대되는 동구 Brighter tomorrow'에서 확인, 대표 캐치프레이즈로 '내일이 더 기대되는 동구' 채택. CI는 헤더 심볼로고 m_logo.png(대구광역시동구). 구청장실 페이지(greeting.jpg)에서 우성진 구청장 초상 확인, 해당 페이지 contentImages의 v000.jpg(우성진배너, 1459x621)를 초상 URL로 사용했으나 배너형이라 확신도 중간. 구정목표(pledge)는 '페이지준비중', pledge2는 저작권정책이라 실제 공약 없음 → pledges null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2703": {
       "name": "서구",
       "slogan": "가슴 뛰는 변화, 서구! / 살맛나는 서구, 꼭 만들겠습니다.",
-      "ci": "https://www.dgs.go.kr/common/img/common/logo.png",
+      "ci": "https://www.dgs.go.kr/portal/images/contents/01/dgslogo.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -878,12 +918,13 @@
         "pledges": 0
       },
       "notes": "슬로건: 열린구청장실(greeting) 상단에 '살맛나는 서구, 꼭 만들겠습니다. 가슴 뛰는 변화, 서구!' 구청장 캐치프레이즈 확인(mtit.png alt). 별도 구 브랜드 '더 많은 배려 함께하는 서구'도 존재. CI: home ciImages에는 헤더 심볼로고 없음(날씨·SNS·국가상징뿐). greetingSnapshot.ciImages의 logo.png(250x56, alt '더 많은 배려 함께하는 서구')를 헤더 심볼로고로 채택. photo: home/greeting 화면에서 구청장(권오상) 초상 확인되나, 해당 인물사진 URL이 스냅샷 배열(contentImages 등) 어디에도 실재하지 않음(greeting contentImages는 슬로건 텍스트 mtit.png뿐, home 배열은 뉴스·작품 사진뿐)→null. pledges: pledge='서구비전 비전2030 장기발전계획'은 PDF 목록(매니페스토/장기계획 개념)이라 실제 공약 아님; pledge2='여성복지정책 안내'는 부서 정책안내 페이지→둘 다 부적합으로 null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2704": {
       "name": "남구",
       "slogan": "활기찬 건강도시 희망의 따뜻한 남구",
-      "ci": "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/header/logo2.jpg",
+      "ci": "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/contents/c938_img05.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -895,12 +936,14 @@
         "pledges": 0.0
       },
       "notes": "슬로건은 인사말 배너 이미지에 스타일화된 텍스트로 '따뜻한 남구'는 명확하나 앞부분('활기찬 건강도시 희망의')은 장식체라 일부 불확실. ci는 헤더 심볼로고 logo2.jpg. 구청장 초상은 인사말 배너에 인물이 합성되어 있으나 단독 초상 URL이 스냅샷 배열에 없어 null. pledge.jpg는 매니페스토 개념 설명(나라별 매니페스토) 페이지, pledge2.jpg는 정책공개방(정책실명제 목록) 페이지로 실제 공약/핵심가치가 아니어서 pledges=null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/contents/ci_jpg.zip"
     },
     "2705": {
       "name": "북구",
       "slogan": "행복한 오늘, 희망찬 북구",
-      "ci": "https://www.buk.daegu.kr/cmsh/buk.daegu.kr/images/logo.png",
+      "ci": "https://www.buk.daegu.kr/cmsh/buk.daegu.kr/images/introduction/mark.jpg",
       "photoUrl": "https://www.buk.daegu.kr/cmsh/mayor/images/mayor_pic01_2026.jpg",
       "photoSource": "https://www.buk.daegu.kr/mayor/index.do?menu_id=00000358",
       "pledges": null,
@@ -912,7 +955,9 @@
         "pledges": 0.0
       },
       "notes": "슬로건은 홈·인사말 화면에 반복 노출된 '행복한 오늘, 희망찬 북구'. CI는 헤더 심볼로고 logo.png. 인사말 페이지에서 구청장 이근수 초상 확인, 해당 페이지 contentImages의 mayor_pic01_2026.jpg가 인물사진(464x562). pledge/pledge2 URL은 실제로 정책소통과·일자리정책과 직원소개(부서안내) 페이지로 공약이 아니므로 pledges=null. 인사말 본문에 '민선9기 다섯가지 약속(경제·비전·녹색·문화·행복도시)'이 언급되나 pledge 페이지가 아닌 인사말이라 규칙상 미채택.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.buk.daegu.kr/cmsh/buk.daegu.kr/file/bukgu_symbol.zip"
     },
     "2706": {
       "name": "수성구",
@@ -958,7 +1003,7 @@
     "2708": {
       "name": "달성군",
       "slogan": "군민이 빛나는 달성",
-      "ci": "https://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/common/img_logo_header.png",
+      "ci": "https://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/2019/img_symbol01_.jpg",
       "photoUrl": "https://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/mayor202202/images/content/manifesto_gunsu.png",
       "photoSource": "https://www.dalseong.daegu.kr/mayor/index.do?menu_id=00004921",
       "pledges": [
@@ -976,12 +1021,14 @@
         "pledges": 0.9
       },
       "notes": "슬로건은 헤더/슬로건 이미지 alt 및 군정목표 페이지에서 반복 확인('군민이 빛나는 달성'). CI는 헤더 심볼로고(img_logo_header.png, 255x70). 군수 초상은 공약&매니페스토 페이지의 manifesto_gunsu.png(alt '달성군수사진', 최재훈 군수). 공약은 pledge2(군정목표) 페이지의 분야별 핵심목표 5개로, 배너 이미지 alt와 화면 텍스트 일치. pledge(매니페스토란) 페이지는 매니페스토 개념 설명이라 공약원으로 미사용.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/country/image/symbol.zip"
     },
     "2709": {
       "name": "군위군",
       "slogan": "아름다운 변화, 행복한 군위",
-      "ci": null,
+      "ci": "https://www.gunwi.go.kr/design2023/ko/img/content/symbol2.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -993,7 +1040,9 @@
         "pledges": 0.9
       },
       "notes": "슬로건: 열린군수실/공약페이지 상단에 '아름다운 변화, 행복한 군위' 캐치프레이즈 노출(홈 헤더 로고는 '삼국유사의 고장 군위' 지역정체성 태그라인). CI: ciImages에 정부공식배지(eg_logo.gif)와 og:image 플레이스홀더(0x0)만 존재, 헤더 심볼로고 URL 없음→null. 사진: greeting.jpg/home.jpg에서 군수(김진열) 초상 육안 확인되나 greetingSnapshot.contentImages 비어있고 home contentImages는 뉴스·배너뿐이라 초상 URL 실재하지 않음→null. 공약: pledge/pledge2 모두 '매니페스토란?' 개념 설명 페이지(선거·생활문화·사회적약속 정의)로 실제 공약 아님→null.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.gunwi.go.kr/design2023/ko/file/gunwi4.zip",
+      "ciSource": null
     },
     "2801": {
       "name": "영종구",
@@ -1015,7 +1064,7 @@
     "2802": {
       "name": "제물포구",
       "slogan": "통합을 넘어 미래로 다시 뛰는 제물포구",
-      "ci": "https://www.jemulpo.go.kr/share/images/krds/ico_logo.svg",
+      "ci": "https://www.jemulpo.go.kr/main/img/contents/symbol-mark.svg",
       "photoUrl": "https://www.jemulpo.go.kr/headman/img/main/pic_main_visual_deco.png",
       "photoSource": "https://www.jemulpo.go.kr/headman/",
       "pledges": [
@@ -1034,7 +1083,8 @@
         "pledges": 0.85
       },
       "notes": "슬로건은 구정목표 페이지의 비전(vision.svg alt='통합을 넘어 미래로 다시 뛰는 제물포구') 채택. 홈 캐치프레이즈는 기관장 이름 문구뿐이라 제외. CI는 헤더 심볼로고 ico_logo.svg(alt 제물포구청). 초상은 열린구청장실(headman) 비주얼의 김찬진 초대 구청장 인물사진(pic_main_visual_deco.png, alt='제물포구청장 김찬진'), 화면서 확인됨. pledges는 구정목표 페이지 역점시책 6개(구정방침 4개보다 구체적 시책). pledge2(경제정책)는 부서안내라 제외. 2026.7.1 출범 신설 자치구.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2803": {
       "name": "미추홀구",
@@ -1197,7 +1247,7 @@
     "2810": {
       "name": "강화군",
       "slogan": "군민과 함께 뛰는 박용철",
-      "ci": "https://www.ganghwa.go.kr/open_content/main/images/img2024/logo.svg",
+      "ci": "https://www.ganghwa.go.kr/open_content/main/images/contents/symbol.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1214,12 +1264,13 @@
         "pledges": 0.75
       },
       "notes": "슬로건은 군수실 비주얼의 인물 캐치프레이즈('군민과 함께 뛰는 박용철')로, 별도 군정 캐치프레이즈는 홈에서 확인 안 됨. CI는 헤더 심볼로고(logo.svg). 초상: 군수실 visual01~08은 배너 캐러셀이라 인물 초상 URL로 확정 불가, 홈 contentImages 인물사진은 현장 뉴스라 초상 아님 → photoUrl null. 공약: pledge/pledge2 캡처(정책통계지도·웹접근성)는 공약 아님이나, 군수실 'Promise' 섹션의 민선 8기 4대 핵심가치(promise01~04 alt)가 실제 공약이라 사용.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2811": {
       "name": "옹진군",
       "slogan": null,
-      "ci": "https://www.ongjin.go.kr/open_content/main/images/inc/logo_2026.png",
+      "ci": "https://www.ongjin.go.kr/open_content/main/images/contents/symbol01.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -1231,7 +1282,8 @@
         "pledges": 0.9
       },
       "notes": "슬로건: 홈에 '옹진군청'(기관명)·메뉴만 노출, 실제 군정 캐치프레이즈 없음→null. CI: 홈 헤더 심볼로고 logo_2026.png(alt '옹진군 ONGJIN COUNTY', 211x60). 사진: greeting.jpg에 군수 초상(흰 셔츠 남성)이 크게 보이나 CSS 배경 배너로 greetingSnapshot.contentImages 등 어떤 스냅샷 배열에도 인물사진 URL이 실재하지 않음→null. 공약: pledge(공약총괄현황)는 '현재 작업중입니다' 준비중 페이지(ready_con.gif), pledge2는 결혼·임신·출산정책(인구정책 부서안내)이라 실제 공약 아님→null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2901": {
       "name": "동구",
@@ -1370,7 +1422,7 @@
     "3002": {
       "name": "중구",
       "slogan": "주민과 함께 주민 속으로",
-      "ci": "https://www.djjunggu.go.kr/images/kr/main/logo_ci.png",
+      "ci": "https://www.djjunggu.go.kr/images/kr/sub05/sub050205_img01.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1388,7 +1440,9 @@
         "pledges": 0.85
       },
       "notes": "slogan: pledge.jpg의 구정구호 '주민과 함께 주민 속으로'(로고 alt·og:description 일치). 구정비전은 '기분 좋은 변화, 모두가 행복한 중구'. ci: logo_ci.png(alt '주민과 함께 주민 속으로', 80x61) 헤더 심볼로고. flag.jpg는 태극기, favicon은 og:image라 제외. photoUrl: home.jpg 배너에 구청장(김제선) 초상 보이나 해당 URL이 어떤 contentImages 배열에도 없음. pledge.jpg(chief/sub03_02_01)는 매니페스토 '비전 및 구정방향' 페이지로 렌더되어 인물사진 없음(sub03_02_01_img.jpg는 alt 없는 본문 이미지, 초상 확인 불가) → null. pledges: pledge.jpg의 역점방향 5개(핵심가치)를 채택. greeting.jpg는 실제로 전통시장 페이지, pledge2.jpg는 정책실명 표(부서 안내성)라 제외.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.djjunggu.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000040400Bn3&fileSn=0"
     },
     "3003": {
       "name": "서구",
@@ -1450,7 +1504,7 @@
     "3101": {
       "name": "중구",
       "slogan": "누구나 살고 싶은 종갓집 중구",
-      "ci": null,
+      "ci": "https://www.junggu.ulsan.kr/images/domain/junggu/junggu/junggu_logo.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1468,7 +1522,9 @@
         "pledges": 0.9
       },
       "notes": "슬로건은 구정목표/방침 페이지의 캐치프레이즈 이미지(누구나 살고 싶은 종갓집 중구)와 홈 타이틀에서 확인. CI는 홈 ciImages에 검색버튼/og:image만 존재하고 헤더 심볼로고 URL이 없어 null. 인사말(greeting) 화면은 도시 항공사진과 '중구청장 김영길입니다' 텍스트뿐 구청장 초상이 보이지 않고 greetingSnapshot contentImages도 pledge01~05 일반이미지/뉴스썸네일이라 인물사진 없음 → photo null. 공약은 구정목표/방침(pledge) 페이지의 구정방침 5대 핵심가치를 텍스트로 채택. pledge2는 '매니페스토란?' 개념 설명 페이지라 제외.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.junggu.ulsan.kr/images/domain/junggu/file/symbol.jpg",
+      "ciSource": null
     },
     "3102": {
       "name": "남구",
@@ -1490,7 +1546,7 @@
     "3103": {
       "name": "동구",
       "slogan": "모두가 함께 만드는 새로운 동구",
-      "ci": null,
+      "ci": "https://www.donggu.ulsan.kr/images/sub/symbol.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1508,12 +1564,14 @@
         "pledges": 0.85
       },
       "notes": "슬로건은 인사말 페이지 logo_2.png alt·비전목표 페이지 구정비전으로 확인('모두가 함께 만드는 새로운 동구'). 구청장은 천기옥(인사말 화면에서 붉은 정장 초상 확인)이나 초상 이미지는 CSS 배경으로 처리되어 어떤 contentImages 배열에도 실재 URL이 없어 photoUrl=null. 홈 헤더 심볼로고 URL은 ciImages에 없고(blank.png·메뉴아이콘뿐) mayor 사이트 logo.png는 텍스트 로고라 CI 제외→null. pledges는 pledge2(mId=5010100 '비전 및 목표')의 구정비전 5대 핵심가치 사용. pledge(mId=7020602)는 '안전보건 비전·목표·추진전략'으로 부서 안전보건 페이지라 제외.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.donggu.ulsan.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000060357&fileSn=0",
+      "ciSource": null
     },
     "3104": {
       "name": "북구",
       "slogan": "혁신으로 도약하는, 주민중심 행복북구",
-      "ci": "https://www.bukgu.ulsan.kr/images/header/logo.svg",
+      "ci": "https://www.bukgu.ulsan.kr/images/contents/symbol.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1531,12 +1589,14 @@
         "pledges": 0.8
       },
       "notes": "슬로건은 구정목표 디자인 페이지·og:description·헤더 gujung.svg alt에서 일치 확인. ci는 헤더 심볼로고 logo.svg(alt '울산광역시 북구'); gujung.svg는 구정목표 텍스트 배너라 제외. 구청장 이동권 초상은 greeting/home 화면에 보이나 스냅샷 contentImages 배열에 인물 이미지 URL이 존재하지 않아 photoUrl=null. 공약 총괄 페이지(pledge2)는 '민선9기 공약사항 총괄 준비중입니다'로 비어있어 제외. pledge 페이지는 구정목표 디자인(CI)이라 공약 아님. 대신 열린구청장실(greeting) '이동권의 약속' 5대 혁신을 핵심가치 공약으로 사용.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.bukgu.ulsan.kr/download_url.jsp?url=/down/mark.png"
     },
     "3105": {
       "name": "울주군",
       "slogan": "내 삶에 스며드는 행복 울주",
-      "ci": null,
+      "ci": "https://www.ulju.ulsan.kr/ulju/images/sub/symbolImg.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -1548,7 +1608,9 @@
         "pledges": 0.85
       },
       "notes": "슬로건 '내 삶에 스며드는 행복 울주'는 홈 contentImages 다수 배너(대학입시 전략설명회, 노사상생 우수기업, 취업교육 등)에 반복 등장하는 울주군 군정 브랜드 캐치프레이즈로 판단. ci: 헤더 심볼로고 URL이 어느 ciImages 배열에도 없음(홈 ciImages는 120민원센터·치매안심·재난안전·경제총조사 배너뿐, greeting/pledge ciImages는 비어있거나 청년센터 배너)→null. photo: 홈 화면에 '울주군수 이순걸' 초상이 우측 상단에 보이나, 홈 contentImages는 전부 행사 배너이고 초상 URL이 스냅샷 배열에 실재하지 않음(greeting 페이지 비주얼은 렌더 안됨, dreamwings '이명준 이미지'는 청년의원 초상)→null. pledges: pledge(공약 추진상황)는 이행률 도넛차트·평가절차만 있는 매니페스토 이행현황 대시보드(실제 공약 항목 미표시), pledge2(dreamwings)는 청년정책 플랫폼→실제 공약 3~7개 확보 불가→null.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.ulju.ulsan.kr/ulju/media/uj_uljuinfo/symbo/symbol_j.zip",
+      "ciSource": null
     },
     "4101": {
       "name": "수원시",
@@ -1633,7 +1695,7 @@
     "4105": {
       "name": "성남시",
       "slogan": "첨단과 혁신의 희망도시 성남",
-      "ci": "https://www.seongnam.go.kr/include/cmm_new/image/layout/logo.png?v=20220801",
+      "ci": "https://www.seongnam.go.kr/include/cmm_new/image/content/img_symbol.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -1645,7 +1707,8 @@
         "pledges": 0.0
       },
       "notes": "슬로건 '첨단과 혁신의 희망도시 성남'은 홈 팝업존 배너 alt에서 반복 확인됨(재산세/시민안전보험 배너). CI는 헤더 심볼로고 logo.png. greeting 페이지는 신상진시장실 '영상갤러리'로 시장 초상 단독 사진 없이 영상 썸네일뿐→photoUrl null. pledge(비전성남)는 소식지, pledge2(성남비전장기종합발전계획)는 장기종합발전계획/매니페스토 개념이라 실제 공약 아님→pledges null. 공약과실천 페이지(mayor/1002375/11563)는 미수집.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4106": {
       "name": "부천시",
@@ -1745,7 +1808,7 @@
     "4111": {
       "name": "시흥시",
       "slogan": "행복한 변화, 새로운 시흥",
-      "ci": null,
+      "ci": "https://www.siheung.go.kr/main/images/content/sub05/img0101_02.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1763,7 +1826,8 @@
         "pledges": 0.85
       },
       "notes": "슬로건은 홈 헤더 및 og:description '행복한 변화, 새로운 시흥'에서 확인. CI: 홈 스냅샷 ciImages에 favicon(og:image)만 있어 헤더 심볼로고 URL 실재하지 않아 null. 사진: 홈 화면 우측 'SIHEUNG MAYOR' 배너에 시장 초상 보이나, 홈 contentImages는 전부 공지·배너 이미지이고 열린시장실 contentImages도 활동/뉴스 사진이라 단독 초상 URL 특정 불가로 null. 공약: '공약과 실천-공약실행 기본방향'의 5대 목표 및 10대 추진전략(K-시흥시) 실제 핵심가치 추출. pledge2는 미래비전지도 문서뷰어(로딩 중)라 사용 안 함.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4112": {
       "name": "파주시",
@@ -1826,7 +1890,7 @@
     "4115": {
       "name": "광주시",
       "slogan": "시민과 직통하는 광주",
-      "ci": null,
+      "ci": "https://www.gjcity.go.kr/portal/img/sub01/sub0202_img01.svg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1844,7 +1908,8 @@
         "pledges": 0.85
       },
       "notes": "slogan: pledge/greeting 화면에 민선 9기 시정비전 '시민과 직통하는 광주' 명시(핵심가치 소통·성과·실용). ci: 헤더 심볼로고가 ciImages 배열에 없음(구글번역 로고·MBN썸네일·번역아이콘뿐)→null. photo: greeting.jpg에 시장 박관열 초상 확인되나 greetingSnapshot·home contentImages에 인물 초상 URL 부재(SNS/유튜브 썸네일뿐)→null. pledges: 민선9기 시정목표 5개(pledge.jpg 네이버블로그 인포그래픽)에서 추출, 실제 시정목표. pledge2(공약사업 list.do)는 총 70건·이행률 0% 준비중 페이지로 개별 공약 미표시.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4116": {
       "name": "하남시",
@@ -1883,7 +1948,7 @@
     "4118": {
       "name": "광명시",
       "slogan": "함께하는 시민 앞으로 광명",
-      "ci": "https://www.gm.go.kr/resources/pd_2024/images/common/logo.png",
+      "ci": "https://www.gm.go.kr/resources/pt/images/sub05/ptgi18_img_03.jpg",
       "photoUrl": "https://www.gm.go.kr/resources/pd_2024/images/main/visual_person1.png",
       "photoSource": "https://www.gm.go.kr/pd/index.do",
       "pledges": null,
@@ -1895,7 +1960,9 @@
         "pledges": 0
       },
       "notes": "greeting.jpg(우리시장실 pd)에 시장 박승원 초상과 슬로건 '함께하는 시민 앞으로 광명' 확인. 슬로건은 greeting 배너 문구 채택(footer_logo alt는 '함께하는 시민 웃는 광명'로 상이). CI: home(pt) ciImages에는 top-close 아이콘·생활안내서/복지서비스 배너만 있어 유효 심볼로고 부재 → greetingSnapshot의 '빛을 품은 광명시' 광명시 로고(logo.png) 사용. photoUrl: greeting 비주얼의 시장 인물 컷아웃 visual_person1.png(621x613). pledge.jpg=매니페스토(공약) 페이지 500 Internal server error, pledge2.jpg=체육진흥기금 지원현황(부서안내)로 둘 다 실제 공약 아님 → pledges null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.gm.go.kr/component/resrce/file/ND_resrceFileDownload.do?resrceSn=136&resrceVer=1&fileSn=1"
     },
     "4119": {
       "name": "군포시",
@@ -1977,7 +2044,7 @@
     "4123": {
       "name": "구리시",
       "slogan": "시민의 하루를 바꾸는 구리",
-      "ci": "https://www.guri.go.kr/site/www_2023/images/common/logo.png",
+      "ci": "https://www.guri.go.kr/site/www/images/contents/cts416_img.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1995,12 +2062,13 @@
         "pledges": 0.95
       },
       "notes": "슬로건은 열린시장실(greeting) 및 민선9기 시정비전 페이지의 '시민의 하루를 바꾸는 구리/행정' 캐치프레이즈. CI는 헤더 심볼로고(logo.png, alt 구리시). 시정비전 페이지에 5대 대전환(자족·교통·교육·문화·복지)이 명확히 제시되어 pledges로 채택(pledge2는 주요업무계획 표지라 제외). 시장 초상은 greeting 화면에 보이나 greetingSnapshot.contentImages는 모두 뉴스 썸네일(alt 공백)이고 초상 URL이 배열에 실재하지 않아 photoUrl=null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4124": {
       "name": "포천시",
       "slogan": "더 큰 포천, 더 큰 행복",
-      "ci": null,
+      "ci": "https://www.pocheon.go.kr/site/www/images/contents/cts3820_img01.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -2018,12 +2086,14 @@
         "pledges": 0.92
       },
       "notes": "슬로건은 '민선8·9기 비전 및 슬로건' 페이지(key=3829)에서 확인된 시정 슬로건 '더 큰 포천, 더 큰 행복'. CI는 ciImages 배열에 헤더 심볼로고가 없고 favicon(og:image)만 존재하여 null. 시장 백영현 초상은 greeting.jpg/home.jpg 화면에는 보이나 배경/비주얼 이미지로 어떤 contentImages 배열에도 URL이 없어 null(greetingSnapshot은 250x165 뉴스 썸네일뿐). 공약은 '공약과 실천-한눈에 보는 공약체계'(key=44204)의 5대 핵심공약.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.pocheon.go.kr/downloadContentsFile.do?key=3820&fileNo=166",
+      "ciSource": null
     },
     "4125": {
       "name": "의왕시",
       "slogan": null,
-      "ci": "https://www.uiwang.go.kr/humanframe/theme/uiwang/assets/images/uiwang_images/logo.jpg",
+      "ci": "https://www.uiwang.go.kr/comm/getFile?srvcId=MEDIA&upperNo=1448&fileTy=MEDIA&fileNo=3",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -2035,7 +2105,9 @@
         "pledges": 0.8
       },
       "notes": "홈 헤더 로고 logo.jpg(alt=의왕시,170x55)를 CI로 채택(배너·검색·전체메뉴 아이콘 제외). 홈 히어로 우상단에 김성제 시장 초상이 보이나 해당 이미지는 배경/테마 리소스이며 스냅샷 배열의 인물사진 URL로 특정 불가(홈 contentImages는 alt 빈 배너 getImage, greeting contentImages는 800x533 현장스케치 가로사진). 확신 없어 photoUrl null. 슬로건은 헤더에 기관명만 노출되고 별도 시정 캐치프레이즈 없음→null. pledge는 '매니페스토(공약) 이행현황' 페이지(총괄 이행현황·이행률)로 매니페스토개념 페이지→null, pledge2는 '적극행정 정책/우수공무원 추천' 게시판→null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.uiwang.go.kr/comm/getFile?srvcId=MEDIA&upperNo=1456&fileTy=MEDIA&fileNo=2"
     },
     "4126": {
       "name": "여주시",
@@ -2057,7 +2129,7 @@
     "4127": {
       "name": "동두천시",
       "slogan": "동두천을 새롭게, 시민을 힘나게!",
-      "ci": null,
+      "ci": "https://www.ddc.go.kr/site/ddc/images/contents/cnt_74_img_1.jpg",
       "photoUrl": "https://www.ddc.go.kr/site/mayor_new/images/main/visual_bg_23_08_m.jpg",
       "photoSource": "greeting",
       "pledges": null,
@@ -2069,7 +2141,9 @@
         "pledges": "low"
       },
       "notes": "슬로건은 열린시장실(greeting) 히어로 배너 및 alt('동두천을 새롭게, 시민을 힘나게! 동두천시장 박형덕입니다')에서 확인. ci: ciImages에 실제 헤더 심볼로고 URL이 없음(webwatch 인증마크·og:image 플레이스홀더뿐)→null. photoUrl: greeting 화면에 박형덕 시장 초상 확인, 해당 히어로 배너 이미지(visual_bg_23_08_m.jpg, 인물 포함 배경형)를 채택. pledge.jpg는 '매니페스토 공약사항 목록' 인덱스(부서별 다수 항목 나열)로 핵심공약 3~7개 추출 부적합→null. pledge2는 복지정책과 직원/업무안내 페이지→무관.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.ddc.go.kr/site/ddc/download/AI_010101.zip",
+      "ciSource": null
     },
     "4128": {
       "name": "과천시",
@@ -2096,7 +2170,7 @@
     "4130": {
       "name": "가평군",
       "slogan": "자연을 경제로 꽃피우는 도시, 가평",
-      "ci": "https://www.gp.go.kr/site/portal/images/common/logo_2025.png",
+      "ci": "https://www.gp.go.kr/site/portal/images/contents/cts713_img01.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -2116,7 +2190,8 @@
         "pledges": "high"
       },
       "notes": "slogan은 군정비전(pledge2, key=655) 페이지의 'VISION - 자연을 경제로 꽃피우는 도시, 가평' 캐치프레이즈. og:description '힐링과 행복 하나되는 가평특별군'도 후보였으나 공식 비전 문구를 채택. ci는 헤더 심볼로고 logo_2025.png(alt '가평군', 147x61). photo: greeting.jpg는 군수가 아닌 육아종합지원센터 인사말(센터장 이연희)로 잘못 캡처되어 군수 초상 미확인, greetingSnapshot.contentImages도 비어 있어 null. pledges는 pledge.jpg 열린군수실 이행현황의 '민선8기 7대 목표'를 그대로 채택. pledgeSnapshot 이미지 배열은 비어 있음.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4131": {
       "name": "연천군",
@@ -2229,7 +2304,7 @@
     "5106": {
       "name": "속초시",
       "slogan": "시민은 하나로, 속초는 미래로!",
-      "ci": "https://www.sokcho.go.kr/sc/page/sokchoportal/images/common/sokcho.png",
+      "ci": "https://www.sokcho.go.kr/page/sokchoportal/images/contents/symbol_03.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -2241,7 +2316,9 @@
         "pledges": "high"
       },
       "notes": "슬로건: 인사말 페이지(greeting.jpg)에 'UNITED CITIZENS, FORWARD-LOOKING SOKCHO!' 영문 표기, home.json 배너 alt에 '시민은 하나로, 속초는 미래로!' 국문 확인. CI: 헤더 심볼로고 sokcho.png(alt=속초시). photoUrl: 인사말 페이지 이미지는 모두 '시장님 활동 사진'(1910x770 활동/현장 배너)로 단독 인물 초상이 아님 → null. pledges: pledge.jpg는 '공약 완성과정' 타임라인(공약 수립 절차·매니페스토 개념)일 뿐 실제 공약 항목 없음, pledge2.jpg는 시민제안(부서 안내) → null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.sokcho.go.kr/page/sokchoportal/download/CI_AI.zip"
     },
     "5107": {
       "name": "삼척시",
@@ -2280,7 +2357,7 @@
     "5109": {
       "name": "횡성군",
       "slogan": "함께 여는 횡성의 내일, 횡성 관광 500만 시대",
-      "ci": null,
+      "ci": "https://www.hsg.go.kr/site/www/images/contents/cts727_img01.png",
       "photoUrl": "https://www.hsg.go.kr/site/mayor/images/main/mayor_person02_2.png",
       "photoSource": "https://www.hsg.go.kr/mayor/index.do",
       "pledges": [
@@ -2297,7 +2374,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 군정방향(군정기본방향) 및 군정목표 페이지에 공통 노출되는 군정 캐치프레이즈. CI 헤더 심볼로고 URL이 어느 ciImages 배열에도 실재하지 않음(웹와치·국가상징 태극기·팝업배너·og:image placeholder만 존재) → null. photoUrl은 greeting.jpg에서 장신상 군수 초상 확인 후 greetingSnapshot.contentImages의 'mayor_person02_2.png'(alt: 장신상 횡성 군수 사진) 사용. pledges는 pledge.jpg의 군정방침 4대 핵심가치. pledge2(군정목표)는 슬로건 배너 이미지뿐이라 별도 공약목록 없음.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.hsg.go.kr/downloadContentsFile.do?key=727&fileNo=596",
+      "ciSource": null
     },
     "5110": {
       "name": "영월군",
@@ -2381,7 +2460,7 @@
     "5114": {
       "name": "화천군",
       "slogan": "탄탄한 소득, 든든한 복지, 도약하는 화천",
-      "ci": null,
+      "ci": "https://www.ihc.go.kr/www/images/contents/cts123_img01.png",
       "photoUrl": "https://www.ihc.go.kr/mayor/images/main/greeting_photo_2026.jpg",
       "photoSource": "https://www.ihc.go.kr/mayor/index.do",
       "pledges": [
@@ -2399,7 +2478,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 홈/공약페이지 상단 반복 노출된 군정 캐치프레이즈(목표 '군민과의 약속을 실현하는 군정운영'은 별개). CI: ciImages에 헤더 심볼로고 없음(menu6_depth2_title=메뉴타이틀, footer_logo=푸터로고)→null. 사진: greeting.jpg에서 군수 김세훈 초상 확인, greetingSnapshot의 greeting_photo_2026.jpg. 공약: key=2362 총괄현황의 5대분야 핵심전략(총 46개 공약) 그룹명·설명. pledge2(key=2357)는 매니페스토란 개념설명 페이지라 제외.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.ihc.go.kr/DATA/download/www/cts123_logo.zip",
+      "ciSource": null
     },
     "5115": {
       "name": "양구군",
@@ -2513,7 +2594,7 @@
     "4303": {
       "name": "제천시",
       "slogan": "사람·문화·경제가 꽃피는 행복도시! 제천",
-      "ci": null,
+      "ci": "https://www.jecheon.go.kr/site/www/images/contents/cst_318_img1.jpg",
       "photoUrl": "https://www.jecheon.go.kr/site/mayor2022/images/main/visual01.jpg",
       "photoSource": "https://www.jecheon.go.kr/mayor/index.do",
       "pledges": null,
@@ -2525,7 +2606,8 @@
         "pledges": "high"
       },
       "notes": "slogan은 홈 page title(사람·문화·경제가 꽃피는 행복도시! 제천). 헤더 심볼로고(자연치유도시 제천 HEALING CITY JECHEON)는 ciImages 배열에 URL이 없어 ci=null(배열엔 날씨/대기/SNS/문화관광 버튼만 존재). 열린시장실 페이지 스크린샷엔 초상이 로드 안됐지만 greetingSnapshot.contentImages에 '제천시장 이상천 사진1~3'로 명시된 인물사진 존재 → visual01.jpg 채택. pledge(key=5407)은 '맞춤지원정책'(임신/출산/육아 등 대상별 복지서비스 안내)로 시장 공약 아님, pledge2(key=50022)는 '저작권정책'로 무관 → pledges=null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4304": {
       "name": "보은군",
@@ -2555,7 +2637,7 @@
     "4305": {
       "name": "옥천군",
       "slogan": "국토의 중심, 미래를 여는 옥천",
-      "ci": null,
+      "ci": "https://www.oc.go.kr/site/www/images/contents/oc_cts2615_mark.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -2573,12 +2655,14 @@
         "pledges": "high"
       },
       "notes": "슬로건은 pledge2(비전 및 군정방침) 페이지의 군정목표(Objective) '국토의 중심, 미래를 여는 옥천'. 군정비전은 브랜드슬로건 '행복드림 옥천'이라 목표문을 캐치프레이즈로 채택. CI: ciImages 배열에 헤더 심볼로고가 없고 meta_image.png(og)와 pledge 페이지의 콘텐츠 로고(oc_cts4526_logo.png)뿐이라 유효 심벌로고 URL 없음→null. 사진: home.jpg 우상단에 황규철 군수 초상이 보이나 배너 삽입 이미지라 스냅샷 contentImages에 실재하지 않고, greeting 페이지 인물사진도 팝업/썸네일이라 군수 초상으로 확신 불가→null. 공약: pledge2(key=130) 비전 및 군정방침의 5대 추진과제(핵심가치) 채택. pledge(key=4526)는 '공약&매니페스토' 페이지지만 상세 공약 텍스트가 스냅샷/화면에 확인 안 되어 대신 군정방침 5대 과제 사용.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.oc.go.kr/site/www/images/contents/oc_cts2615_mark.png",
+      "ciSource": null
     },
     "4306": {
       "name": "영동군",
       "slogan": "함께하는 군민 살맛나는 영동",
-      "ci": "https://www.yd21.go.kr/common/img/logo.jpg",
+      "ci": "https://www.yd21.go.kr/site/kr/img/sub04/simbol_basic.jpg",
       "photoUrl": "https://www.yd21.go.kr/mayor/img/sub01/sub0101_img01.png?ver=1.1",
       "photoSource": "https://www.yd21.go.kr/mayor/html/sub01/0101.html",
       "pledges": [
@@ -2596,7 +2680,9 @@
         "pledges": "high"
       },
       "notes": "슬로건 '함께하는 군민 살맛나는 영동'은 홈·공약·군정목표 페이지에서 반복 확인됨. CI는 ciImages에 헤더 전용 심볼로고가 없어 og:image로 쓰인 site logo(logo.jpg)를 사용, 헤더 CI와 동일 심볼로 판단(med). 군수 정영철 초상은 인사말 페이지에서 확인, 해당 contentImages의 sub0101_img01.png 사용. 공약은 공약과 정책 페이지의 '5대 약속' 명칭+설명을 그대로 채택(핵심가치형 실제 공약).",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.yd21.go.kr/_prog/download/?file_id=4u4p98nd3fff89agrjg3sejnxk4n9d"
     },
     "4307": {
       "name": "증평군",
@@ -2759,7 +2845,7 @@
     "4404": {
       "name": "아산시",
       "slogan": "더 큰 아산, 더 행복한 시민",
-      "ci": "https://www.asan.go.kr/main/common/happy/img/h/logo.png",
+      "ci": "https://www.asan.go.kr/main/common/user/img/cms/asan/symbol01.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -2780,7 +2866,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 시정 비전체계도(pledge2, cms no=118)와 열린시장실 배너에서 '더 큰 아산 더 행복한 시민'으로 확인. CI는 헤더 심볼로고 logo.png(alt=아산시, 150x30); 방문의해 배너·Google·og:image는 제외. 공약은 공약사항 총괄현황(pledge.jpg)의 8대 시정전략 8개를 채택(pledgeSource=공약총괄현황 페이지). 시장 초상은 열린시장실/홈 배너 내 오세현 시장 얼굴이 합성 홍보배너(더 큰 아산 배너 550x275) 형태로만 존재하고 단독 인물사진 URL이 스냅샷에 없어 photoUrl=null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.asan.go.kr/main/files/asan_symbol_202504.zip"
     },
     "4405": {
       "name": "서산시",
@@ -2850,7 +2938,7 @@
     "4408": {
       "name": "당진시",
       "slogan": "더 큰 당진 거침없는 도약",
-      "ci": "https://www.dangjin.go.kr/images/common/ci.png",
+      "ci": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img01.png",
       "photoUrl": "https://www.dangjin.go.kr/images/mayor/main/main_mayor.png",
       "photoSource": "greeting",
       "pledges": [
@@ -2869,7 +2957,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 시정 비전/목표 페이지(pledge.jpg)의 '슬로건' 항목 '더 큰 당진 거침없는 도약'을 채택(홈 헤더 캐치프레이즈와 동일). CI는 ciImages 중 ci.png(og:image로 등록된 공통 심볼로고); ico_window.gif는 새창 아이콘이라 제외. 시장 초상은 열린시장실(mayor.do) greetingSnapshot의 main_mayor.png(alt '김기재 당진시장', 606x942 인물사진)로 확인. 공약은 pledge.jpg의 시정목표 6개를 사용(별도로 시정원칙 4개: 현장중심·시민참여·혁신성장·책임행정도 존재). pledge2(sitemap_15/저작권 정책)는 공약 아님→미사용.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.dangjin.go.kr/withrun/FileDownload.do?fileName=DangjnCity_SymbolMark.ai&code=download/sub04/"
     },
     "4409": {
       "name": "금산군",
@@ -2931,7 +3021,7 @@
     "4412": {
       "name": "청양군",
       "slogan": "새로운 청양, 군민과 함께",
-      "ci": null,
+      "ci": "https://www.cheongyang.go.kr/images/kor/sub05/sub05_04_01_01.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -2943,7 +3033,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 홈 히어로/푸터 및 og:description '새로운 청양, 군민과 함께'로 확인(캐치프레이즈). ci: 헤더 심볼로고 URL이 메인 snapshot.ciImages에 없음(og_kakao.jpg는 카카오 배너라 제외)→null. greetingSnapshot에 gm_ci.png가 있으나 헤더 심볼로고 배열 규칙상 메인 ciImages가 아니어서 제외. 군수는 김홍열(민선 9기)이며 홈 우상단 배너에 초상이 보이나 배너 이미지일 뿐 contentImages에 인물 초상 URL이 없어 photoUrl=null. 인사말/공약 페이지(greeting=pledge)는 '군민과의약속'의 '매니페스토란?' 탭으로 매니페스토 개념 설명 페이지→실제 공약 아님→pledges=null. pledge2는 설문조사 목록 페이지→null.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.cheongyang.go.kr/gonet/FileDownload.do?fileName=/downfile/ci_00.jpg&oriFileName=%EA%B8%B0%EB%B3%B8%ED%98%95.jpg&code=download/",
+      "ciSource": null
     },
     "4413": {
       "name": "홍성군",
@@ -3057,7 +3149,7 @@
     "5204": {
       "name": "정읍시",
       "slogan": null,
-      "ci": "https://www.jeongeup.go.kr/images/01_potal/common/logo.png",
+      "ci": "https://www.jeongeup.go.kr/images/06_language/sub01/ci_flag.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -3078,12 +3170,14 @@
         "pledges": "med"
       },
       "notes": "slogan: 헤더는 기관명 '정읍시청'(메뉴)뿐이고 홈/시장페이지 배너는 시장 인물소개(이학수 시장) 문구라 시정 캐치프레이즈 아님→null. ci: 헤더 심볼로고 logo.png(alt 정읍시,126x45). photo: 홈 배너·인사말 페이지에 시장(이학수) 초상이 보이나 스냅샷 배열에 깨끗한 단독 인물사진 URL이 없음(홈 contentImages는 팝업공지, greeting 상단은 단체사진 배너 178303772415347.jpg)→확신없어 null. pledges: 공약현황(pledge.jpg)은 예산/부서별 통계 매니페스토개념 페이지라 실제 공약 아님→제외. 대신 인사말(greeting) 페이지 '민선8기 정읍시장의 약속' 8개 핵심가치 분야를 채택. pledge2는 인구정책 통합안내서 표지→제외.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.jeongeup.go.kr/images/01_potal/down/symbol.zip"
     },
     "5205": {
       "name": "남원시",
       "slogan": "시민과 함께하는 경제도시 남원",
-      "ci": null,
+      "ci": "https://www.namwon.go.kr/resource/www/images/contents/sub05/ci01.png",
       "photoUrl": "https://www.namwon.go.kr/planweb/upload/popup/9be51b0e9e1479a4019ed3d8cd36292f/original/ee213322-eb69-4bc0-8f04-3c04cd51fc03.png",
       "photoSource": "https://www.namwon.go.kr/mayor/",
       "pledges": null,
@@ -3095,7 +3189,9 @@
         "pledges": "low"
       },
       "notes": "슬로건은 열린시장실(greeting) 헤더 '시민과 함께하는 경제도시 남원' 및 취임 보도 alt로 확인. snapshot.ciImages 배열이 비어 있어 헤더 심볼로고 URL 확보 불가 → ci=null. 시장 초상은 greeting 화면에서 확인되며 greetingSnapshot.contentImages 중 alt '남원시장 사진'(800x800) 사용(동일 인물 사진 2장 중 첫 번째). pledgeUrl(/population)은 인구정책 포털(핵심가치 아님), pledge2Url은 저작권보호정책 페이지라 실제 공약/핵심가치 없음 → pledges=null. 시장명 양충모(민선9기, 제11대), 전북특별자치도 남원시.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.namwon.go.kr/resource/www/files/sub05/CI_jpg.zip",
+      "ciSource": null
     },
     "5206": {
       "name": "김제시",
@@ -3272,7 +3368,7 @@
     "4601": {
       "name": "목포시",
       "slogan": "생활인구 100만 동아시아 해양허브 목포",
-      "ci": "https://www.mokpo.go.kr/images/www/common/logo_new.png",
+      "ci": "https://www.mokpo.go.kr/contents/13436/symbol_c01.png?build_20260713012",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -3284,7 +3380,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 홈/열린시장실 상단 대표문구 '생활인구 100만 동아시아 해양허브 목포'. 헤더 심볼로고는 '낭만항구 목포' logo_new.png. 시장(강성휘) 초상은 greeting.jpg 화면에 확인되나 greetingSnapshot.contentImages에 초상 URL이 없어(행사사진만 존재) photoUrl=null. pledge 페이지(election_manifesto)는 '현재 페이지를 준비하고 있습니다' 준비중 화면(c_soon_mayor2.jpg)이고, pledge2는 정책실명제 안내(제도/부서 안내)이므로 실제 공약 없음 → pledges=null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.mokpo.go.kr/contents/13436/symbolmark_2024.zip"
     },
     "4602": {
       "name": "여수시",
@@ -3450,7 +3548,7 @@
     "4611": {
       "name": "화순군",
       "slogan": "군민과 함께 화순의 미래로!",
-      "ci": null,
+      "ci": "https://www.hwasun.go.kr/html/S01/img/contents/flag.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -3462,12 +3560,13 @@
         "pledges": "high"
       },
       "notes": "슬로건은 홈 헤더 우상단 캐치프레이즈 '군민과 함께 화순의 미래로!'. ci: ciImages에는 태극기(제외)·화순춘란 브랜드로고(hs_top_orchidLogo, 심볼로고 아님)·새창아이콘(제외)만 있어 군 심볼로고 URL 없음→null. photo: greeting은 군수실/부군수실 전화번호 안내표(인물사진 없음), pledge/pledge2에도 군수 초상 없음→null. pledges: pledge=청년정책홍보영상(뉴스/영상), pledge2=청년 주거지원 등 부서 사업안내로 군수 공약/핵심가치 아님→null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4612": {
       "name": "장흥군",
       "slogan": "도약하는 장흥, 함께 여는 미래",
-      "ci": "https://www.jangheung.go.kr/images/www/common_new/logo_new.png",
+      "ci": "https://www.jangheung.go.kr/contents/14296/symbol_mark01.png?build_20260714001",
       "photoUrl": "https://www.jangheung.go.kr/contents/14107/greeting_img_2026_2.jpg?build_20260713001",
       "photoSource": "greeting",
       "pledges": [
@@ -3484,12 +3583,14 @@
         "pledges": "high"
       },
       "notes": "슬로건은 군정비전 '도약하는 장흥, 함께 여는 미래'(pledge2/greeting 공통). CI는 헤더 심볼로고 logo_new.png. 초상은 greeting 페이지 인사말 배너(사순문 군수) 우측 인물사진 포함 greeting_img_2026_2.jpg — 배너 합성이라 순수 인물 크롭은 아님(med). 공약&매니페스토(pledge) 페이지는 매니페스토 개념설명뿐이라 pledges 미사용, 대신 군정방침(pledge2)의 핵심가치 4개 채택.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.jangheung.go.kr/contents/14296/jh_png.png?build_20260714001"
     },
     "4613": {
       "name": "강진군",
       "slogan": "소통·연결·창조의 신 강진",
-      "ci": "https://www.gangjin.go.kr/images/common/head_logo.png",
+      "ci": "https://www.gangjin.go.kr/contents/23038/symbol_01.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -3507,7 +3608,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 헤더/열린군수실의 '소통·연결·창조의 신 강진' 캐치프레이즈. CI는 헤더 심볼로고 head_logo.png(65x65). 공약 페이지는 '민선 8기 공약사업 5대분야 34개 프로젝트'의 5대 분야 핵심가치. 군수 초상은 홈/greeting에서 확인되나 contentImages에 인물 포트레이트 URL이 없고 vis 이미지는 인물 포함 가로 배너라 photoUrl=null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.gangjin.go.kr/contents/23038/ci.zip"
     },
     "4614": {
       "name": "해남군",
@@ -3546,7 +3649,7 @@
     "4616": {
       "name": "무안군",
       "slogan": "무안을 더 크게 내 삶을 더 높게",
-      "ci": null,
+      "ci": "https://www.muan.go.kr/contents/27244/logo_c_01.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -3558,7 +3661,9 @@
         "pledges": "high"
       },
       "notes": "슬로건 '무안을 더 크게 내 삶을 더 높게'는 열린군수실(greeting) 상단 배너에 명확히 표시됨. 군수 김산의 초상은 greeting 화면 우측에 확인되나 greetingSnapshot.contentImages는 전부 378x243 '김산의 현장속으로' 뉴스 썸네일이라 초상 URL 없음→photoUrl null. ciImages는 home=fb_www_logo.png(og:image, w/h=0), mayor페이지=logo.png(284x36 '무안군 열린군수실' 텍스트로고)뿐이라 헤더 심볼CI 아님→null. pledge=매니페스토란?(개념설명·국가별국기 예시 페이지), pledge2=사전공시안내(운영절차 안내)로 둘 다 실제 공약 아님→pledges null.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.muan.go.kr/contents/27244/symbol_box.zip",
+      "ciSource": null
     },
     "4617": {
       "name": "함평군",
@@ -3789,7 +3894,7 @@
     "4707": {
       "name": "영천시",
       "slogan": "우리 삶의 이름은 영천!",
-      "ci": "https://www.yc.go.kr/portal/img/common/logo.png",
+      "ci": "https://www.yc.go.kr/portal/img/sub04/con40501_01.png",
       "photoUrl": "https://www.yc.go.kr/ycmayor/img/main/mayor-img.png",
       "photoSource": "https://www.yc.go.kr/ycmayor",
       "pledges": null,
@@ -3801,7 +3906,9 @@
         "pledges": "low"
       },
       "notes": "슬로건: 열린시장실(greeting) 배너에 '시민의 삶이 행복한 도시 / 시민의 꿈이 현실이 되는 도시 / 우리 삶의 이름은 영천!' 문구. 홈 하단엔 '아름다운 문화의 터전 살고 싶은 도시 영천'도 노출. 대표 캐치프레이즈로 '우리 삶의 이름은 영천!' 채택. CI: 헤더 심볼로고 logo.png(alt 영천시), gcs_mark.gif는 인증 아이콘이라 제외. photo: 열린시장실 페이지에서 제12대 김병삼 시장 초상 확인, mayor-img.png(alt mayor) 인물사진. pledges: pledge(시정목표, 0302010000)는 웹방화벽 차단 페이지, pledge2(공약 매니페스토, 0204010000)는 '매니페스토란?' 개념 정의 페이지라 실제 공약 없음 -> null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.yc.go.kr/portal/img/sub04/ci.zip"
     },
     "4708": {
       "name": "상주시",
@@ -3823,7 +3930,7 @@
     "4709": {
       "name": "문경시",
       "slogan": null,
-      "ci": "https://www.gbmg.go.kr/portal/img/common/logo.png",
+      "ci": "https://www.gbmg.go.kr/portal/img/sub05/symbol01.jpg",
       "photoUrl": "https://www.gbmg.go.kr/mayor/img/main/visual_mayor_2026.png",
       "photoSource": "https://www.gbmg.go.kr/mayor",
       "pledges": null,
@@ -3835,12 +3942,13 @@
         "pledges": "low"
       },
       "notes": "홈 화면에 별도의 시정 캐치프레이즈 없음(기관명 '문경시청'·메뉴만 존재)→slogan null. ci=헤더 심볼로고 logo.png(문경시, 127x45); flag.png는 국가상징, f_logo.png는 푸터로고라 제외. 열린시장실(greeting)에서 '반갑습니다. 문경시장 김학홍입니다.' 초상 확인→visual_mayor_2026.png(alt 시장님). pledge(0503000000 주요업무계획)는 연도별 PDF 다운로드 목록뿐이라 공약 텍스트 없음, pledge2(0204080000 정책통계지도)는 통계지도 이동 안내페이지→pledges null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4710": {
       "name": "경산시",
       "slogan": "꽃피다 시민중심 행복경산",
-      "ci": "https://www.gbgs.go.kr/design2021/ko2023/img/layout/logo_new.png",
+      "ci": "https://www.gbgs.go.kr/design2021/ko/img/contents/ci_big.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -3858,7 +3966,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 홈 title 및 시정목표 페이지 '비전'에 표시된 캐치프레이즈. CI는 헤더 심벌로고 logo_new.png(eg_logo2=정부배너, thumb_new=og:image 제외). 시장 초상: greeting URL은 시장·부시장 업무추진비 게시판 목록으로 리다이렉트되어 인물사진 없음, pledge/시정목표 contentImages는 목표 카테고리 썸네일(vision_img)일 뿐 초상 아님 → photoUrl null. 공약/핵심가치는 시정목표 페이지의 '목표' 5개 항목. pledge2(청년정책)는 부서 사업안내라 제외.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.gbgs.go.kr/design/ko/file_down/ci_png.zip"
     },
     "4711": {
       "name": "의성군",
@@ -3936,7 +4046,7 @@
     "4715": {
       "name": "청도군",
       "slogan": "위대한 청도, 군민과 함께",
-      "ci": null,
+      "ci": "https://www.cheongdo.go.kr/portal/img/sub/sub04/img0401020100_04.png",
       "photoUrl": "https://www.cheongdo.go.kr/mayor/img/main/sec01_img04.png",
       "photoSource": "https://www.cheongdo.go.kr/mayor/main.do",
       "pledges": [
@@ -3954,12 +4064,13 @@
         "pledges": "high"
       },
       "notes": "슬로건은 군정목표 페이지의 '군정 슬로건: 위대한 청도 군민과 함께'에서 확인. ci 후보는 ko_symbol.png(태극기 아이콘)뿐이라 헤더 심볼로고 아님 → null. 초상은 열린군수실(greeting) 화면의 박권현 군수 취임식 사진으로 확인, greetingSnapshot의 sec01_img04.png(박권현 군수 사진4) 채택. 공약(5대 군정목표)은 pledge/pledge2 이미지 alt와 화면에서 일치 확인.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4716": {
       "name": "고령군",
       "slogan": "젊은 고령! 힘쎈 고령!",
-      "ci": "https://www.goryeong.go.kr/img/front/logo.jpg",
+      "ci": "https://www.goryeong.go.kr/img/front/sub/symbol2.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -3975,12 +4086,14 @@
         "pledges": "med"
       },
       "notes": "슬로건은 열린군수실(greeting) 배너의 군정 캐치프레이즈 '젊은 고령! 힘쎈 고령!'. CI는 home ciImages 중 헤더 심볼로고 logo.jpg(150x56); 페이스북로고·가야돌이 캐릭터배너는 제외. 군수(이남철) 초상은 greeting.jpg 히어로 영역에 시각적으로 확인되나 CSS 배경이미지로 추정되어 스냅샷 contentImages 배열(265x176 게시판 썸네일)에 실재 URL이 없어 photoUrl=null. pledge(IDX=147)는 '21세기 고령군 VISION' 페이지로 핵심가치 3개를 pledges로 사용. pledge2(IDX=56)는 저작권정책 페이지라 미사용.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.goryeong.go.kr/front/directFile.do?original=%EA%B3%A0%EB%A0%B9%EC%83%81%EC%A7%95%EB%AC%BC_2024.zip&site=kor/sub06"
     },
     "4717": {
       "name": "성주군",
       "slogan": "하나되는 성주, 다시뛰는 성주",
-      "ci": "https://www.sj.go.kr/ko/img/main/logo.png",
+      "ci": "https://www.sj.go.kr/ko/img/sub/sub01/sym_img01.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -3997,7 +4110,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 군정방향 페이지의 군정비전 '하나되는 성주, 다시뛰는 성주'(slogan 이미지 alt와 일치). 군수인사말 화면 상단의 '소통하는 일꾼! 발로 뛰는 일꾼!'은 개인 캐치프레이즈성이라 군정비전을 채택. CI는 헤더 심볼로고 logo.png. 군수 초상은 greeting.jpg 화면에서 확인되나 greetingSnapshot.contentImages가 비어 있어 실재 URL 없음→photoUrl null. pledges는 군정방향 4대 방향(핵심가치).",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.sj.go.kr/download/S0001/logo2.zip"
     },
     "4718": {
       "name": "칠곡군",
@@ -4076,7 +4191,7 @@
     "4722": {
       "name": "울릉군",
       "slogan": "울릉을 새롭게 군민을 행복하게",
-      "ci": null,
+      "ci": "https://www.ulleung.go.kr/design/ko/img/content/ci_2024.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -4096,12 +4211,13 @@
         "pledges": "high"
       },
       "notes": "슬로건: 열린군수실/인사말에 표기된 군정 캐치프레이즈 '울릉을 새롭게 군민을 행복하게'(og:description '아름다운 신비의 섬 울릉군'은 관광 태그라인이라 제외). CI: ciImages에는 정부공식 웹사이트 로고(eg_logo2.gif)만 존재하고 울릉군 헤더 심볼로고 URL은 스냅샷에 없어 null. photo: greeting.jpg에서 군수(남한권) 원형 초상 확인. greetingSnapshot contentImages의 mayor_img1/img2_2512.jpg 두 장이 모두 720x400 동일 규격·alt 없음이라 초상 URL 특정이 불확실 → 두 번째 이미지를 후보로 두되 low. pledges: 민선8기 공약사항(7개분야 71개 실천과제)의 실제 공약 7개 분야를 추출.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4801": {
       "name": "창원시",
       "slogan": "시민이 먼저, 행복한 창원",
-      "ci": "https://www.changwon.go.kr/cwportal/_res/cwportal/img/inc/logo_2027.png",
+      "ci": "https://www.changwon.go.kr/cwportal/tracer/logo.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -4118,7 +4234,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 헤더 워드마크(logo_2027.png, alt '시민이 먼저, 행복한 창원')와 pledge2의 대형 캘리그래피에서 일치 확인. CI는 헤더 심볼로고 logo_2027.png(tracer/logo.png는 추적픽셀, logo_2022는 og:image라 제외). 시장(강기윤) 초상은 greeting/pledge 화면에 크게 보이나 스냅샷 배열에는 독립 인물사진 URL이 없고 배너 합성이미지(vpr1.jpg 1920x920)뿐이라 photoUrl=null. pledge(15363)는 한국매니페스토실천본부 개념 안내 페이지라 실공약 아님→제외. pledges는 pledge2(10454 시정비전과 목표)의 시정목표 4대 핵심가치로, 화면과 vision1_img02.jpg alt 텍스트에서 동일하게 확인.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.changwon.go.kr/cwportal/_res/cwportal/data/ect/changwon_symbol.ai"
     },
     "4802": {
       "name": "진주시",
@@ -4135,7 +4253,8 @@
         "pledges": "low"
       },
       "notes": "slogan: 헤더 캐치프레이즈 '부강한 진주 행복한 시민'(ciImages alt·home.jpg 확인). ci: 헤더 심볼로고 logo1@2x.png(참진주 CHARM JINJU, 144x106); logo1t1은 슬로건 텍스트배너라 제외. photo: home.jpg 자주찾는서비스 영역과 greeting에 시장(조규일) 인물 노출되나, contentImages 배열에는 초상 단독 URL 없음(vpr 배너·행사사진뿐)→null. pledges: pledge=정책만화방(무인발급기 홍보만화), pledge2=적극행정 우수공무원 추천(부서안내/개념페이지)로 실제 공약 아님→null. 홈에 '민선 8기 공약사항' 배너 존재하나 해당 페이지는 미수집.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4803": {
       "name": "통영시",
@@ -4157,7 +4276,7 @@
     "4804": {
       "name": "사천시",
       "slogan": "더 큰 사천, 더 밝은 미래",
-      "ci": "https://www.sacheon.go.kr/portal/img/inc/logo@2x2025.png",
+      "ci": "https://www.sacheon.go.kr/intro/img/sub/02416_img1.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -4176,7 +4295,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 인사말 페이지 상단 캐치프레이즈(p04313_tit_2026.png alt로도 확인). CI는 헤더 심볼로고. 시장 초상은 greeting.jpg에 보이나 어느 스냅샷 contentImages 배열에도 인물사진 URL이 실재하지 않아 photoUrl=null. 공약은 인사말 페이지 하단 6대 핵심가치(우주항공 선도도시/머무르는 관광도시/희망여는 상생경제/행복동행 안전복지/살고싶은 정주도시/품격있는 교육문화). pledge.jpg는 우주항공청(국가기관) 비전이라 제외, pledge2.jpg는 사천의비전(VISION of Sacheon)으로 별개.",
-      "verified": true
+      "verified": true,
+      "ciSource": null,
+      "ciDownload": "https://www.sacheon.go.kr/portal/img/sub/intro/01_04_symbol_city_ai.zip"
     },
     "4805": {
       "name": "김해시",
@@ -4266,7 +4387,7 @@
     "4810": {
       "name": "함안군",
       "slogan": "군민의 눈높이로 새롭게 도약하는 더 큰 함안",
-      "ci": "https://www.haman.go.kr/_res/portal/img/inc/logo@2x_2026.png",
+      "ci": "https://www.haman.go.kr/_res/portal/img/sub/05/symbol/02_01_02_01_p01.gif",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -4285,7 +4406,8 @@
         "pledges": "high"
       },
       "notes": "슬로건은 인사말·공약과실천 페이지의 군정비전(더 큰 함안). CI는 홈 헤더 심볼로고 logo@2x_2026.png(alt=함안군 HAMAN); 다른 ciImages는 캐시안내 팝업배너와 og:image 중복이라 제외. 군수(차석호) 초상은 greeting.jpg에서 확인되나 greetingSnapshot.contentImages에는 서브 배너(v1pr01.jpg)만 있고 인물사진 URL이 실재하지 않아 photoUrl=null. 공약은 pledge(공약과 실천/군정지표)의 6대 전략목표로 pledgeSnapshot 이미지 alt와 일치. pledge2(주요정책목록)는 뉴스형 목록이라 미사용.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4811": {
       "name": "창녕군",
@@ -4414,7 +4536,7 @@
     "4817": {
       "name": "거창군",
       "slogan": "함께 여는 새로운 창조 거창",
-      "ci": "https://www.geochang.go.kr/_res/portal/img/inc/logo@2x.png",
+      "ci": "https://www.geochang.go.kr/_res/portal/img/sub/05/gc00329_img01.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -4432,7 +4554,8 @@
         "pledges": "high"
       },
       "notes": "슬로건은 열린군수실 인사말(greeting)과 군정목표(pledge2) 페이지에 공통 표기된 '함께 여는 새로운 창조 거창'(비전과 군정목표). CI는 home 헤더 심볼로고 logo@2x.png(alt '거창韓거창', 338x104); 날씨 아이콘 w104.png는 제외. 군수 초상은 greeting 화면 배너에 인물이 보이나 해당 이미지는 배경 배너(vpr1001/1002.jpg)이고 greetingSnapshot.contentImages에는 현장활동 사진(DSC_* board/image)과 선거공보 표지만 있어 단독 초상 URL이 없음 → photoUrl null. pledges는 pledge2(군정목표) 페이지의 5대 핵심가치. pledge.web(선거공보)은 PDF 다운로드 표지라 미채택.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4818": {
       "name": "합천군",
