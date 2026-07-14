@@ -49,3 +49,8 @@ venv/
 # 임시 파일 (전처리 입력, 로그, 사진 검증 산출물 등)
 ._*
 crawler/_*
+
+# 캡처 스크린샷·프로필(대용량 바이너리). 추출 결과(basic_vision.json)만 커밋한다.
+crawler/captures/
+crawler/capture/.chrome-capture-profile/
+crawler/capture/_*

@@ -38,6 +38,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_DATA = ROOT / "data" / "basic.json"
 HOMEPAGES_FILE = ROOT / "crawler" / "basic_homepages.json"
 PHOTOS_FILE = ROOT / "crawler" / "basic_photos.json"
+VISION_FILE = ROOT / "crawler" / "basic_vision.json"
 WIKI_API = "https://ko.wikipedia.org/w/api.php"
 WIKI_PAGE = "제9회 전국동시지방선거 기초자치단체장"
 HEADERS = {"User-Agent": "korea-local-leaders/0.1 (data prep)"}
@@ -204,13 +205,29 @@ def load_photos() -> dict[str, str]:
     }
 
 
+def load_vision() -> dict[str, dict]:
+    """crawler/basic_vision.json 의 code -> {slogan,ci,photoUrl,pledges} (육안검증 완료).
+
+    캡처+비전 추출로 얻은 값. verified=true 인 항목만 채택한다(오탐 방지).
+    """
+    if not VISION_FILE.exists():
+        return {}
+    data = json.loads(VISION_FILE.read_text(encoding="utf-8"))
+    return {
+        code: v
+        for code, v in data.get("results", {}).items()
+        if v.get("verified")
+    }
+
+
 def main() -> int:
     print("위키 9회 기초단체장 파싱 중...")
     records = fetch_records()
     print(f"  당선자 {len(records)}명 파싱")
     homepages = load_homepages()
     photos = load_photos()
-    print(f"  홈페이지 매핑 {len(homepages)}곳 · 기관장 사진 {len(photos)}곳 로드")
+    vision = load_vision()
+    print(f"  홈페이지 매핑 {len(homepages)}곳 · 기관장 사진 {len(photos)}곳 · 비전추출 {len(vision)}곳 로드")
 
     # 광역별로 묶어 정렬 후 코드 부여 (광역코드 + 2자리 일련번호)
     rows: list[dict] = []
@@ -221,15 +238,17 @@ def main() -> int:
             seq[prov] = seq.get(prov, 0) + 1
             code = f"{prov}{seq[prov]:02d}"
             pcode, pname = UNIFY.get(prov, (prov, CODE_TO_PROV[prov]))
+            # 비전 추출값(육안검증)을 우선 채우고, 사진은 vision → basic_photos 순으로.
+            v = vision.get(code, {})
             rows.append({
                 "code": code, "name": r["municipality"], "shortName": r["municipality"],
                 "type": "basic", "title": r["title"],
                 "provinceCode": pcode, "provinceName": pname,
                 "homepage": homepages.get(code, ""), "personName": r["name"], "party": r["party"],
                 "termStart": TERM_START, "termEnd": TERM_END,
-                "slogan": None, "vision": None,
-                "photoUrl": photos.get(code) or None,
-                "ci": None, "pledges": None,
+                "slogan": v.get("slogan") or None, "vision": None,
+                "photoUrl": v.get("photoUrl") or photos.get(code) or None,
+                "ci": v.get("ci") or None, "pledges": v.get("pledges") or None,
                 "source": f"https://ko.wikipedia.org/wiki/{WIKI_PAGE}",
                 "lastCrawledAt": now_iso(), "manualOverride": False,
             })

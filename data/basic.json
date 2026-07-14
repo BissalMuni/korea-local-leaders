@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T07:36:58+00:00",
+  "updatedAt": "2026-07-14T00:19:14+00:00",
   "governors": [
     {
       "code": "1101",
@@ -14,13 +14,17 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "문화가 강한 경제 중심도시 종로",
       "vision": null,
       "photoUrl": "https://www.jongno.go.kr/mayor/open_content/common/images/main2026/section1-mayor.png",
       "ci": "https://www.jongno.go.kr/portal/open_content/images/2026new/common/logo.png",
-      "pledges": null,
+      "pledges": [
+        "복지는 더 촘촘하게 챙기겠습니다",
+        "구민의 먹고사는 문제, 민생부터 책임지겠습니다",
+        "종로의 문화 잠재력을 미래 성장 동력으로 삼겠습니다"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:22+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -36,13 +40,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "모든 순간, 우리 곁에 중구",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "photoUrl": "https://www.junggu.seoul.kr/chief/images/vision-hero.jpg",
+      "ci": "https://www.junggu.seoul.kr/images/logo.png",
+      "pledges": [
+        "미래를 그리는 중구",
+        "청년이 꿈꾸는 중구",
+        "교육이 든든한 중구",
+        "노후가 편안한 중구",
+        "품격이 가득한 중구"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:24+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -58,13 +68,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "미래도시 용산",
       "vision": null,
       "photoUrl": "https://www.yongsan.go.kr/static/mayor/img/main2026/visual_center1.png",
-      "ci": "https://www.yongsan.go.kr/static/commons/img/weather/weather4.png",
+      "ci": "https://www.yongsan.go.kr/static/portal/img/main2026/footer_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:26+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -80,13 +90,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": "더불어 행복한 스마트포용도시 성동",
+      "slogan": "평생 살고 싶은 도시 성동을 만들겠습니다",
       "vision": null,
-      "photoUrl": "https://www.sd.go.kr/site/main/images/contents/cts1694_img.jpg",
+      "photoUrl": "https://www.sd.go.kr/site/mayor/images/main/mbn1.jpg",
       "ci": "https://www.sd.go.kr/site/main/images/common/svg_logo.svg",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:30+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -102,13 +112,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "살기편한 행복광진",
       "vision": null,
       "photoUrl": "https://www.gwangjin.go.kr/static/mayor/img/images2026/cz_figure_img.jpg",
       "ci": "https://www.gwangjin.go.kr/static/logo/gwangjinCI.png",
-      "pledges": null,
+      "pledges": [
+        "균형발전도시",
+        "열린소통도시",
+        "안전환경도시",
+        "문화교육도시",
+        "경제활력도시",
+        "상생복지도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:34+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -124,13 +141,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "행복을 여는 동대문구",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.ddm.go.kr/site/www/images/common_main/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:35+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -146,13 +163,21 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "더 행복한, 더 새로운 중랑",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.jungnang.go.kr/commonNotification/images/sma_logo2.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "희망찬 미래 교육도시",
+        "신속하고 확실한 주거환경개선",
+        "활력 넘치는 경제중랑",
+        "성장동력을 키우는 도시개발",
+        "모두 함께 즐기는 문화중랑",
+        "더불어 따뜻한 복지중랑",
+        "소통과 참여의 협치중랑"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:40+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -168,13 +193,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "성북의 미래, 현장에서 답을 찾다",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.sb.go.kr/site/www/images/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:41+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -190,13 +215,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "행복한 강북구가 시작됩니다",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.gangbuk.go.kr/static/mayor/img/main/2026/main_mayor_img.png",
+      "ci": "https://www.gangbuk.go.kr/static/portal/img/common/logo@2x.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:43+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -212,13 +237,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "다시 뛰는 도봉! 도봉의 미래를 만들어 갑니다",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.dobong.go.kr/images/2023/main/logo.png",
+      "photoUrl": "https://www.dobong.go.kr/images/2026/main/main_ceo_img.png",
+      "ci": "https://www.dobong.go.kr/images/2025/main/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:46+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -234,13 +259,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "미래경제도시 노원",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.nowon.kr/resources/mayor/images/common/logo-emblem.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:49+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -256,13 +281,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "북한산 큰숲, 은평",
       "vision": null,
-      "photoUrl": "https://www.ep.go.kr/site/mayor/images/sub/visual_image.png",
-      "ci": "https://www.ep.go.kr/DATA/popup/20260630022013579_O29d.jpg",
+      "photoUrl": "https://www.ep.go.kr/site/mayor/images/sub/visual_image2.png",
+      "ci": "https://www.ep.go.kr/common/images/layout/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:52+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -278,13 +303,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "모두 함께 만드는 서대문 전성시대",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.sdm.go.kr/lib/chief2026/images/main.jpg",
       "ci": "https://www.sdm.go.kr/lib/n24/img/M_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:55+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -300,13 +325,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "다시 뛰는 마포! 함께하는 미래",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.mapo.go.kr/design/theme/mayor/images/Itd_man2026b.png",
       "ci": "https://www.mapo.go.kr/design/theme/mapo2024/images/common/logo_new1.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:27:58+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -322,13 +347,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "살고싶은 도시 살기좋은 양천",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.yangcheon.go.kr/images/yangcheon/common/top-h1-logo-2.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:01+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -344,13 +369,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께 더하는 미래 같이 나누는 강서",
       "vision": null,
-      "photoUrl": "https://www.gangseo.seoul.kr/humanframe/theme/mayor/assets/image/content/img_mayor6.png",
+      "photoUrl": "https://www.gangseo.seoul.kr/comm/getImage?srvcId=MEDIA&upperNo=jBWN1iMDeAX*p1GohELHaA%3d%3d&fileTy=MEDIA&fileNo=ucPGx1sZJAToai0htfjF4A%3d%3d",
       "ci": "https://www.gangseo.seoul.kr/humanframe/theme/global/assets/image/common/img_logo_2024.png?v=1",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:05+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -368,11 +393,11 @@
       "termEnd": "2030-06-30",
       "slogan": null,
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.guro.go.kr/site/ceo/images/main2025/visual_bg_ceo_1.png",
+      "ci": "https://www.guro.go.kr/common/mini/images/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:07+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -388,13 +413,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "좋은도시 금천",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.geumcheon.go.kr/intro/images/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:09+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -410,13 +435,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "희망 행복 미래도시 영등포",
       "vision": null,
       "photoUrl": "https://www.ydp.go.kr/site/mayor/images/main/man_2026.png",
       "ci": "https://www.ydp.go.kr/site/www/images/common/h1_2026.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:11+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -432,13 +457,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "동작을 환하게",
       "vision": null,
       "photoUrl": "https://www.dongjak.go.kr/static/mayor/img/main/aoa_slier_img01.png",
       "ci": "https://www.dongjak.go.kr/static/portal/img/main/2026/logo_new20260701.png",
-      "pledges": null,
+      "pledges": [
+        "최고의 속도로 주민이 원하는 도시정비 사업 추진",
+        "한강변 랜드마크 및 수변공원 조성",
+        "동작타워 건립 및 동작8경 명소화 추진",
+        "어르신이 행복한 동작! 권역별 시니어 문화센터 조성",
+        "역세권 용도지역 상향 및 상업기능지역 확대"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:16+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -454,13 +485,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "더불어 으뜸 관악구",
       "vision": null,
       "photoUrl": "https://www.gwanak.go.kr/images/mayor/m4/hope_mayor_03.png",
       "ci": "https://www.gwanak.go.kr/images/gwanak/common_2024/top_logo_2024.png",
-      "pledges": null,
+      "pledges": [
+        "혁신과 상생의 더불어경제",
+        "포용하는 행복기본사회",
+        "청년의 활력 청년특별시 대한민국 청년수도",
+        "전국 제일 으뜸교육문화",
+        "지속가능하고 안전한 힐링정원도시",
+        "활짝 열린 AI 혁신관악청"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:19+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -476,13 +514,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "오늘 행복하고 내일이 기다려지는 서초",
       "vision": null,
       "photoUrl": null,
-      "ci": "http://www.seocho.go.kr/og_img.png",
-      "pledges": null,
+      "ci": "https://www.seocho.go.kr/images/seocho_2025/layout/top_logo.svg",
+      "pledges": [
+        "주민체감",
+        "데이터중심",
+        "지능화기반",
+        "스마트포용",
+        "지속가능도시",
+        "안심·안전"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:20+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -500,11 +545,11 @@
       "termEnd": "2030-06-30",
       "slogan": null,
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.gangnam.go.kr/assets/leader/image/202606/main-person.png",
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:22+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -526,7 +571,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:24+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -542,13 +587,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "힘찬 변화, 자랑스러운 강동",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.gangdong.go.kr/web/mayor/file/image/uu/e8bcc87324df488b8650d2bd39ab50f9",
+      "ci": "https://www.gangdong.go.kr/design/theme/gnagdong_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:26+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -564,13 +609,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "구민이 주인되는 행복도시 중구",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.bsjunggu.go.kr/img/mayor/sub/s4_2_1_2_img01.jpg",
       "ci": "https://www.bsjunggu.go.kr/img/junggu/common_new/logo.png",
-      "pledges": null,
+      "pledges": [
+        "북항재개발 핵심사업의 성공적 추진 지원",
+        "산복도로 고도제한 완화",
+        "용두산공원 첨단ICT 실증사업 연계 관광콘텐츠 개발",
+        "용두산공영주차장 부지 복합개발 조성",
+        "건축물 높이 규제완화"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:28+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -586,13 +637,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "딱! 살기 좋은 도시 서구",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.bsseogu.go.kr/img/ceo/new_main/ceo_img_240109.png",
       "ci": "https://www.bsseogu.go.kr/img/portal/common/logo.png",
-      "pledges": null,
+      "pledges": [
+        "활력 있는 해양도시",
+        "품격 있는 문화도시",
+        "찾고 싶은 관광도시",
+        "더불어 사는 복지도시",
+        "구민 중심 안전도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:31+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -608,13 +665,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "북항에서 세계로, 미래를 여는 행복 동구",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.bsdonggu.go.kr/images/main/mayor_bg0703.png",
       "ci": "https://www.bsdonggu.go.kr/images/common/logo2025.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:34+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -630,13 +687,17 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "해양문화가 숨 쉬는 고장",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.yeongdo.go.kr/_res/portal/img/sub/p03291_img02_2026.jpg",
       "ci": "https://www.yeongdo.go.kr/_res/portal/img/inc/logo@2x.png",
-      "pledges": null,
+      "pledges": [
+        "새롭게 발전하는 도시재생 경제도시",
+        "라이프스타일을 반영한 해양문화 관광도시",
+        "내 삶을 책임지는 환경복지 안전도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:37+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -652,13 +713,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "부산의 중심, 도약하는 부산진구",
       "vision": null,
-      "photoUrl": null,
-      "ci": "http://busanjin.go.kr/images/Potal_/content/new/logo.png",
-      "pledges": null,
+      "photoUrl": "https://www.busanjin.go.kr/images/Head_/main/mvis_mem_new.png",
+      "ci": null,
+      "pledges": [
+        "사랑과 희망의 복지건강도시",
+        "다시 찾고 싶은 스마트관광도시",
+        "일자리가 풍부한 경제중심도시",
+        "쾌적하고 편리한 친환경안전도시",
+        "구민과 소통하는 혁신창조도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:39+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -674,13 +741,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "명품도시 동래 다함께 미래로",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.dongnae.go.kr/images/portal/new/logo.png",
+      "pledges": [
+        "창의인재 교육도시",
+        "재해제로 안심도시",
+        "성장하는 활력경제",
+        "생애주기 통합복지",
+        "역사문화 관광도시",
+        "함께하는 소통행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:41+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -696,13 +770,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "일하는 남구, 삶이 든든한 기본사회",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.bsnamgu.go.kr/logo_intro_2026.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:43+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -718,13 +792,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "구민과 함께, 미래를 여는 북구",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.bsbukgu.go.kr/images/common/footer_logo.jpg",
+      "pledges": [
+        "아이부터 노년까지 전 생애 동행 프로젝트 추진",
+        "자영업자 희망 회복을 위한 심폐소생기금 조성",
+        "어르신 무한일자리 책임제 실현",
+        "문화로 풍요로운 사회적 문화처방 플랫폼 운영",
+        "함께 살기 편한 북구 생활인프라 완성"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:45+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -740,13 +820,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "살기 좋은 도시, 오고 싶은 도시 해운대",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.haeundae.go.kr/mayor/images/main/main_visual_550.jpg",
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "활기찬 지역경제",
+        "따뜻한 봉사행정",
+        "고품격 문화관광",
+        "촘촘한 복지증진",
+        "든든한 안전확보",
+        "시원한 교통흐름"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:47+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -762,13 +849,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "구민과 함께, 미래로 도약하는 사하",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.saha.go.kr/portal/images/common/2026top_logo.png",
+      "photoUrl": "https://www.saha.go.kr/common/jsp/common/imgViewer.jsp?basePath=/webdata/egov_uploadFile/&streFileNm=VIS_202606290357210350&orignlFileNm=%EB%A9%94%EC%9D%B8%EB%B0%B0%EB%84%88.jpg&ext=jpg&width=640&height=&mode=originView",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:50+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -784,13 +871,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "변화와 성장으로 함께 뛰는 금정",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.geumjeong.go.kr/img/geumjeong/common_new/logo.png",
-      "pledges": null,
+      "pledges": [
+        "일상의 품격을 높이는 정주환경",
+        "배움과 도전을 넓히는 명품교육",
+        "지역의 성장을 이끄는 활력경제",
+        "구민의 삶을 살피는 맞춤복지",
+        "금정의 미래를 여는 도시혁신"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:54+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -806,13 +899,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "변화의 시작, 함께 뛰는 강서",
       "vision": null,
-      "photoUrl": "https://www.bsgangseo.go.kr/mayor/img/main/v-mem01_2026.png",
+      "photoUrl": "https://www.bsgangseo.go.kr/mayor/img/contents/01/mayor_pic_2026.png",
       "ci": "https://www.bsgangseo.go.kr/common/img/common/m_logo.png",
-      "pledges": null,
+      "pledges": [
+        "교통혁신 정주도시",
+        "세계를 잇는 관문도시",
+        "미래성장 교육·문화·복지",
+        "AI 산업혁신도시",
+        "현장중심 책임행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:28:57+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -828,13 +927,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "새로운 변화 꿈을 여는 연제",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.yeonje.go.kr/portal/img/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:02+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -850,13 +949,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "아름다운 도시 행복한 주민이 행복한 명품도시 수영",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.suyeong.go.kr/img/suyeong/top_logo_on_2020.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:05+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -872,13 +971,21 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "힘 있는 변화, 살고 싶은 사상",
       "vision": null,
-      "photoUrl": "https://www.sasang.go.kr/img/mayor/main_new/m_mayor2026.jpg",
+      "photoUrl": "https://www.sasang.go.kr/img/sasang/main_new/m_mayor2026.png",
       "ci": "https://www.sasang.go.kr/img/sasang/common_new/logo.png",
-      "pledges": null,
+      "pledges": [
+        "일자리로 다시 살아나는 희망활력 도시",
+        "떠나지 않고 살고 싶은 생애맞춤 도시",
+        "낭만과 감성을 향유하는 문화축제 도시",
+        "내 삶이 새롭게 바뀌는 주거혁신 도시",
+        "신속, 신뢰 행정으로 속 시원한 도시",
+        "숙원 사업 쑥쑥 풀리는 힘 있는 도시",
+        "빛으로 살아나는 밤이 아름다운 도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:07+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -900,7 +1007,7 @@
       "ci": "https://www.gijang.go.kr/images/portal/intro/new_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:11+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -922,7 +1029,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:13+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -938,13 +1045,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "내일이 더 기대되는 동구",
       "vision": null,
       "photoUrl": "https://www.dong.daegu.kr/mayor/img/main/v000.jpg",
-      "ci": "https://www.dong.daegu.kr/portal/img/main/web_accessibility.png",
+      "ci": "https://www.dong.daegu.kr/common/img/common/m_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:16+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -960,13 +1067,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "가슴 뛰는 변화, 서구! / 살맛나는 서구, 꼭 만들겠습니다.",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.dgs.go.kr/common/img/common/national_symbol.jpg",
+      "ci": "https://www.dgs.go.kr/common/img/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:20+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -982,13 +1089,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "활기찬 건강도시 희망의 따뜻한 남구",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.nam.daegu.kr/cmsh/nam.daegu.kr/images/header/logo2.jpg",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:23+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1004,13 +1111,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "행복한 오늘, 희망찬 북구",
       "vision": null,
       "photoUrl": "https://www.buk.daegu.kr/cmsh/mayor/images/mayor_pic01_2026.jpg",
       "ci": "https://www.buk.daegu.kr/cmsh/buk.daegu.kr/images/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:27+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1026,13 +1133,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "사람이 찾아오는 목적지가 되는 수성구",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.suseong.kr/cmsh/suseong.kr/images/common/DB03.png",
+      "ci": "https://www.suseong.kr/cmsh/suseong.kr/mayor/images/common/logo_header.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:31+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1048,13 +1155,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께하는 행복 달서",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.dalseo.daegu.kr/cmsh/dalseo.daegu.kr/images/common/logo_header.png",
-      "pledges": null,
+      "pledges": [
+        "행정문화 대혁신",
+        "성서산단 'DS밸리'로 대혁신",
+        "지역축제, 경제축제로 대혁신",
+        "힐링공간 대혁신",
+        "주민복지 대혁신",
+        "교육환경 대혁신"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:34+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1070,13 +1184,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "군민이 빛나는 달성",
       "vision": null,
-      "photoUrl": "https://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/mayor202202/images/main/img_main01.jpg",
+      "photoUrl": "https://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/mayor202202/images/content/manifesto_gunsu.png",
       "ci": "https://www.dalseong.daegu.kr/cmsh/dalseong.daegu.kr/images/common/img_logo_header.png",
-      "pledges": null,
+      "pledges": [
+        "일자리/경제: 청년이 모이고 일자리가 넘치는 글로벌 경제도시",
+        "정주환경/교통: 쾌적한 도시환경과 자족형 생활교통도시",
+        "교육: 아이들이 행복하게 성장하는 미래교육도시",
+        "복지/건강: 함께 누리는 따뜻한 복지·건강도시",
+        "관광/문화/명품: 모두가 찾고 머무는 관광·문화·명품도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:37+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1092,13 +1212,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "아름다운 변화, 행복한 군위",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:39+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1114,13 +1234,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "구민과 함께 만드는 영종구",
       "vision": null,
       "photoUrl": "https://www.yeongjong.go.kr/headman/baner/process.file.do?sn=27&pass=y",
       "ci": "https://www.yeongjong.go.kr/main/images/common/logo.svg",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:41+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1136,13 +1256,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "통합을 넘어 미래로 다시 뛰는 제물포구",
       "vision": null,
       "photoUrl": "https://www.jemulpo.go.kr/headman/img/main/pic_main_visual_deco.png",
       "ci": "https://www.jemulpo.go.kr/share/images/krds/ico_logo.svg",
-      "pledges": null,
+      "pledges": [
+        "역세권 개발과 내항 재창조를 통한 미래 성장 도시 조성",
+        "해양산업과 혁신기업이 함께하는 신성장 경제벨트 마련",
+        "국제교육과 미래인재 육성이 함께하는 교육도시 구현",
+        "광역교통망과 도로인프라가 연결되는 교통중심도시 실현",
+        "역사와 미래가 공존하는 해양관광 문화 도시 조성",
+        "촘촘한 세대별 맞춤복지 실현을 통한 사회안전망 구축"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:44+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1158,13 +1285,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "약동하는 미추홀구",
       "vision": null,
       "photoUrl": "https://www.michuhol.go.kr/ward/images/sub/img_greeting2026_01.png",
-      "ci": "https://www.michuhol.go.kr/main/images/common/weather1.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "성장하는 경제 중심 미추홀구 - 일자리와 상권이 살아나는 활력도시",
+        "안전과 건강이 기본인 미추홀구 - 스마트 안전망과 건강 돌봄을 갖춘 안심도시",
+        "모두가 행복한 복지 미추홀구 - 생애 맞춤과 촘촘한 돌봄의 복지도시",
+        "배움과 문화가 빛나는 미추홀구 - 배움이 일상이 되고 문화가 삶이 되는 행복도시",
+        "구민과 소통하는 미추홀구 - 참여와 공감으로 완성하는 행정도시",
+        "사람이 머무는 녹색 미추홀구 - 자연과 어우러진 지속 가능한 환경도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:47+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1180,13 +1314,21 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "꿈을 이루는 행복한 연수",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.yeonsu.go.kr/img/logo2026.gif",
-      "pledges": null,
+      "photoUrl": "https://www.yeonsu.go.kr/headman/images/sub/actual_menu_visual2026.png",
+      "ci": "https://www.yeonsu.go.kr/main/img/logo2026.gif",
+      "pledges": [
+        "소통의 연수",
+        "통합의 연수",
+        "안전한 연수",
+        "구민을 섬기는 감동의 신뢰행정",
+        "원도심과 국제도시가 상생하는 화합도시",
+        "일자리와 내수가 순환되는 풍요로운 경제도시",
+        "지성과 품격이 스며드는 교육·문화도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:49+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1208,7 +1350,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:51+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1224,13 +1366,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "참여+나눔 더불어사는 따뜻한 부평",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.icbp.go.kr/main/img/inc/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:54+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1246,13 +1388,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "신뢰받는 소통행정, 첨단 경제도시 계양",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.gyeyang.go.kr/open_content/main/images/main2020/logo.gif",
-      "pledges": null,
+      "ci": "https://www.gyeyang.go.kr/open_content/headman/img/logo.png",
+      "pledges": [
+        "첨단산업과 좋은 일자리로 완성하는 경제자족도시",
+        "막힘없이 광역·생활교통으로 연결되는 교통중심도시",
+        "신·구도심 상생과 안전 인프라로 완성하는 균형발전도시",
+        "골목상권과 지역경제에 활력을 더하는 민생경제도시",
+        "생애주기 돌봄과 건강한 일상을 지키는 행복복지도시",
+        "배움·문화·체육·생태가 어우러진 명품 교육문화도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:29:56+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1270,11 +1419,22 @@
       "termEnd": "2030-06-30",
       "slogan": null,
       "vision": null,
-      "photoUrl": "https://seo.dofnet.kr/open_content/main/img2023/headman2026.png?v1.2",
-      "ci": "https://www.seohae.go.kr/open_content/main/img2020/inc/allmenu_login.gif",
-      "pledges": null,
+      "photoUrl": "https://www.seohae.go.kr/open_content/headman/img2020/main/v2026.jpg",
+      "ci": "https://www.seohae.go.kr/open_content/main/img2023/logo_bk.png",
+      "pledges": [
+        "도약하는 도시",
+        "풍요로운 경제",
+        "AI 미래산업 대전환",
+        "미래교육",
+        "행복한 가족",
+        "희망찬 청년",
+        "든든한 어르신",
+        "편리한 교통",
+        "안전한 도시",
+        "지속가능한 환경"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:00+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1290,13 +1450,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "미래의 중심 도시, 수도권의 새로운 심장 검단구",
       "vision": null,
-      "photoUrl": "https://www.geomdan.go.kr/headman/img/contents/pic_modal_greeting01.png",
+      "photoUrl": "https://www.geomdan.go.kr/headman/img/contents/pic_greeting.png",
       "ci": "https://www.geomdan.go.kr/main/img/ico_logo.svg",
-      "pledges": null,
+      "pledges": [
+        "어디서나 빠르게, 교통혁명 검단",
+        "다니고 싶은 학교, 배움이 충족되는 검단",
+        "튼튼한 의료체계, 즐거운 문화복지 검단",
+        "행정부터 환경까지 살기 좋은 검단",
+        "청년사업가들이 이끌어가는 자족도시 검단"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:02+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1312,13 +1478,18 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "군민과 함께 뛰는 박용철",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.ganghwa.go.kr/open_content/main/images/img2024/logo.svg",
-      "pledges": null,
+      "pledges": [
+        "소통하는 공감행정",
+        "함께 누리는 행복복지",
+        "살맛나는 지역경제",
+        "머물고 싶은 문화관광"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:04+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1337,10 +1508,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.ongjin.go.kr/open_content/main/images/inc/logo_2026.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:06+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1356,13 +1527,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "이웃이 있는 마을, 따뜻한 행복 동구",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.donggu.kr/main/img/common/head_logo.gif",
+      "pledges": [
+        "골목경제는 튼튼하게, 신산업 육성 밝고 활기찬 경제도시",
+        "모든 세대의 꿈을 지원하는 미래가 있는 희망자치도시",
+        "문화예술이 생성하게 살아 숨쉬는 살고 싶은 문화관광도시",
+        "풍부한 녹지, 맑고 깨끗한 주거환경 저탄소 친환경 생태도시",
+        "누구나 언제나 어디서나 안심할 수 있는 안전건강도시",
+        "삶의 가치와 행복지수를 높이는 사랑중심의 인문도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:08+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1378,13 +1556,21 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께서구 우뚝서구",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.seogu.gwangju.kr/kor/img/layout/ico_nara.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "마을중심 자치도시",
+        "골목중심 경제도시",
+        "사람중심 돌봄도시",
+        "감탄중심 안전도시",
+        "공원중심 문화도시",
+        "행복중심 교육도시",
+        "AI중심 행정도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:11+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1400,13 +1586,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "활기찬 경제 행복한 복지 으뜸효 남구",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.namgu.gwangju.kr/img/common/lnb_flag.png",
-      "pledges": null,
+      "ci": "https://www.namgu.gwangju.kr/intro/img/logo.png",
+      "pledges": [
+        "활기찬 경제도시 - 대촌 에너지밸리 조성, 도시첨단 국가산단 에너지산업 인프라 확대, 송암산단 도시재생혁신지구 경제거점 조성",
+        "품격있는 생활도시 - 누리고 배우고 쉴 수 있는 활기차고 품격있는 삶, 따뜻하고 건강한 삶 실현",
+        "도시재생으로 구도심 재생 - 양림동·사직동·백운광장·방림동·송암산단 도시재생 뉴딜사업으로 구도심을 새 중심축으로 조성",
+        "현장중심 소통행정 - 주민과 밀착된 현장중심 소통행정 실천, 해묵은 주민 숙원사업 해결",
+        "안전한 생활환경 - 안전 인프라 구축과 주민 참여 안전문화 확산으로 안전한 생활환경 조성",
+        "역사·문화 관광도시 - 전통문화와 근대역사의 보고인 남구를 볼거리 가득한 관광도시로 조성"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:13+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1422,13 +1615,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "주민주권 도시 으뜸북구",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://bukgu.gwangju.kr/kor/img/common/head-logo.svg",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:15+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1444,13 +1637,18 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "지속가능 광산",
       "vision": null,
       "photoUrl": "https://www.gwangsan.go.kr/home/mayor/images/main/img_director_v3.png",
       "ci": "https://www.gwangsan.go.kr/home/www/images/common/logo_gs_v2.png",
-      "pledges": null,
+      "pledges": [
+        "소통으로 친근한 행정",
+        "상생으로 튼실한 경제",
+        "참여하며 나누는 복지",
+        "문화관광 꽃피는 도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:18+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1466,13 +1664,18 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께 만든 가치, 더 행복한 동구민",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "photoUrl": "https://www.donggu.go.kr/dg/attach/image/b3696dcdfa9375b61231963f9cd0b864/9a9db098b587ee18b321c826f3707a49",
+      "ci": "https://www.donggu.go.kr/dg/images/core/logo.png",
+      "pledges": [
+        "도시혁신 1번지",
+        "재난안전 1번지",
+        "관광문화 1번지",
+        "주민복지 1번지"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:20+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1488,13 +1691,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "주민과 함께 주민 속으로",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.djjunggu.go.kr/images/kr/main/logo_ci.png",
-      "pledges": null,
+      "pledges": [
+        "특별히 다르게 일하는 자치정부 구현",
+        "주민과 함께 새로운 희망을 만드는 원도심 활성화",
+        "지역자원을 활용한 지역선순환 경제 기반 구축",
+        "함께 누리는 사람중심 복지 인프라 확대",
+        "모든 세대가 공감하는 평생학습도시 조성"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:22+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1510,13 +1719,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "구민 주권, 행복 도시 서구",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://i.ytimg.com/vi/PkeJ8kcIdPw/hqdefault.jpg",
+      "photoUrl": "https://www.seogu.go.kr/images/mayor/main/main-person.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:25+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1532,13 +1741,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "구민우선, 사람중심",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.yuseong.go.kr/pcms/common/images/og-images.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "미래친환(Smart Shift) - 미래산업 성장기반 강화, 글로벌 창업생태계 조성",
+        "참여확대(Together Governance) - 생활권 공동체거점 확충, 주민주도 자치역량 강화",
+        "기후대응(Act on Climate) - 기후위기 대응체계 강화, 스마트 생활안전망 구축",
+        "돌봄확대(Responsive Care) - 생애주기 맞춤복지 강화, 권역별 건강돌봄망 구축",
+        "문화친환(Signature Culture) - 테크아트 문화도시 조성, 일상문화 향유기반 확대"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:27+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1554,13 +1769,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "튼튼 대덕, 구민이 중심입니다",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.daedeok.go.kr/images/dpt_2022/common/logo2.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:30+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1576,13 +1791,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "누구나 살고 싶은 종갓집 중구",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.junggu.ulsan.kr/images/domain/junggu/main/all_search_ov.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "사람이 모이는 문화경제도시",
+        "아이 키우기 좋은 행복도시",
+        "자연과 함께하는 생태정원도시",
+        "일상이 안전한 안심도시",
+        "구민과 함께하는 소통공감도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:35+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1598,13 +1819,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "다시 뛰는 남구, 다시 서는 민생경제",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.ulsannamgu.go.kr/mayor2026/images/main/Mayor.png",
       "ci": "https://www.ulsannamgu.go.kr/images/namgu_img/namgu_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:38+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1620,13 +1841,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "모두가 함께 만드는 새로운 동구",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.donggu.ulsan.kr/images/common/logo2.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "다시 뛰는 경제 동구",
+        "빈틈 없는 복지 동구",
+        "꿈이 자란 교육 동구",
+        "쉼과 매력 관광 동구",
+        "마음 든든 안전 동구"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:42+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1642,13 +1869,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "혁신으로 도약하는, 주민중심 행복북구",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.bukgu.ulsan.kr/images/header/logo.svg",
-      "pledges": null,
+      "pledges": [
+        "생활체감 절감혁신",
+        "교통·도시 혁신",
+        "일자리·산업 혁신",
+        "활력·문화도시 혁신",
+        "사람중심·노동존중 혁신"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:46+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1664,13 +1897,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "내 삶에 스며드는 행복 울주",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.ulju.ulsan.kr/common/imgView.do?attachId=fe80d58d9401c4c216b48968ad5a2cc7c6e70209056dfc42e34156975b53df32&fileSn=f9a1967c526603d17ab488b9d2747cda&width=800&height=360&mode=ratio",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:49+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1686,13 +1919,18 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "수원을 새롭게, 시민을 빛나게",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.suwon.go.kr/resources/web/www_2025/images/common/logo.png",
+      "pledges": [
+        "탄탄한 경제",
+        "깨끗한 생활(환경)",
+        "따뜻한 돌봄",
+        "한가지 더"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:51+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1708,13 +1946,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께 만드는 미래 용인 르네상스",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.yongin.go.kr/webcontent/resrce/1/2026/6/29/69ff5121-c6cd-40df-8d7d-f46aa5a436f6.jpg",
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "경제산업, 일자리",
+        "도시, 교통",
+        "교육, 보육",
+        "문화, 체육, 관광",
+        "복지, 보건",
+        "환경, 기후, 농업"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:53+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1736,7 +1981,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:54+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1752,13 +1997,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "내 삶을 바꾸는 희망화성",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.hscity.go.kr/resources/mayor/images/myr_ph_new1.png",
+      "ci": "https://www.hscity.go.kr/resources/www/img/main/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:56+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1774,13 +2019,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "첨단과 혁신의 희망도시 성남",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.seongnam.go.kr/include/cmm_new/image/layout/logo.png?v=20220801",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:30:58+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1796,13 +2041,17 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "다시 함께, 더 큰 부천",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "photoUrl": "https://www.bucheon.go.kr/files/web148/images/main_new03/bg_mayor.jpg",
+      "ci": "https://www.bucheon.go.kr/files/web148/images/layout02/img_logo.png",
+      "pledges": [
+        "더+큰 경제: 기업과 미래 산업이 성장하는 혁신도시",
+        "더+큰 도시: 교통과 공간의 가치를 키우는 성장도시",
+        "더+큰 행복: 시민의 삶을 더 든든하게 하는 행복도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:00+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1824,7 +2073,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:01+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1840,13 +2089,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민과 함께 자유로운 혁신도시 안산",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.ansan.go.kr/common/images/mayor/mbg-img-mo.jpg",
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "시민 중심: 소통과 협력으로 시민 중심 열린 행정, 청년의 꿈을 실현하는 벤처도시 조성",
+        "첨단 혁신: 교통혁신 도시개발 및 미래형 첨단산업단지 조성, 소상공인 지원을 통한 지역경제 활성화",
+        "복지 문화: 생애주기 맞춤형 복지지원 및 의료인프라 확충, 지역 문화자원을 활용한 수요권 최고의 힐링도시 조성",
+        "미래 교육: 미래형 수요 교육 제공으로 글로벌 인재 양성, 4차 산업혁명 디지털 시대에 맞장은 평생교육",
+        "교통 환경: 사통팔달 광역도시 조성 및 주차난 획기적 개선, 탄소중립·친환경 에너지를 선도하는 안산"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:03+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1862,13 +2117,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께 성장하고 시민이 행복한 평택",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.pyeongtaek.go.kr/pyeongtaek/img/common/wa_mark.png",
+      "photoUrl": "https://www.pyeongtaek.go.kr/common/file/img/view.do?atchFileId=51B7D6C93DA9E59161252BB80ACC968B8AD0830E918CE0646D2F6DB787FD9CD8&fileSn=40B1EC5752ED3C81CAF8B369B7BED22E&mode=originView",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:06+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1884,13 +2139,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민과 함께하는 스마트 행복도시 안양",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.anyang.go.kr/site/topic/images/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:08+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1906,13 +2161,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "행복한 변화, 새로운 시흥",
       "vision": null,
       "photoUrl": null,
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "시민이 잘사는 시흥 (K-교육도시·K-경제도시)",
+        "시민이 편안한 시흥 (K-교통도시·K-안전도시)",
+        "시민이 행복한 시흥 (K-건강도시·K-복지도시)",
+        "시민이 즐거운 시흥 (K-문화도시·K-관광도시)",
+        "시민이 쾌적한 시흥 (K-생태도시·K-상생도시)"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:10+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1928,13 +2189,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "평화도, 경제도, 파주로!",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.paju.go.kr/resources/user/www/images/layout/logo.png",
-      "pledges": null,
+      "pledges": [
+        "균형잡힌 평화성장도시",
+        "풍요로운 자족도시",
+        "모두가 누리는 행복도시",
+        "경청과 협치",
+        "공정과 신뢰",
+        "실용과 성과"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:13+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1950,13 +2218,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민과 함께 김포 大도약",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.gimpo.go.kr/site/portal2022/images/main/newLogo.png?ver260713",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:14+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1972,13 +2240,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민의 뜻으로, 새로운 의정부",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.ui4u.go.kr/onMayor/img/about.png",
+      "ci": "https://www.ui4u.go.kr/common/img/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:16+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -1994,13 +2262,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민과 직통하는 광주",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.gjcity.go.kr/portal/img/popup/popup_260701.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "시민과 행정이 막힘없이 바로 통하는 직통 도시",
+        "배움·돌봄·문화가 일상이 되는 시민이 행복해지는 도시",
+        "AI·에너지·문화관광의 융합으로 커가는 도시",
+        "광역·스마트·교통으로 편리를 높이는 교통이 뚫리는 도시",
+        "역세권 중심 일과 삶이 어우러지는 도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:19+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2022,7 +2296,7 @@
       "ci": "https://www.hanam.go.kr/site/sotong/images/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:21+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2038,13 +2312,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민주권 대전환 경기북부 중심 양주",
       "vision": null,
       "photoUrl": "https://www.yangju.go.kr/site/www/images/contents/mayor_img.png",
       "ci": "https://www.yangju.go.kr/site/www/images/common/yangju_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:24+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2060,13 +2334,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께하는 시민 앞으로 광명",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.gm.go.kr/resources/pd_2024/images/main/visual_person1.png",
+      "ci": "https://www.gm.go.kr/resources/pd_2024/images/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:26+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2082,13 +2356,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "빠르고 확실한 변화 시민중심 군포",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.gunpo.go.kr/tracer/logo2.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:28+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2104,13 +2378,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민과 함께 여는 성장도시 오산",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.osan.go.kr/common/img/common/wa_mark.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:30+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2126,13 +2400,22 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": "새로운 이천 함께여는 미래",
+      "slogan": "통(通)하고 웃어라 이천",
       "vision": null,
       "photoUrl": null,
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "미래인재를 키우는 교육도시",
+        "일상이 풍요로운 매력도시",
+        "평생 안심 복지도시",
+        "지속가능한 미래농업도시",
+        "시민이 참여하는 시정혁신",
+        "미래를 키우는 산업혁신",
+        "성장을 연결하는 교통도시",
+        "일과 삶이 조화로운 안심도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:33+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2148,13 +2431,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "더불어 사는 풍요로운 안성",
       "vision": null,
-      "photoUrl": "https://www.anseong.go.kr/mayor/img/main/main_visual04.png",
+      "photoUrl": "https://www.anseong.go.kr/mayor/img/main/main_visual02.png",
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:38+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2170,13 +2453,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민의 하루를 바꾸는 구리",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.guri.go.kr/site/www_2023/images/common/logo.png",
+      "pledges": [
+        "경제 대전환 - 기업과 일자리가 모이는 자족도시",
+        "교통 대전환 - 빠르고 편리한 수도권 연결도시",
+        "교육 대전환 - 아이들의 미래를 키우는 교육도시",
+        "문화 대전환 - 일상 속 문화가 살아있는 도시",
+        "복지 대전환 - 모든 세대가 함께 행복한 도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:39+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2192,13 +2481,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "더 큰 포천, 더 큰 행복",
       "vision": null,
       "photoUrl": null,
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "전철7호선 노선변경 (변경된 공약사업: GTX-G노선 유치 추진)",
+        "포천-철원 고속도로 연장",
+        "포천천 명품 친수 공간 조성 (문화와 예술이 흐르는 포천천, 포천 블루웨이 조성)",
+        "포천시 공립 치매전담형 노인요양시설 건립",
+        "청년 창업지원센터 구축"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:41+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2220,7 +2515,7 @@
       "ci": "https://www.uiwang.go.kr/humanframe/theme/uiwang/assets/images/uiwang_images/logo.jpg",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:44+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2236,13 +2531,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "행복도시 희망여주",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.yeoju.go.kr/intro/images/new_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:45+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2258,13 +2553,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "동두천을 새롭게, 시민을 힘나게!",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.ddc.go.kr/DATA/popup/",
+      "photoUrl": "https://www.ddc.go.kr/site/mayor_new/images/main/visual_bg_23_08_m.jpg",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:50+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2280,13 +2575,18 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "다음세대를 위한 도시, 과천을 향해 과천시가 다시 한 번 도약합니다",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.gccity.go.kr/common/img/common/wa_mark.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "PLATFORM CITY (플랫폼 시티)",
+        "SMART CITY (스마트 시티)",
+        "HEALTHY CITY (헬시 시티)",
+        "SHARING CITY (셰어링 시티)"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:53+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2302,13 +2602,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "맑은행복 양평",
       "vision": null,
-      "photoUrl": "https://www.yp21.go.kr/site/gunsu/images/main/visual_img1.jpg",
+      "photoUrl": "https://www.yp21.go.kr/site/gunsu/images/contents/cts3980_greeting_2026.png",
       "ci": "https://www.yp21.go.kr/site/www/images/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:57+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2324,13 +2624,21 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "자연을 경제로 꽃피우는 도시, 가평",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.gp.go.kr/site/portal/images/common/logo_2025.png",
+      "pledges": [
+        "군민중심의 경제·농업 정책",
+        "맞춤형 인구정책 추진",
+        "문화가 융성한 관광콘텐츠 육성",
+        "생활인구 1,000만의 자족도시 완성",
+        "도시 인프라 구축",
+        "군민의 건강한 삶",
+        "일 잘하는 가평군"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:31:59+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2346,13 +2654,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "다함께 미래로 Yes, 연천!",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.yeoncheon.go.kr/site/mayor/images/main/visual_bg.jpg",
+      "ci": "https://www.yeoncheon.go.kr/site/www/images/common/logo_220914.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:00+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2368,13 +2676,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민 성공시대, 초일류 춘천",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.chuncheon.go.kr/_user/restructure2022/cityhall/img/layout/img-logo.gif",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:03+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2390,13 +2698,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민의 뜻을 모아 함께 만드는 원주",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.wonju.go.kr/site_2024/www/images/common/footer_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:05+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2412,13 +2720,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "솔향강릉",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.gn.go.kr/intro_2025/images/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:14+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2437,10 +2745,16 @@
       "slogan": null,
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.dh.go.kr/site/public/images/common/logo_color.svg",
+      "pledges": [
+        "해운물류(Shipping&Logistics)",
+        "첨단소재 에너지산업(Sourcing&Industries)",
+        "관광 휴양(Sightseeing&Recreation)",
+        "스마트 쾌적(Smart&Amenity)",
+        "창업 창신(Starting&Innovation)"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:16+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2462,7 +2776,7 @@
       "ci": "https://www.taebaek.go.kr/site/www/images/intro/intro_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:18+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2478,13 +2792,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민은 하나로, 속초는 미래로!",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.sokcho.go.kr/sc/page/sokchoportal/images/common/sokcho.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:19+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2500,13 +2814,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "다시 삼척의 시대",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:21+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2522,13 +2836,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "홍천을 더 넓게, 군민을 더 행복하게",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.hongcheon.go.kr/images/intro_title.png",
+      "ci": "https://www.hongcheon.go.kr/hongcheon_intro_new/images/fotter_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:23+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2550,7 +2864,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:25+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2568,11 +2882,11 @@
       "termEnd": "2030-06-30",
       "slogan": null,
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.yw.go.kr/site/mayor/images/contents/img_mayor_new01.jpg",
       "ci": "https://www.yw.go.kr/site/www/images/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:27+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2588,13 +2902,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "하나된 평창, 행복한 군민",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "photoUrl": "https://www.pc.go.kr/page/mayor2024/images/content/governor_01.png",
+      "ci": "https://www.pc.go.kr/page/portal2024/images/main/logo.png",
+      "pledges": [
+        "활력과 희망이 넘치는 지역경제",
+        "감동과 즐거움이 배가되는 문화관광",
+        "활기차고 풍요로운 농업·농촌",
+        "함께하는 공감의 행복 복지",
+        "원칙과 균형으로 조화되는 지역발전"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:29+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2610,13 +2930,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "희망찬 아침, 평온한 저녁, 행복한 정선",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.jeongseon.go.kr/common/images/intro/logo2.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:31+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2638,7 +2958,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:33+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2654,13 +2974,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "탄탄한 소득, 든든한 복지, 도약하는 화천",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.ihc.go.kr/images/common/menu6_depth2_title.png",
-      "pledges": null,
+      "photoUrl": "https://www.ihc.go.kr/mayor/images/main/greeting_photo_2026.jpg",
+      "ci": null,
+      "pledges": [
+        "교육·보육: 생애주기에 맞춘 교육정책으로 최고의 환경조성",
+        "농업: 실질적 수익 창출 정책으로 미래형 농촌공동체 실현",
+        "복지: 사각지대 없는 복지 살기 좋은 화천",
+        "정주여건: 화천군민 주거복지 개선을 위한 건설 및 지원정책",
+        "경제·일자리: 일자리 만드는 지역경제 정책으로 잘사는 화천"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:36+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2676,13 +3002,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께 여는 미래, 살맛나는 양구",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.yanggu.go.kr/resources/images/fnc_images/common/logo.png",
+      "photoUrl": "https://www.yanggu.go.kr/resources/images/fnc_images/cyber/main/sec1_img1b.png?v=2606302359",
+      "ci": "https://www.yanggu.go.kr/resources/images/fnc_images/common/logo.png?v=2606302356",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:38+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2704,7 +3030,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:41+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2720,13 +3046,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "희망찬 미래 평화중심 고성",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.gwgs.go.kr/images/kor/main/2023/gunsu.png?ver=1.1",
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "상생의 자립경제",
+        "오감을 만족시키는 맞춤형 복지",
+        "휴(休)를 즐기는 관광",
+        "함께 향유하는 문화·체육",
+        "풍요의 잘 사는 농수산",
+        "군민과 소통하는 감동행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:42+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2742,13 +3075,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "하나되는 양양! 다시뛰는 양양",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.yangyang.go.kr/covid/images/intro/logo.png?ver=1.2",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:44+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2767,10 +3100,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.cheongju.go.kr/site/www_2019/images/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:47+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2786,13 +3119,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "미래 도시, 젊은 충주",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:49+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2808,13 +3141,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "사람·문화·경제가 꽃피는 행복도시! 제천",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.jecheon.go.kr/site/mayor2022/images/main/visual01.jpg",
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:51+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2830,13 +3163,21 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "군민이 행복한 도시형 농촌 보은",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.boeun.go.kr/site/www/images/common/logo.png",
+      "pledges": [
+        "인구 4만 회복 토대 마련 범군민 운동 전개",
+        "미래형 산업단지 성공적 조성",
+        "보은 도시재생 뉴딜사업 추진",
+        "자영업 및 소상공인 소득증대 기반 조성",
+        "결초보은카드 조기 정착 및 활성화",
+        "읍면별 균형발전 정책 수립 추진",
+        "청년 정착 및 일자리 지원"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:53+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2852,13 +3193,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "국토의 중심, 미래를 여는 옥천",
       "vision": null,
       "photoUrl": null,
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "배움과 돌봄이 든든한 교육도시 옥천",
+        "균형 있게 발전하는 지속가능한 옥천",
+        "활기차고 역동적인 농업·경제도시 옥천",
+        "자연이 머물고 쉬어가는 생태·문화도시 옥천",
+        "군민이 주인 되는 믿음행정 옥천"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:55+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2874,13 +3221,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께하는 군민 살맛나는 영동",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "photoUrl": "https://www.yd21.go.kr/mayor/img/sub01/sub0101_img01.png?ver=1.1",
+      "ci": "https://www.yd21.go.kr/common/img/logo.jpg",
+      "pledges": [
+        "앞서가는 미래농업 - 돈 버는 미래농업을 실현하고 살고 싶은 농촌을 만들겠습니다.",
+        "생동하는 지역경제 - 지역경제의 새로운 도약을 이루고 청년이 희망을 품고 미래를 꿈꾸도록 하겠습니다.",
+        "머무르는 힐링관광 - 체류형 치유관광 육성을 통해 관계 인구를 창출하여 지방 소멸 위기를 극복하겠습니다.",
+        "감동주는 맞춤복지 - 아이돌봄의 공공성을 강화하고 청소년의 꿈을 응원하며 노년이 즐거운 영동을 만들겠습니다.",
+        "만족하는 열린행정 - 군민의 곁에서 소통하며 더 함께 공감하는 참여군정을 실천하겠습니다."
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:57+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2896,13 +3249,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "군민 중심 새로운 미래 증평",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.jp.go.kr/uloads_clone/popupZone/POZ_202408260526240490.jpg",
+      "ci": "https://www.jp.go.kr/images/kor/main/2022/footer_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:32:59+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2918,13 +3271,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "격이 다른 진천",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.jincheon.go.kr/tracer/logo2.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:01+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2940,13 +3293,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "청정괴산 더 크게! 더 행복하게!",
       "vision": null,
       "photoUrl": "https://www.goesan.go.kr/site/chief/images/main/con03_img.png",
       "ci": "https://www.goesan.go.kr/site/www/images/layout_/logo.png",
-      "pledges": null,
+      "pledges": [
+        "미래농업 명품도시",
+        "청정자연 관광도시",
+        "경제성장 활력도시",
+        "평생복지 건강도시",
+        "군민중심 행복도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:04+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2962,13 +3321,18 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "상상대로! 음성으로!",
       "vision": null,
       "photoUrl": null,
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "활력도시 음성 - 생산과 복합물류의 거점",
+        "행복도시 음성 - 인간존중 친환경 공간창출",
+        "복지도시 음성 - 주민 모두가 행복하고 즐거운",
+        "기업도시 음성 - 세심한 개발과 보전의 병행"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:06+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -2984,13 +3348,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "단양을 바꾸는 새로운 힘!",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:11+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3006,13 +3370,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "천안 대전환 시민과 함께",
       "vision": null,
-      "photoUrl": "https://www.cheonan.go.kr/assets/images/main/mayor/mayor.png",
-      "ci": "https://www.cheonan.go.kr/thumbnail/popupzoneDetail/300_PHO_202607060447203950.JPG",
-      "pledges": null,
+      "photoUrl": "https://www.cheonan.go.kr/assets/images/main/mayor/mayor.png?ver=260713",
+      "ci": null,
+      "pledges": [
+        "365일 행복일상",
+        "360도 균형발전",
+        "100만 동행경제",
+        "24시간 맞춤복지",
+        "1등 혁신행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:14+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3028,13 +3398,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "강한 공주 행복한 시민",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:16+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3050,13 +3420,18 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "희망찬 내일 즐거운 일상 건강한 보령",
       "vision": null,
       "photoUrl": "https://www.brcn.go.kr/images/mayor/common/img_mayor26.png",
-      "ci": "https://www.brcn.go.kr/images/kor/common/ci_mark_br2.png",
-      "pledges": null,
+      "ci": "https://www.brcn.go.kr/images/kor/common/ci_mark_br.png",
+      "pledges": [
+        "튼튼한 경제도시 - 튼튼한 경제, 일자리 창출",
+        "글로벌 관광도시 - 세계로 도약하는 관광도시",
+        "행복한 화합도시 - 소통과 화합, 함께하는 보령",
+        "활기찬 미래도시 - 미래를 준비하는 활력도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:18+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3078,7 +3453,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:20+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3094,13 +3469,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "도약하는 서산, 살맛나는 서산",
       "vision": null,
       "photoUrl": "https://www.seosan.go.kr/site/mayor/images/contents/cts1022_img.jpg",
-      "ci": "https://www.seosan.go.kr/site/www/images/common/wow_logo3.jpg",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "풍요로운 경제도시",
+        "걱정없는 복지도시",
+        "품격있는 문화도시",
+        "오감만족 관광도시",
+        "비전있는 희망도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:23+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3116,13 +3497,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "논산을 새롭게 시민을 행복하게",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.nonsan.go.kr/kor/upl/main/popup_zone/20260508144328_00rxrtcjj9fmko1zcq8q59o1hl7hvm.jpg",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:26+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3138,13 +3519,21 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "행복이 넘치는 YES! 계룡",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.gyeryong.go.kr/site/common/tmpl/skinD/img/cn_wa.png",
-      "pledges": null,
+      "ci": "https://gyeryong.go.kr/common/img/logo.png",
+      "pledges": [
+        "미래를 선도하는 파워풀 국방도시",
+        "품격을 더하는 원더풀 명품도시",
+        "모두가 행복한 조이풀 행복도시",
+        "미래국방 선도도시(국방경쟁력 강화, 일자리 창출)",
+        "신성장 활력도시(지역경제활성화, 청년 정착 유도)",
+        "편리한 생활도시(교통인프라 확충, 시민 이동 편의 증대)",
+        "생태정원도시(친환경 생태도시 구축, 지속가능한 발전)"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:33+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3160,13 +3549,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "더 큰 당진 거침없는 도약",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.dangjin.go.kr/images/mayor/main/main_mayor.png",
       "ci": "https://www.dangjin.go.kr/images/common/ci.png",
-      "pledges": null,
+      "pledges": [
+        "도약하는 경제·산업",
+        "경쟁력 있는 농어촌",
+        "모두가 누리는 교육·복지",
+        "매력적인 문화·관광",
+        "안전하고 편리한 도시·환경",
+        "신뢰받는 소통행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:35+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3182,13 +3578,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "모두가 행복한 도시 다시올 금산",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.geumsan.go.kr/chief/img/main/gunsu-1.png?ver=20260702",
+      "ci": "https://www.geumsan.go.kr/chief/img/common/header-logo.svg",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:37+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3204,13 +3600,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "부여 대전환 더 위대하게",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:39+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3226,13 +3622,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "오늘이 행복하고, 내일이 기대되는 서천",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.seocheon.go.kr/assets/images/common/og.jpg",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "군민소득이 늘어나는 경제도시",
+        "미래먹거리를 키우는 성장도시",
+        "배움과 복지가 함께하는 행복도시",
+        "문화와 관광이 꽃피는 매력도시",
+        "공정과 신뢰로 함께하는 열린군정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:42+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3248,13 +3650,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "새로운 청양, 군민과 함께",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.cheongyang.go.kr/images/kor/common/2023/og_kakao.jpg",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:45+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3270,13 +3672,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "따뜻한 동행 행복한 홍성",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.hongseong.go.kr/pcms/common/images/og-images.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "모두가 살기 좋은 미래산업도시",
+        "지속발전 가능한 스마트 농어촌도시",
+        "천년의 이야기가 있는 문화관광도시",
+        "새롭게 거듭나는 행정중심 복합도시",
+        "사각지대 없는 촘촘한 복지도시",
+        "군민이 행복한 안전한 도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:47+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3292,13 +3701,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "새로운 내일 하나된 예산",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.yesan.go.kr/pcms/common/images/og.jpg",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:49+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3314,13 +3723,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "미래가 모이고 사람이 머무는 태안",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.taean.go.kr/images/mayor/sub02/sub0203_img01.png",
+      "ci": "https://www.taean.go.kr/images/life/common/ci.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:51+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3336,13 +3745,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "우리가 특별해지는 도시, 전주!",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.jeonju.go.kr/planweb/upload/402880863251923e01325193a7480005/popup/original/933ee008-e57d-47fc-81f5-9bf41f3cb735.jpg",
+      "photoUrl": "https://www.jeonju.go.kr/images/mayor_2026_new/main/img_mayor_min9.jpg",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:56+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3358,13 +3767,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민이 함께하는 자립도시 군산",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.gunsan.go.kr/www/images/farm/main/imgskin-logo2.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:33:58+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3380,13 +3789,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "위대한 도시 Great, Iksan",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:00+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3406,9 +3815,18 @@
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.jeongeup.go.kr/images/01_potal/common/logo.png",
-      "pledges": null,
+      "pledges": [
+        "일자리·경제",
+        "농업·농촌",
+        "보육·교육",
+        "문화·관광·체육",
+        "보건·복지",
+        "도시·교통·환경",
+        "청년·소상공인·자영업",
+        "시민소통·행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:04+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3424,13 +3842,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민과 함께하는 경제도시 남원",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.namwon.go.kr/planweb/upload/popup/9be51b0e9e1479a4019ed3d8cd36292f/original/ee213322-eb69-4bc0-8f04-3c04cd51fc03.png",
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:07+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3446,13 +3864,20 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "전북권 4대 도시로 웅비하는 김제",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.gimje.go.kr/images/common/logo.png",
-      "pledges": null,
+      "pledges": [
+        "국비사업 추진",
+        "성장도시 기반조성",
+        "인구성장 초석마련",
+        "농업수도 위상확립",
+        "민생복지 경제활력",
+        "세계축제 도시도약"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:11+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3468,13 +3893,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "모두가 누리는 미래행복도시 완주",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.wanju.go.kr/images/intro/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:13+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3490,13 +3915,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "모두가 행복한 기본사회 진안",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:15+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3512,13 +3937,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "자연특별시 무주",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.muju.go.kr/images/intro/logo.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:17+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3534,13 +3959,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "모두가 누리는 행복, 내일이 더 기대되는 장수",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.jangsu.go.kr/upload_data/popup/info/178167676445463.png",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "군민과 함께가는 기본사회",
+        "기회가 넘쳐나는 미래농업",
+        "모여들고 성장하는 활력도시",
+        "사계절 찾고싶은 문화관광",
+        "군민이 신뢰하는 소통행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:21+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3556,13 +3987,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "사람이 머물고, 행복이 자라는 임실",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.imsil.go.kr/upload_data/board_data/BBS_0000008/173130401175488.png",
+      "photoUrl": "https://www.imsil.go.kr/upload_data/board_data/BBS_0000008/178365620695764.png",
+      "ci": "https://www.imsil.go.kr/upload_data/board_data/BBS_0000008/178286638491268.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:23+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3578,13 +4009,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "순창을 더 새롭게 군민을 더 행복하게",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://i.ytimg.com/vi/IwWz41U-Ci4/maxresdefault.jpg",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "군민화합",
+        "지역경제 활성화",
+        "돈 버는 농업",
+        "따뜻한 복지",
+        "정주인구 증대"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:28+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3600,13 +4037,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "군민 모두가 행복한 활력 넘치는 고창",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.gochang.go.kr/images/01_potal/2023intro/images/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:29+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3622,13 +4059,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께 누리는 행복, 신바람 나는 부안",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:31+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3644,13 +4081,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "생활인구 100만 동아시아 해양허브 목포",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.mokpo.go.kr/images/www/common/logo_new.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:34+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3666,13 +4103,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "아름다운 여수 행복한 시민",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.yeosu.go.kr/images/www/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:39+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3688,13 +4125,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민의 삶에서 답을 찾겠습니다",
       "vision": null,
       "photoUrl": "https://www.suncheon.go.kr/kr/img/contents/minsun9_mayor.png",
-      "ci": "https://www.suncheon.go.kr/upload/board/bbs_0000000000010409/20260703/2026070311064196490.jpg",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:41+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3710,13 +4147,21 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "살기좋은 행복나주 앞서가는 으뜸나주",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.naju.go.kr/images/www/common/logo_new.png",
+      "pledges": [
+        "원도심·영산강 연계 문화·관광·스포츠 활성화",
+        "지속가능한 농업과 살맛나는 농촌",
+        "빛가람 혁신도시, 자부심 넘치는 자족도시 완성",
+        "에너지 신산업 선도 미래 첨단과학도시 기반 조성",
+        "명품 교육도시 조성",
+        "모두가 행복한 복지공동체 도시",
+        "제대로 일하는 확 바뀐 시정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:43+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3732,13 +4177,13 @@
       "party": "무소속",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "대한민국 산업수도, 광양",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://gwangyang.go.kr/kor/images/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:45+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3760,7 +4205,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:46+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3776,13 +4221,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "새로운 곡성 희망찬 군민",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.gokseong.go.kr/images/homepage/www/kr/intro/intro_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:48+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3798,13 +4243,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "자연으로 가는 길, 구례",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.gurye.go.kr/images/corona/introLogo_new.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:50+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3820,13 +4265,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "더 큰 고흥, 행복한 군민!",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.goheung.go.kr/siiru/images/icon/icon_goonsoo_figure.png",
+      "ci": "https://www.goheung.go.kr/siiru/images/icon/icon_goheung_intro_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:52+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3842,13 +4287,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "녹차수도 보성",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.boseong.go.kr/contents/fb_www_logo.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:55+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3864,13 +4309,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "군민과 함께 화순의 미래로!",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:57+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3886,13 +4331,18 @@
       "party": "조국혁신당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "도약하는 장흥, 함께 여는 미래",
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "photoUrl": "https://www.jangheung.go.kr/contents/14107/greeting_img_2026_2.jpg?build_20260713001",
+      "ci": "https://www.jangheung.go.kr/images/www/common_new/logo_new.png",
+      "pledges": [
+        "군민이 행복한 열린행정",
+        "다함께 잘사는 지역경제",
+        "함께 누리는 나눔복지",
+        "문화가 숨쉬는 힐링관광"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:34:59+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3908,13 +4358,19 @@
       "party": "무소속",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "소통·연결·창조의 신 강진",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.gangjin.go.kr/images/common/head_logo.png",
-      "pledges": null,
+      "pledges": [
+        "인구가 늘어나는 강진 희망 만들기",
+        "응원산업으로 고소득 강진 만들기",
+        "관광객 5백만 유치로 관광강진 만들기",
+        "투자유치로 남해안 거점 도시 만들기",
+        "건강하고 행복한 강진 만들기"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:01+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3930,13 +4386,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "에너지 넘치는 대한민국 농어촌수도 해남",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.haenam.go.kr/intro/images/h_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:03+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3952,13 +4408,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "마한의 심장·달빛생태도시 영암",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.yeongam.go.kr/images/www/main/yeongam_orgm_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:04+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3974,13 +4430,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "무안을 더 크게 내 삶을 더 높게",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.muan.go.kr/contents/fb_www_logo.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:08+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -3999,10 +4455,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.hampyeong.go.kr/home/www/images/intro/img_logo_t.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:09+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4018,13 +4474,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께 만드는 영광 같이 누리는 군민",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.yeonggwang.go.kr/intro/img/logo_new25.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:12+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4043,10 +4499,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.jangseong.go.kr/images/covid/njs_intro_logo_2206.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:13+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4068,7 +4524,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:15+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4087,10 +4543,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.jindo.go.kr/themes/home/images/favicon_144.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:18+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4112,7 +4568,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:20+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4132,9 +4588,15 @@
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.pohang.go.kr/portal/img/temp/logo.png",
-      "pledges": null,
+      "pledges": [
+        "포항을 키우다 [혁신성장] - 미래를 선도하는 혁신성장",
+        "포항을 넓히다 [균형발전] - 어디든 살기좋은 균형발전",
+        "포항을 높이다 [정주여건] - 모두가 풍요로운 정주여건",
+        "포항을 즐기다 [관광문화] - 언제나 다채로운 관광문화",
+        "포항을 지키다 [시민안전] - 안전이 일상이된 안심도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:23+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4152,11 +4614,11 @@
       "termEnd": "2030-06-30",
       "slogan": null,
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.gyeongju.go.kr/upload/ckuploads/2026/20260713/A1AB078B61514E66849624D69405F1F3.jpg",
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:25+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4178,7 +4640,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:27+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4194,13 +4656,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "오직 안동 오로지 시민",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.andong.go.kr/portal/img/corona_index/img_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:29+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4216,13 +4678,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민과 함께 신나는 스마트도시 구미",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.gumi.go.kr/common/img/board/noimage.svg",
+      "photoUrl": "https://www.gumi.go.kr/mayor/img/main/mayor1_2.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:31+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4238,13 +4700,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민을 봅니다 영주를 엽니다",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.yeongju.go.kr/design/main/img/main/coronaLogo2.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:33+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4260,13 +4722,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "우리 삶의 이름은 영천!",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.yc.go.kr/ycmayor/img/main/mayor-img.png",
       "ci": "https://www.yc.go.kr/portal/img/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:36+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4288,7 +4750,7 @@
       "ci": "https://www.sangju.go.kr/resources/images/intro/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:38+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4306,11 +4768,11 @@
       "termEnd": "2030-06-30",
       "slogan": null,
       "vision": null,
-      "photoUrl": null,
-      "ci": null,
+      "photoUrl": "https://www.gbmg.go.kr/mayor/img/main/visual_mayor_2026.png",
+      "ci": "https://www.gbmg.go.kr/portal/img/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:39+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4326,13 +4788,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "꽃피다 시민중심 행복경산",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
-      "pledges": null,
+      "ci": "https://www.gbgs.go.kr/design2021/ko2023/img/layout/logo_new.png",
+      "pledges": [
+        "살고싶은 도시환경",
+        "일자리 중심 미래경제",
+        "사랑중심 교육문화",
+        "지켜주는 행복복지",
+        "시민중심 적극행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:41+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4348,13 +4816,18 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "행복한 군민 잘사는 의성",
       "vision": null,
       "photoUrl": null,
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "소통하는 열린 군정",
+        "상생하는 균형 군정",
+        "공정하고 바른 군정",
+        "참여로 활기찬 군정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:43+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4370,13 +4843,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "하나되는 청송, 그 이상의 도약",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.cs.go.kr/img/content/c3111_bg01_2018.jpg",
       "ci": "https://www.cs.go.kr/_res/portal/img/inc/logo@2x.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:45+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4392,13 +4865,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "행복한 변화 희망찬 영양",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.yyg.go.kr/images/common/og/og_main.jpg",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:47+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4414,13 +4887,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "군민과 함께 하는 새로운 영덕",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.yd.go.kr/images/landing/ydLogo.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:49+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4436,13 +4909,19 @@
       "party": "무소속",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "위대한 청도, 군민과 함께",
       "vision": null,
-      "photoUrl": null,
+      "photoUrl": "https://www.cheongdo.go.kr/mayor/img/main/sec01_img04.png",
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "혁신농업 활력경제",
+        "다시뛰는 희망미래",
+        "살고싶은 문화도시",
+        "함께하는 행복복지",
+        "군민중심 열린행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:51+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4458,13 +4937,17 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "젊은 고령! 힘쎈 고령!",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.goryeong.go.kr/img/front/logo.jpg",
-      "pledges": null,
+      "pledges": [
+        "미래가 탄탄한 지역",
+        "매력넘치는 문화관광 지역",
+        "경쟁력 있는 산업지역"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:53+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4480,13 +4963,18 @@
       "party": "무소속",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "하나되는 성주, 다시뛰는 성주",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.sj.go.kr/ko/img/main/logo.png",
-      "pledges": null,
+      "pledges": [
+        "변화를 만드는 경제 성주",
+        "온기를 나누는 복지 성주",
+        "감성을 더하는 문화 성주",
+        "일상이 머무는 힐링 성주"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:55+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4502,13 +4990,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "매일매일 칠곡소풍",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.chilgok.go.kr/common/img/common/logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:58+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4524,13 +5012,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "군민과 함께 성장하는 예천",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.ycg.kr/images/intro/yc_logo.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:35:59+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4549,10 +5037,16 @@
       "slogan": "다시 빛나는 봉화, 행복한 군민",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.bonghwa.go.kr/common/img/board/noimage.svg",
-      "pledges": null,
+      "ci": null,
+      "pledges": [
+        "소득이 자라는 미래농업",
+        "쉼이 머무는 산림관광",
+        "고른성장 상생발전",
+        "온기담은 희망복지",
+        "신뢰높은 공감행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:02+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4568,13 +5062,13 @@
       "party": "무소속",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "변화와 혁신! 도약하는 울진",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.uljin.go.kr/upload_data/board_data/BBS_0000130/178243523108730.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:04+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4590,13 +5084,21 @@
       "party": "무소속",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "울릉을 새롭게 군민을 행복하게",
       "vision": null,
       "photoUrl": null,
       "ci": null,
-      "pledges": null,
+      "pledges": [
+        "일자리가 있는 인구·교육 정책",
+        "관광과 경제성장 기반 구축",
+        "주민안전 의료·복지 실현",
+        "잘사는 일등 울릉 건설",
+        "문화가 있는 친환경 섬",
+        "울릉 발전전략 기반 마련",
+        "소통을 통한 혁신행정 구현"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:05+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4612,13 +5114,18 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "시민이 먼저, 행복한 창원",
       "vision": null,
       "photoUrl": "https://www.changwon.go.kr/cwportal/_res/cwportal/img/sub/mayor_img/mayor18.png",
-      "ci": "https://www.changwon.go.kr/cwportal/tracer/logo.png",
-      "pledges": null,
+      "ci": "https://www.changwon.go.kr/cwportal/_res/cwportal/img/inc/logo_2027.png",
+      "pledges": [
+        "역동하는 경제 - 양질의 일자리",
+        "권역별 균형발전 - 하나 되는 도시",
+        "든든한 복지 - 안전한 일상",
+        "자부심 있는 문화 - 품격 높은 도시"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:09+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4634,13 +5141,13 @@
       "party": "무소속",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "부강한 진주 행복한 시민",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.jinju.go.kr/_res/portal/img/inc/logo1@2x.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:14+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4659,10 +5166,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": "https://www.tongyeong.go.kr/_res/mayor2026/img/vpr1.png",
-      "ci": "https://www.tongyeong.go.kr/_res/portal/img/inc/logo2026.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:18+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4678,13 +5185,20 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "더 큰 사천, 더 밝은 미래",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.sacheon.go.kr/portal/img/inc/logo@2x2025.png",
-      "pledges": null,
+      "pledges": [
+        "우주항공 선도도시",
+        "머무르는 관광도시",
+        "희망여는 상생경제",
+        "행복동행 안전복지",
+        "살고싶은 정주도시",
+        "품격있는 교육문화"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:21+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4700,13 +5214,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "사람과 자연 함께 웃는 김해",
       "vision": null,
       "photoUrl": "https://www.gimhae.go.kr/_res/mayor/img/main3/vpr1/v10012026.jpg",
-      "ci": "https://www.gimhae.go.kr/_res/portal/img/main2023/logo@2x.png",
+      "ci": "https://www.gimhae.go.kr/scms-static/img/inc/logo_h1.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:27+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4722,13 +5236,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "밀양을 빛나게 시민을 행복하게",
       "vision": null,
       "photoUrl": null,
-      "ci": null,
+      "ci": "https://www.miryang.go.kr/img/egovframework/web/all-img/logo-Top_20250411.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:28+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4744,13 +5258,13 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "함께여는 동남권중심 거제",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.geoje.go.kr/upload_data/board_data/BBS_0000522/175126648879844.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:30+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4766,13 +5280,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "화합과 성장 대도약 양산",
       "vision": null,
       "photoUrl": null,
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:32+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4788,13 +5302,13 @@
       "party": "무소속",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "변화의 완성 더 행복한 의령",
       "vision": null,
-      "photoUrl": null,
-      "ci": "https://www.uiryeong.go.kr/upload_data/board_data/BBS_0000282/171980779221335.jpg",
+      "photoUrl": "https://www.uiryeong.go.kr/upload_data/board_data/BBS_0000282/178289072807594.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:35+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4813,10 +5327,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.haman.go.kr/_res/intro/img/foot_logo2@2x.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:37+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4832,13 +5346,18 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "창녕을 새롭게 군민을 신나게",
       "vision": null,
-      "photoUrl": "https://www.cng.go.kr/_res/mayor/img/main/vpr20260602_01.jpg",
+      "photoUrl": "https://www.cng.go.kr/_res/mayor/img/sub/greeting_img2026.png",
       "ci": "https://www.cng.go.kr/_res/portal/img/inc/logo@2x.png",
-      "pledges": null,
+      "pledges": [
+        "변화와 혁신, 군민이 주인되는 창녕",
+        "군민의 삶이 편안한 창녕",
+        "사람과 자연, 상생 미래도시 창녕",
+        "강한 농업, 치유산업도시 창녕"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:40+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4857,10 +5376,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": "https://www.goseong.go.kr/upload_data/board_data/BBS_0000187/178288679797210.png",
-      "ci": "https://www.goseong.go.kr/images/Potal/layout/logo.jpg",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:43+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4876,13 +5395,19 @@
       "party": "더불어민주당",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "삶이 꽃피는 정원의 섬, 남해",
       "vision": null,
       "photoUrl": "https://www.namhae.go.kr/_res/mayor/img/main/vpr1/2026_v1001.jpg",
       "ci": "https://www.namhae.go.kr/_res/portal/img/inc/logo@2x2025.png",
-      "pledges": null,
+      "pledges": [
+        "남해안 시대 성장의 중심",
+        "자연에 머무는 휴양 도시",
+        "모두가 누리는 사회복지",
+        "지속 가능한 자립경제",
+        "군민이 함께하는 소통행정"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:47+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4898,13 +5423,13 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "대한민국 알프스 하동",
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.hadong.go.kr/_res/portal/img/inc/2022/logo1@2x.png",
+      "ci": "https://www.hadong.go.kr/_res/portal/img/inc/2022/logo@2x.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:50+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4920,13 +5445,19 @@
       "party": "국민의힘",
       "termStart": "2026-07-01",
       "termEnd": "2030-06-30",
-      "slogan": null,
+      "slogan": "다시 뛰는 산청 행복한 군민",
       "vision": null,
       "photoUrl": null,
       "ci": "https://www.sancheong.go.kr/common/images/layout/logo.png",
-      "pledges": null,
+      "pledges": [
+        "경제위기 극복을 위한 지역경제 활력사업 역점 추진",
+        "소득증대를 통한 꿈이 이루어지는 농업 농촌 건설",
+        "사각지대 없는 체감복지로 모두가 행복한 지역사회 조성",
+        "관광콘텐츠의 다양화 및 차별화로 찾고싶은 관광산청 구현",
+        "믿음과 신뢰를 바탕으로 군민들의 행복한 삶을 위한 행정 추진"
+      ],
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:53+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4948,7 +5479,7 @@
       "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:54+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4967,10 +5498,10 @@
       "slogan": null,
       "vision": null,
       "photoUrl": null,
-      "ci": "https://www.geochang.go.kr/_res/intro/img/logo@2x.png",
+      "ci": null,
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:56+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     },
     {
@@ -4992,7 +5523,7 @@
       "ci": "https://www.hc.go.kr/_res/portal/img/inc/logo@2x.png",
       "pledges": null,
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
-      "lastCrawledAt": "2026-07-08T07:36:58+00:00",
+      "lastCrawledAt": "2026-07-14T00:19:14+00:00",
       "manualOverride": false
     }
   ]

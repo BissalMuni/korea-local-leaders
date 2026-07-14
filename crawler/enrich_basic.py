@@ -68,9 +68,9 @@ def main(argv: list[str]) -> int:
     for g in targets:
         code, name, hp = g["code"], g["name"], g.get("homepage")
 
-        # 1) 공약: 지역명(시군구명) 매칭
+        # 1) 공약: 지역명(시군구명) 매칭 (비전 추출로 이미 채워졌으면 보존)
         p = pledges_map.get(name.replace(" ", ""))
-        if p:
+        if p and not g.get("pledges"):
             g["pledges"] = p
             pledge_hit += 1
 
