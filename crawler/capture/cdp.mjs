@@ -88,10 +88,12 @@ async function waitForPageTarget() {
 export async function launch({ width = 1440, height = 3000, scale = 1 } = {}) {
   const browser = findBrowser();
   const userDir = new URL('./.chrome-capture-profile', import.meta.url).pathname.replace(/^\//, '');
+  // 일부 사이트는 headless/원격디버깅을 탐지해 차단한다. HEADFUL=1 이면 창을 띄워 우회 시도.
+  const headful = process.env.HEADFUL === '1';
   const child = spawn(
     browser,
     [
-      '--headless=new',
+      ...(headful ? [] : ['--headless=new']),
       '--disable-gpu',
       '--hide-scrollbars',
       '--no-first-run',

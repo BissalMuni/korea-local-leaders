@@ -1598,8 +1598,8 @@
     },
     "4103": {
       "name": "고양시",
-      "slogan": null,
-      "ci": null,
+      "slogan": "멈춘 고양, 다시 뛰게 하겠습니다.",
+      "ci": "https://www.goyang.go.kr/resources/www/images/layout/logo_180x35.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -1607,10 +1607,10 @@
       "confidence": {
         "slogan": "high",
         "ci": "high",
-        "photo": "high",
+        "photo": "low",
         "pledges": "high"
       },
-      "notes": "home.jpg/home.json만 존재. greeting/pledge 스크린샷 및 페이지 URL(greetingUrl/pledgeUrl/pledge2Url) 없음. DOM 스냅샷의 ciImages·contentImages 모두 빈 배열이라 실재 URL 없음 → ci·photoUrl null. 홈 헤더는 '고양특례시청'(기관명)이며 캐치프레이즈 없음 → slogan null. 홈 배너는 행사 홍보(민선9기 시정회의 생중계, 김대중 대통령 사저기념관 재개관, 2026 공예명장 선발, 여성회관 단기클래스 등)로 공약/핵심가치 아님 → pledges null. 날조 금지 원칙에 따라 모두 null.",
+      "notes": "인사말 페이지(greeting)에 시장 민경선 초상 확인되나 greetingSnapshot.contentImages가 빈 배열이라 실재하는 초상 URL이 없어 photoUrl=null(날조 금지). slogan은 인사말 페이지 대제목 '멈춘 고양, 다시 뛰게 하겠습니다.'. ci는 헤더 심볼로고 logo_180x35.png(alt=고양특례시). 공약 페이지(pledge)는 '민선9기 공약사항 준비중(COMING SOON)'이라 공약 없음. pledge2는 인권정책(제3차 인권보호 및 증진 기본계획) 페이지로 시장 공약 아님 → pledges null.",
       "verified": true
     },
     "4104": {
@@ -2758,19 +2758,28 @@
     },
     "4404": {
       "name": "아산시",
-      "slogan": null,
-      "ci": null,
+      "slogan": "더 큰 아산, 더 행복한 시민",
+      "ci": "https://www.asan.go.kr/main/common/happy/img/h/logo.png",
       "photoUrl": null,
       "photoSource": null,
-      "pledges": null,
-      "pledgeSource": null,
+      "pledges": [
+        "돈이 돌고, 청년이 머무는 민생경제도시 아산",
+        "미래를 선도하는, 대한민국 제2의 실리콘밸리 아산",
+        "어디서나 가깝고 편리한, 교통·인프라 도시 아산",
+        "고르게 성장하는, 50만 자족 균형도시 아산",
+        "집 앞에서 걷고 쉬는, 쾌적한 생활정원도시 아산",
+        "배우고 즐기는, 문화·체육·교육도시 아산",
+        "누구나 걱정 없는, 복지·기본사회도시 아산",
+        "지역에서 벌고 지역에서 잘사는 농업·환경 순환도시 아산"
+      ],
+      "pledgeSource": "https://www.asan.go.kr/mayor/node/?menu=020101",
       "confidence": {
-        "slogan": "low",
-        "ci": "low",
+        "slogan": "high",
+        "ci": "high",
         "photo": "low",
-        "pledges": "low"
+        "pledges": "high"
       },
-      "notes": "home.json 스냅샷의 모든 이미지 배열(ciImages, contentImages)이 비어있고 greeting/pledge URL도 없음(finalUrl=/main/vy/, title='아산시청'). greeting.jpg/pledge.jpg/pledge2.jpg 미존재, 홈만 캡처됨. home.jpg 헤더에 '아산시' 심볼로고가 보이나 ciImages에 URL 없어 null. 본문은 '현충사(성웅 이순신의 숨결을 따라)' 관광/사적 홍보 슬라이드와 메뉴버튼(아산 방문의 해, 아산페이, 아산시 누리집)뿐 — 시정 캐치프레이즈 아님. 시장 초상은 화면에 이순신 표준영정만 보여 인물사진 아님, 공약 페이지 없음. 스냅샷에 실재 URL이 전무하여 전 필드 null 처리.",
+      "notes": "슬로건은 시정 비전체계도(pledge2, cms no=118)와 열린시장실 배너에서 '더 큰 아산 더 행복한 시민'으로 확인. CI는 헤더 심볼로고 logo.png(alt=아산시, 150x30); 방문의해 배너·Google·og:image는 제외. 공약은 공약사항 총괄현황(pledge.jpg)의 8대 시정전략 8개를 채택(pledgeSource=공약총괄현황 페이지). 시장 초상은 열린시장실/홈 배너 내 오세현 시장 얼굴이 합성 홍보배너(더 큰 아산 배너 550x275) 형태로만 존재하고 단독 인물사진 URL이 스냅샷에 없어 photoUrl=null.",
       "verified": true
     },
     "4405": {
@@ -3367,7 +3376,7 @@
         "photo": "high",
         "pledges": "high"
       },
-      "notes": "home.jpg 캐러셀 1/5 슬라이드에 '군민을/행복한/만들어' 캐치프레이즈 이미지가 보이나 문구가 잘려 부분 판독(온전한 어미 미확인)→slogan low. home.json ciImages 빈 배열, contentImages는 전부 2140x400 배너(취임인사·피해지원금·군민안전보험·출생기본소득·야간민원실)뿐이고 헤더 심볼로고 URL 부재→ci null. greeting/pledge/pledge2 스냅샷·URL 및 greeting.jpg/pledge.jpg/pledge2.jpg 파일 자체가 존재하지 않아 군수 초상·공약 확인 불가→photo/pledges 모두 null.",
+      "notes": "home.jpg는 캐러셀 2/5 상태로, 보이는 슬라이드는 '담양군청 대표 홈페이지'(기관명/바로가기)·'문화관광'·기초/차상위/한부모 지원 배너·'고향사랑기부제'뿐이고, 온전히 판독 가능한 군정 캐치프레이즈 슬로건 텍스트가 화면에 없음→slogan null(날조 금지). home.json ciImages 빈 배열, contentImages는 전부 2140x400 배너(취임인사·고유가피해지원금·군민안전보험·출생기본소득·야간민원실)뿐 헤더 심볼로고 URL 부재→ci null. greeting/pledge/pledge2 스냅샷·URL 및 greeting.jpg/pledge.jpg/pledge2.jpg 파일 자체가 존재하지 않아 군수 초상·공약 확인 불가→photo/pledges 모두 null.",
       "verified": true
     },
     "4607": {
@@ -3608,15 +3617,25 @@
       "ci": null,
       "photoUrl": null,
       "photoSource": null,
-      "pledges": null,
-      "pledgeSource": null,
+      "pledges": [
+        "더 가까운 교통망",
+        "더 든든한 농수축산업",
+        "더 빠른 경제회복",
+        "더 촘촘한 복지정책",
+        "더 활기찬 지역개발",
+        "더 쾌적한 생활환경",
+        "더 나은 해양치유",
+        "더 가치있는 해양바이오",
+        "더 멋진 해양관광 거점"
+      ],
+      "pledgeSource": "https://www.wando.go.kr/wando/sub.cs?m=189",
       "confidence": {
-        "slogan": "low",
-        "ci": "low",
-        "photo": "low",
-        "pledges": "low"
+        "slogan": "high",
+        "ci": "high",
+        "photo": "high",
+        "pledges": "high"
       },
-      "notes": "캡처된 페이지가 완도군청 본청이 아니라 완도문화관광(tour) 서브사이트임(finalUrl=/tour/index.cs, title=완도문화관광). 홈 화면의 '가고싶은 섬 완도'는 관광 캐치프레이즈이고 헤더는 기관명 '완도문화관광'이라 군정 슬로건 아님→null. ciImages에는 og:image(gigca_seo.png, alt=og:image)만 있어 헤더 심볼로고 아님→null. greetingUrl(m=263)은 인사말이 아니라 '전통시장' 관광 콘텐츠 페이지이며, contentImages는 모두 관광지·시장 사진으로 군수 초상 없음→photoUrl null. pledge/pledge2 스크린샷·스냅샷 부존재하고 공약·핵심가치 페이지 미확인→pledges null. 전 항목 근거 부족으로 null(날조 금지). 본청(www.wando.go.kr) 인사말·군정목표 페이지 재수집 필요.",
+      "notes": "슬로건: 헤더는 텍스트 '완도군' 기관명뿐이고 히어로 영역은 뉴스 배너(폭염안전 5대 기본수칙·찾아가는 치매통합프로그램)라 군정 캐치프레이즈 없음→null. CI: ciImages는 모두 패밀리사이트 배너(fam_01_*.jpg 500x324)와 og:image뿐이고 헤더는 텍스트 로고라 심볼로고 이미지 없음→null. 초상: 홈 히어로에 '완도군수 김신' 초상이 시각적으로 존재하나 어떤 contentImages 배열에도 실재 URL이 없음(홈 contentImages는 공지·행사 포스터, greeting m=186은 '군수에게 바란다' 제안게시판이라 초상 없음)→null. 공약: pledge(m=189) '민선8기 공약사업별 현황'의 9개 테마 핵심가치 추출(각 카테고리 아래 세부 공약사업 78건 목록 존재). pledge2(m=1180)는 인구정책 하위 결혼·임신지원 부서안내라 제외. 이전 vision.json은 tour 서브사이트 캡처였으나 이번 캡처는 본청(www.wando.go.kr/wando)이라 갱신함.",
       "verified": true
     },
     "4621": {
@@ -3701,19 +3720,19 @@
     },
     "4703": {
       "name": "김천시",
-      "slogan": null,
+      "slogan": "소통하는 김천 함께 여는 미래",
       "ci": null,
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
-        "slogan": "low",
+        "slogan": "high",
         "ci": "low",
         "photo": "low",
         "pledges": "low"
       },
-      "notes": "home.jpg와 최소 home.json만 존재. greeting/pledge/pledge2 스크린샷 및 해당 스냅샷 없음. snapshot.ciImages·contentImages 모두 빈 배열이라 참조 가능한 실제 URL이 없음. 홈 우상단 배너에 시장 초상으로 보이는 인물사진이 있으나 contentImages가 비어 URL 특정 불가→null. slogan은 화면상 명확한 시정 캐치프레이즈 미확인(제목/og는 기관명 '김천시청')→null. 공약 데이터 부재→null.",
+      "notes": "home.jpg와 home.json만 존재(greeting/pledge/pledge2 스크린샷·스냅샷 없음). 홈 우상단 시장 배너에 캘리그래피 슬로건 '소통하는 김천 함께 여는 미래'와 '김천시장 배낙호입니다' 및 시장 초상이 확인됨→slogan은 화면 텍스트로 확정. 좌측 '위험한 다슬기 채취 안돼요~~!'는 안전 안내 배너라 슬로건 아님. ci=헤더에 '김천시 GIMCHEON CITY' 심볼로고가 보이나 snapshot.ciImages가 빈 배열이라 URL 특정 불가→null. photoUrl=시장 초상 이미지가 보이나 contentImages 빈 배열→URL 특정 불가→null. 공약/인사말 페이지·스냅샷 부재→pledges null.",
       "verified": true
     },
     "4704": {
@@ -4394,19 +4413,25 @@
     },
     "4817": {
       "name": "거창군",
-      "slogan": null,
-      "ci": null,
+      "slogan": "함께 여는 새로운 창조 거창",
+      "ci": "https://www.geochang.go.kr/_res/portal/img/inc/logo@2x.png",
       "photoUrl": null,
       "photoSource": null,
-      "pledges": null,
-      "pledgeSource": null,
+      "pledges": [
+        "농업구조 혁신성장",
+        "일어나는 지역경제",
+        "빈틈없는 생활복지",
+        "미래인재 교육도시",
+        "머무르는 문화관광"
+      ],
+      "pledgeSource": "https://www.geochang.go.kr/00203/00204.web",
       "confidence": {
-        "slogan": "low",
-        "ci": "low",
+        "slogan": "high",
+        "ci": "high",
         "photo": "low",
-        "pledges": "low"
+        "pledges": "high"
       },
-      "notes": "home.jpg는 인트로 스플래시(intro.jsp): 유채꽃밭+손 이미지에 '2026 거창방문의 해 VISIT GEOCHANG YEAR'(관광 캠페인)와 '치유의 시간' 문구, 그리고 메뉴 링크 버튼(대표누리집·거창 문화관광·거창 반값여행·거창군 예약정보·고향사랑기부제)만 표시. 관광 캠페인/방문의 해 문구는 군정 캐치프레이즈 아님, title은 '거창군청'(기관명)→slogan null. greeting/pledge/pledge2 캡처 및 스냅샷 부재(파일 미존재, home.json에 greeting/pledgeSnapshot 없음)→photo·pledges null. ciImages는 인트로 배너로고(logo@2x.png, alt '2026 거창방문의 해')와 og:image 포털로고뿐이며 인트로 화면에는 헤더 심볼로고 없음→ci null.",
+      "notes": "슬로건은 열린군수실 인사말(greeting)과 군정목표(pledge2) 페이지에 공통 표기된 '함께 여는 새로운 창조 거창'(비전과 군정목표). CI는 home 헤더 심볼로고 logo@2x.png(alt '거창韓거창', 338x104); 날씨 아이콘 w104.png는 제외. 군수 초상은 greeting 화면 배너에 인물이 보이나 해당 이미지는 배경 배너(vpr1001/1002.jpg)이고 greetingSnapshot.contentImages에는 현장활동 사진(DSC_* board/image)과 선거공보 표지만 있어 단독 초상 URL이 없음 → photoUrl null. pledges는 pledge2(군정목표) 페이지의 5대 핵심가치. pledge.web(선거공보)은 PDF 다운로드 표지라 미채택.",
       "verified": true
     },
     "4818": {

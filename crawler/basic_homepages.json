@@ -851,9 +851,9 @@
     "4404": {
       "code": "4404",
       "name": "아산시",
-      "homepage": "https://www.asan.go.kr",
+      "homepage": "https://www.asan.go.kr/main",
       "verified": true,
-      "note": "WebFetch 본문은 JS 렌더링으로 공백, 공식 go.kr 도메인은 검색으로 확인"
+      "note": "WebFetch 본문은 JS 렌더링으로 공백, 공식 go.kr 도메인은 검색으로 확인 | 인트로/관광 리다이렉트 회피: 본청 URL로 교정"
     },
     "4405": {
       "code": "4405",
@@ -1068,9 +1068,9 @@
     "4620": {
       "code": "4620",
       "name": "완도군",
-      "homepage": "https://www.wando.go.kr",
+      "homepage": "https://www.wando.go.kr/wando/index.cs",
       "verified": true,
-      "note": "WebFetch 빈 응답으로 WebSearch 확인"
+      "note": "WebFetch 빈 응답으로 WebSearch 확인 | 인트로/관광 리다이렉트 회피: 본청 URL로 교정"
     },
     "4621": {
       "code": "4621",
@@ -1355,9 +1355,9 @@
     "4817": {
       "code": "4817",
       "name": "거창군",
-      "homepage": "https://www.geochang.go.kr",
+      "homepage": "https://www.geochang.go.kr/main.web",
       "verified": true,
-      "note": ""
+      "note": "인트로/관광 리다이렉트 회피: 본청 URL로 교정"
     },
     "4818": {
       "code": "4818",

@@ -162,15 +162,33 @@ const INTRO_FN = `(() => {
     if (/intro/i.test(location.href) && /(main|index|portal|www)\b/i.test(h) && !/intro/i.test(h)) { enter = abs(a.getAttribute('href')); break; }
   }
   // 링크가 매우 적은데 진입 링크가 있으면 인트로로 본다.
-  const isIntro = enter && (looksIntro || anchors.length <= 25);
-  return { isIntro: !!isIntro, enter: isIntro ? enter : null };
+  let isIntro = enter && (looksIntro || anchors.length <= 25);
+  let target = isIntro ? enter : null;
+
+  // frameset/iframe 포털: 최상위 문서에 내비가 거의 없고, 본문이 큰 동일출처
+  // iframe 안에 있으면(고양·아산·김천 같은 구형 포털) 그 프레임 URL 로 직접 이동한다.
+  if (!target) {
+    let best = null, bestArea = 0;
+    for (const f of document.querySelectorAll('iframe, frame')) {
+      const src = abs(f.getAttribute('src') || '');
+      if (!src || !/^https?:/i.test(src)) continue;
+      try { if (new URL(src).host !== location.host) continue; } catch { continue; }
+      const r = f.getBoundingClientRect();
+      const area = (r.width || f.offsetWidth || 0) * (r.height || f.offsetHeight || 0);
+      if (area > bestArea) { bestArea = area; best = src; }
+    }
+    // 최상위에 진짜 메뉴(nav 링크)가 없고 큰 콘텐츠 프레임이 있으면 그 프레임으로.
+    const navCount = document.querySelectorAll('header a, nav a, .gnb a, #gnb a, [role=navigation] a').length;
+    if (best && bestArea > 150000 && navCount < 5) target = best;
+  }
+  return { isIntro: !!target, enter: target };
 })()`;
 
 /**
  * 한 URL 로 이동해 렌더한 뒤, 전체 PNG 버퍼와 DOM 스냅샷을 돌려준다.
  * 실패해도 던지지 않고 {ok:false, error} 로 표시한다(전수 실행 중 한 곳 실패로 멈추지 않게).
  */
-export async function capturePage(cdp, url, { settle = 3500 } = {}) {
+export async function capturePage(cdp, url, { settle = Number(process.env.CAPTURE_SETTLE) || 3500 } = {}) {
   try {
     // 로드 완료 이벤트를 기다리되, 지나치게 오래 걸리면 settle 후 진행.
     const loaded = new Promise((res) => {
