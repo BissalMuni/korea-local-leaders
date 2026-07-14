@@ -321,7 +321,7 @@
     "1116": {
       "name": "강서구",
       "slogan": "함께 더하는 미래 같이 나누는 강서",
-      "ci": "https://www.gangseo.seoul.kr/humanframe/theme/global/assets/image/common/img_logo_2024.png?v=1",
+      "ci": "https://www.gangseo.seoul.kr/humanframe/theme/gangseo_kor/assets/image/content/symbol1.png",
       "photoUrl": "https://www.gangseo.seoul.kr/comm/getImage?srvcId=MEDIA&upperNo=jBWN1iMDeAX*p1GohELHaA%3d%3d&fileTy=MEDIA&fileNo=ucPGx1sZJAToai0htfjF4A%3d%3d",
       "photoSource": "https://www.gangseo.seoul.kr/gs050470",
       "pledges": null,
@@ -333,7 +333,8 @@
         "pledges": "low"
       },
       "notes": "슬로건은 헤더 로고 alt('함께 더하는 미래 같이 나누는 강서')이자 home.jpg 상단에 표기된 구정 캐치프레이즈. CI는 ciImages 첫 항목 img_logo_2024.png(헤더 심볼마크). photoUrl은 pledge2(gs050470 역대구청장) 페이지 contentImages 중 현직 11대(민선9기) 구청장 '진교훈'(2026.07.01 취임, 퇴임일 없음) 인물사진; 역대목록 출처라 med. greeting.jpg는 구청장이 아닌 가양1동 동장인사말이라 초상 없음. pledge(my060101)는 매니페스토 개념설명 페이지, pledge2는 역대구청장 명단이라 실제 공약 리스트 부재 → pledges null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "1117": {
       "name": "구로구",
@@ -513,7 +514,8 @@
         "pledges": "high"
       },
       "notes": "슬로건은 헤더 로고(logo_new.png) alt '힘찬변화, 자랑스러운 강동' 및 home.jpg 우상단에서 확인. CI: snapshot.ciImages에는 아이콘/og:image만 있어 순수 심볼마크 없음. greetingSnapshot.ciImages의 gnagdong_logo.png(alt '강동구', 200x46)를 헤더 로고로 선택. photoUrl: greeting.jpg에서 구청장 이수희 상반신 초상 확인, greetingSnapshot의 비주얼 이미지(alt '변화하는 50만 강동...강동구청장 이수희', 1920x648)를 사용했으나 넓은 배너형이라 med. pledges: pledge.jpg는 '민선9기 구민에게 듣습니다' 게시물목록, pledge2.jpg는 교육비전과추진현황(교육 부서 추진현황)으로 둘 다 구청장 공약/핵심가치 목록이 아니어서 null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "2601": {
       "name": "중구",
@@ -962,7 +964,7 @@
     "2706": {
       "name": "수성구",
       "slogan": "사람이 찾아오는 목적지가 되는 수성구",
-      "ci": "https://www.suseong.kr/cmsh/suseong.kr/mayor/images/common/logo_header.png",
+      "ci": "https://www.suseong.kr/cmsh/suseong.kr/images/contents/s_ci02.jpg",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
@@ -974,7 +976,9 @@
         "pledges": 0.0
       },
       "notes": "슬로건: 구청장실 인사말 페이지(greeting)의 캐치프레이즈 '사람이 찾아오는 목적지가 되는 수성구'. 홈 헤더 로고 alt '품격있는 사람 배려하는 도시 행복수성'은 브랜드 슬로건. CI: 홈 ciImages의 header/logo.png는 og:image(0x0)라 대신 그리팅/공약 스냅샷의 헤더 심볼로고 logo_header.png(209x73) 사용. photo: 홈·그리팅 화면에서 김대권 구청장 초상이 보이나 contentImages 배열에 대응하는 인물 초상 URL이 없어(배너·인스타·활동사진·txt이미지뿐) null. pledges: pledge 페이지는 공약 '검토·확정과정'(타임라인·10개분야 53개공약 소요재원·위원회) 개요라 실제 공약 항목 열거 불가, pledge2는 정책토론 안내페이지 → 규칙상 null.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.suseong.kr/cmsh/suseong.kr/images/contents/ci_file.zip",
+      "ciSource": null
     },
     "2707": {
       "name": "달서구",
@@ -1089,7 +1093,7 @@
     "2803": {
       "name": "미추홀구",
       "slogan": "약동하는 미추홀구",
-      "ci": null,
+      "ci": "https://www.michuhol.go.kr/main/images/sub/sq=9/simbol1.png",
       "photoUrl": "https://www.michuhol.go.kr/ward/images/sub/img_greeting2026_01.png",
       "photoSource": "https://www.michuhol.go.kr/ward/content.do?sq=799",
       "pledges": [
@@ -1108,7 +1112,9 @@
         "pledges": 0.95
       },
       "notes": "슬로건 '약동하는 미추홀구'는 비전 페이지·인사말·헤더 로고 alt에서 일관 확인. CI: ciImages에 헤더 심볼로고 없음(weather 아이콘·footer 로고·og 이미지뿐)→null. 초상: 인사말 화면서 구청장 김정식 초상 확인, greetingSnapshot img_greeting2026_01.png(alt '미추홀구청장 김정식', 450x523). 공약: 비전(sq=4) '구정운영방향' 6대 방향, pledgeSnapshot 이미지 alt와 화면 일치. pledge2(sq=1709)는 제안제도 안내라 제외.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.michuhol.go.kr/downloads/namgu/markai.zip",
+      "ciSource": null
     },
     "2804": {
       "name": "연수구",
@@ -1312,7 +1318,7 @@
     "2902": {
       "name": "서구",
       "slogan": "함께서구 우뚝서구",
-      "ci": null,
+      "ci": "https://www.seogu.gwangju.kr/kor/img/sub/sub01/symbol.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": [
@@ -1332,7 +1338,9 @@
         "pledges": 0.95
       },
       "notes": "slogan은 pledge 페이지(매니페스토)의 구정구호 '함께서구 우뚝서구'로 확인(홈 상무2동 슬라이드에도 동일). ci: ciImages에 정부나라 아이콘(ico_nara.png)과 날씨 아이콘(weather03.svg)만 있어 헤더 심볼로고 없음 -> null. photo: 매니페스토 상단 배너에 구청장 인물이 보이나 배너 배경(sub-visual01.jpg)이며 별도 초상 contentImage가 스냅샷에 없어 null. pledges: pledge.jpg의 '7대 중점과제' 7개 항목을 추출.",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.seogu.gwangju.kr/boardDownload.es?bid=ATT&list_no=35486&seq=1",
+      "ciSource": null
     },
     "2903": {
       "name": "남구",
@@ -1774,7 +1782,7 @@
     "4109": {
       "name": "평택시",
       "slogan": "함께 성장하고 시민이 행복한 평택",
-      "ci": null,
+      "ci": "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_01.png",
       "photoUrl": "https://www.pyeongtaek.go.kr/common/file/img/view.do?atchFileId=51B7D6C93DA9E59161252BB80ACC968B8AD0830E918CE0646D2F6DB787FD9CD8&fileSn=40B1EC5752ED3C81CAF8B369B7BED22E&mode=originView",
       "photoSource": "greeting",
       "pledges": null,
@@ -1786,7 +1794,8 @@
         "pledges": 0
       },
       "notes": "slogan: 소통시장실 페이지 vis_txt02.png alt 및 화면 텍스트('함께 성장하고 시민이 행복한 평택')로 확인된 시정 비전 캐치프레이즈. ci: home snapshot.ciImages 배열이 비어 있어 헤더 심볼로고 URL 확보 불가 → null. photo: greeting.jpg에서 최원용 시장 초상 확인, greetingSnapshot.contentImages의 '민선 9기 최원용 평택시장'(3167x1828) 인물사진 URL 채택. pledges: pledge/pledge2 URL이 실제로 비전1동·비전2동 행정복지센터 안내 페이지로 잘못 연결되어 공약/핵심가치 없음 → null.",
-      "verified": true
+      "verified": true,
+      "ciSource": null
     },
     "4110": {
       "name": "안양시",

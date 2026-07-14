@@ -71,6 +71,8 @@ def main() -> int:
             sc = score(a.get("text", ""), href)
             if sc > best_s:
                 best_s, best = sc, href
+        # 기준 >=8: 'CI·슬로건/상징물' 등 강한 신호가 있는 링크만. 더 낮추면 'ci/상징'이
+        # 우연히 든 엉뚱한 링크(국가상징 팝업·시티투어·군민헌장 등)가 대량 유입돼 비효율적.
         if best and best_s >= 8:
             targets[code] = best
         else:
