@@ -3303,7 +3303,7 @@
     "5211": {
       "name": "임실군",
       "slogan": "사람이 머물고, 행복이 자라는 임실",
-      "ci": "https://www.imsil.go.kr/upload_data/board_data/BBS_0000008/178286638491268.png",
+      "ci": "https://www.imsil.go.kr/images/01_potal/contents/sub05/imsil_logo.png",
       "photoUrl": "https://www.imsil.go.kr/upload_data/board_data/BBS_0000008/178365620695764.png",
       "photoSource": "https://www.imsil.go.kr/mayor/index.imsil",
       "pledges": null,
@@ -3315,7 +3315,9 @@
         "pledges": "high"
       },
       "notes": "슬로건은 군수실(greeting) 헤더 캐치프레이즈 '사람이 머물고, 행복이 자라는 임실'. CI는 home ciImages 중 헤더 심볼로고 '임실군 IMSIL GUN'(141x45), 태극기·국가상징 배너는 제외. 초상은 greeting 화면에서 임실군수 한득수 인물사진 확인, 해당 페이지 contentImages의 'm_mayor'(600x600). pledge 페이지는 매니페스토 '개념 설명' 페이지(실제 공약 없음)→제외, pledge2는 '민선9기 당선인에게 바란다' 게시판(비밀글 민원 목록)→제외, 따라서 공약 없음(null).",
-      "verified": true
+      "verified": true,
+      "ciDownload": "https://www.imsil.go.kr/images/01_potal/file/sub05/symbol_ai.zip",
+      "ciSource": null
     },
     "5212": {
       "name": "순창군",
