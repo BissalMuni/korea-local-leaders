@@ -145,6 +145,27 @@ const SNAPSHOT_FN = `(() => {
 // 화면 캡처가 지나치게 길어지는 것을 막는 상한(px). 대부분 홈페이지는 이 안에 든다.
 const MAX_SHOT_HEIGHT = 7000;
 
+// 홈 앞에 뜨는 인트로/스플래시(캠페인·고향사랑기부 등) 페이지면 '들어가기' 링크를 찾아 돌려준다.
+// 인트로는 링크가 적고 '들어가기/메인 바로가기/입장/skip' 같은 진입 링크가 있다.
+const INTRO_FN = `(() => {
+  const abs = (u) => { try { return new URL(u, location.href).href; } catch { return null; } };
+  const anchors = [...document.querySelectorAll('a[href]')];
+  const ENTER = ['들어가기','메인 바로가기','바로가기','홈페이지 바로가기','메인으로','메인 홈','입장','인트로 건너뛰기','skip','enter','main site','본문 바로가기'];
+  const looksIntro = /intro|splash|main_intro|index_intro/i.test(location.href) || /인트로|인트로 화면|메인 인트로/.test(document.title || '');
+  let enter = null;
+  for (const a of anchors) {
+    const t = (a.textContent || '').trim().toLowerCase();
+    const h = (a.getAttribute('href') || '').toLowerCase();
+    if (h.startsWith('#') || h.startsWith('javascript')) continue;
+    if (ENTER.some((k) => t.includes(k.toLowerCase()) || h.includes(k.toLowerCase()))) { enter = abs(a.getAttribute('href')); break; }
+    // intro.* → main.*/index.* 로 가는 링크
+    if (/intro/i.test(location.href) && /(main|index|portal|www)\b/i.test(h) && !/intro/i.test(h)) { enter = abs(a.getAttribute('href')); break; }
+  }
+  // 링크가 매우 적은데 진입 링크가 있으면 인트로로 본다.
+  const isIntro = enter && (looksIntro || anchors.length <= 25);
+  return { isIntro: !!isIntro, enter: isIntro ? enter : null };
+})()`;
+
 /**
  * 한 URL 로 이동해 렌더한 뒤, 전체 PNG 버퍼와 DOM 스냅샷을 돌려준다.
  * 실패해도 던지지 않고 {ok:false, error} 로 표시한다(전수 실행 중 한 곳 실패로 멈추지 않게).
@@ -158,6 +179,18 @@ export async function capturePage(cdp, url, { settle = 3500 } = {}) {
     await cdp('Page.navigate', { url });
     await Promise.race([loaded, sleep(8000)]);
     await sleep(settle); // 지연 렌더(배너·슬라이더·JS 메뉴) 안정화
+
+    // 인트로/스플래시면 '들어가기'로 한 번 더 이동해 실제 홈을 뜬다.
+    try {
+      const intro = await cdp('Runtime.evaluate', { expression: INTRO_FN, returnByValue: true }, 10000);
+      const enter = intro.result?.value?.enter;
+      if (enter && enter !== url) {
+        const loaded2 = new Promise((res) => { const off = cdp.on('Page.loadEventFired', () => { off(); res(); }); });
+        await cdp('Page.navigate', { url: enter });
+        await Promise.race([loaded2, sleep(8000)]);
+        await sleep(settle);
+      }
+    } catch { /* 인트로 판별 실패는 무시하고 현재 페이지로 진행 */ }
 
     const snap = await cdp('Runtime.evaluate', { expression: SNAPSHOT_FN, returnByValue: true });
     const snapshot = snap.result?.value ?? { error: '스냅샷 evaluate 실패', finalUrl: url };

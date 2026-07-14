@@ -463,19 +463,19 @@
     },
     "1124": {
       "name": "송파구",
-      "slogan": null,
+      "slogan": "다시 뛰는 송파! 창의와 혁신의 구정",
       "ci": null,
-      "photoUrl": null,
-      "photoSource": null,
+      "photoUrl": "https://www.songpa.go.kr/site/chief/images/sub/director-img_2.jpg",
+      "photoSource": "greeting",
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
-        "slogan": "low",
+        "slogan": "high",
         "ci": "low",
-        "photo": "low",
-        "pledges": "low"
+        "photo": "high",
+        "pledges": "high"
       },
-      "notes": "홈페이지 스크린샷이 메뉴/정부배너 외 콘텐츠 미로딩(본문 공백). 슬로건 캐치프레이즈 미확인. ciImages는 og:image(thumbnail.png)뿐이라 헤더 로고 아님→제외. contentImages 배열 비어있고 인사말/공약 페이지 미수집이라 초상·공약 판단 불가. 모두 null.",
+      "notes": "슬로건은 홈 헤더 slogan.gif(alt: 다시 뛰는 송파! 창의와 혁신의 구정)로 확인. CI: 홈 ciImages에 헤더 심볼로고 URL 없음(태극기·송파런배너·문자신청버튼·검색화살표·slogan·og만 존재), greeting엔 footer_logo만 있어 헤더 심볼로고 null. 인사말 페이지서 서강석 구청장 초상 확인, greetingSnapshot의 director-img_2.jpg 사용. pledge/pledge2 두 페이지 모두 직원검색(selectEmpList) 화면으로 공약 아님→null.",
       "verified": true
     },
     "1125": {
@@ -831,19 +831,19 @@
     },
     "2701": {
       "name": "중구",
-      "slogan": null,
-      "ci": null,
-      "photoUrl": null,
-      "photoSource": null,
+      "slogan": "함께 만드는 스마트 시티, 행복한 중구",
+      "ci": "https://www.jung.daegu.kr/new/images/common/logo.png",
+      "photoUrl": "https://www.jung.daegu.kr/new/head/images/main/mv02.jpg",
+      "photoSource": "https://www.jung.daegu.kr/new/head/index.html",
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
-        "slogan": 0,
-        "ci": 0,
-        "photo": 0,
-        "pledges": 0
+        "slogan": "high",
+        "ci": "high",
+        "photo": "med",
+        "pledges": "high"
       },
-      "notes": "홈페이지(https://www.jung.daegu.kr/)가 '400 Bad Request'를 반환하여 렌더링된 콘텐츠 없음. home.jpg는 에러 페이지, home.json 스냅샷의 ciImages·contentImages 배열 모두 비어 있음. greeting/pledge 캡처 파일 없음. 추출 가능한 데이터 없음.",
+      "notes": "슬로건은 헤더 CI 로고 alt('함께 만드는 스마트 시티,행복한 중구') 및 홈 배너에서 확인, 기관명 '중구청'/메뉴가 아닌 실제 구정 캐치프레이즈. CI는 헤더 심볼로고 logo.png(219x60). 열린구청장실(head/index.html)에서 구청장 류규하 초상 확인되나 해당 페이지 contentImages는 슬라이더 이미지(mv01~03, alt 'dv_wrap')로만 존재해 인물 슬라이드 mv02.jpg 지정(화면상 02/03 슬라이드에 인물 표시), 단독 인물 컷 확신 med. pledge(정책토론방=뉴스성 게시판 목록)와 pledge2(정책아이디어 공모 안내=매니페스토/공모 개념 안내)에는 실제 공약·핵심가치 항목이 없어 pledges=null.",
       "verified": true
     },
     "2702": {
@@ -1088,18 +1088,18 @@
     "2805": {
       "name": "남동구",
       "slogan": null,
-      "ci": null,
+      "ci": "https://www.namdong.go.kr/main/img/main/logo.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
-        "slogan": 0,
-        "ci": 0,
-        "photo": 0,
-        "pledges": 0
+        "slogan": "high",
+        "ci": "high",
+        "photo": "low",
+        "pledges": "high"
       },
-      "notes": "사이트 접속 차단(rate-limit): home.json title='접속이 차단되었습니다.', home.jpg 화면='접속차단 / 해당 세션은 5분간 접속이 차단되었습니다. 잦은 호출로 사이트 모든 페이지 접속이 차단 되었습니다.'. 모든 이미지 배열(ciImages/contentImages) 비어있음, greeting/pledge/pledge2 스냅샷 및 스크린샷 파일 없음. 추출 가능한 데이터 전무. 재수집 필요.",
+      "notes": "슬로건: 홈 화면 '한 발 더 가까운 민원'은 민원섹션 제목이며 구정 캐치프레이즈 아님 → null. CI: 헤더 심볼로고 logo.png(54x51, '남동구 로고'). 초상: greetingSnapshot에 headman2026_photo.png(458x478) 존재하나 화면(greeting.jpg)은 파란 그라디언트 배너·텍스트만 렌더되고 실제 인물 초상 미확인, 게다가 alt='박종효'와 배너/인사말 이름 '이병래' 불일치 → 확신없어 null. 공약: pledge=주요업무계획 연도별 PDF표지 갤러리(2009~2026), pledge2=인천청년포털 링크페이지 → 둘 다 실제 공약/핵심가치 아님 → null.",
       "verified": true
     },
     "2806": {
@@ -1605,12 +1605,12 @@
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
-        "slogan": 0.9,
-        "ci": 0.95,
-        "photo": 0.95,
-        "pledges": 0.95
+        "slogan": "high",
+        "ci": "high",
+        "photo": "high",
+        "pledges": "high"
       },
-      "notes": "home.jpg/home.json만 존재. greeting/pledge 스크린샷 및 페이지(greetingUrl/pledgeUrl 등) 없음. DOM 스냅샷의 ciImages·contentImages 모두 빈 배열이라 실재 URL 없음 → ci·photoUrl null. 홈 헤더는 '고양특례시청'(기관명)이며 캐치프레이즈 없음 → slogan null. 홈 배너는 행사 홍보(민선9기 시정회의 생중계, 사저기념관, 공예명장 선발 등)로 공약/핵심가치 아님 → pledges null. 날조 금지 원칙에 따라 모두 null.",
+      "notes": "home.jpg/home.json만 존재. greeting/pledge 스크린샷 및 페이지 URL(greetingUrl/pledgeUrl/pledge2Url) 없음. DOM 스냅샷의 ciImages·contentImages 모두 빈 배열이라 실재 URL 없음 → ci·photoUrl null. 홈 헤더는 '고양특례시청'(기관명)이며 캐치프레이즈 없음 → slogan null. 홈 배너는 행사 홍보(민선9기 시정회의 생중계, 김대중 대통령 사저기념관 재개관, 2026 공예명장 선발, 여성회관 단기클래스 등)로 공약/핵심가치 아님 → pledges null. 날조 금지 원칙에 따라 모두 null.",
       "verified": true
     },
     "4104": {
@@ -1677,12 +1677,12 @@
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
-        "slogan": 0,
-        "ci": 0,
-        "photo": 0,
-        "pledges": 0
+        "slogan": "low",
+        "ci": "low",
+        "photo": "low",
+        "pledges": "low"
       },
-      "notes": "수집 실패: 홈 캡처가 남양주시청 안티스크래핑 차단 페이지('개발자 도구 감지', finalUrl=/tracer/info.jsp, title=개발자도구감지)에 막힘. home.json 스냅샷에 실제 시청 콘텐츠 없음(menu/ciImages 비어있고 contentImages는 block-icon.png 하나뿐). greeting.jpg/pledge.jpg/pledge2.jpg 파일 및 관련 URL·스냅샷 배열 모두 부재. 슬로건·CI·시장 초상·공약 확인 불가하여 전부 null.",
+      "notes": "수집 실패: 홈 캡처가 남양주시청 안티스크래핑 차단 페이지('개발자 도구 감지', finalUrl=/tracer/info.jsp, title=개발자도구감지)에 막힘. home.json 스냅샷에 실제 시청 콘텐츠 없음(menu/ciImages/hinted 비어있고 contentImages는 block-icon.png 하나뿐). greeting.jpg/pledge.jpg/pledge2.jpg 파일 및 관련 URL·스냅샷 배열 모두 부재. 슬로건·CI·시장 초상·공약 확인 불가하여 전부 null.",
       "verified": true
     },
     "4108": {
@@ -2279,19 +2279,24 @@
     },
     "5109": {
       "name": "횡성군",
-      "slogan": null,
+      "slogan": "함께 여는 횡성의 내일, 횡성 관광 500만 시대",
       "ci": null,
-      "photoUrl": null,
-      "photoSource": null,
-      "pledges": null,
-      "pledgeSource": null,
+      "photoUrl": "https://www.hsg.go.kr/site/mayor/images/main/mayor_person02_2.png",
+      "photoSource": "https://www.hsg.go.kr/mayor/index.do",
+      "pledges": [
+        "관광으로 성장하는 횡성",
+        "함께 잘사는 상생의 경제",
+        "군민이 주인인 참여행정",
+        "모두가 누리는 행복복지"
+      ],
+      "pledgeSource": "https://www.hsg.go.kr/mayor/contents.do?key=1708&)",
       "confidence": {
-        "slogan": "low",
+        "slogan": "high",
         "ci": "low",
-        "photo": "low",
-        "pledges": "low"
+        "photo": "high",
+        "pledges": "high"
       },
-      "notes": "홈 캡처가 실제 군청 메인이 아닌 인트로/스플래시 페이지(finalUrl: .../common/intro/covidintro/main.html)에 안착. 화면상 헤더 '횡성군' CI 로고와 태그라인 '자연친화·인간중심·미래지향'이 보이나, 스냅샷의 ciImages·contentImages 배열이 모두 비어 있어 참조 가능한 실제 URL이 없음 → ci/photoUrl null. greeting/pledge/pledge2 캡처 파일 및 스냅샷 부재로 인사말·공약 판단 불가 → pledges null. 슬로건은 인트로 스플래시의 CI 부속 태그라인뿐이라 군정 캐치프레이즈로 확정 불가 → null.",
+      "notes": "슬로건은 군정방향(군정기본방향) 및 군정목표 페이지에 공통 노출되는 군정 캐치프레이즈. CI 헤더 심볼로고 URL이 어느 ciImages 배열에도 실재하지 않음(웹와치·국가상징 태극기·팝업배너·og:image placeholder만 존재) → null. photoUrl은 greeting.jpg에서 장신상 군수 초상 확인 후 greetingSnapshot.contentImages의 'mayor_person02_2.png'(alt: 장신상 횡성 군수 사진) 사용. pledges는 pledge.jpg의 군정방침 4대 핵심가치. pledge2(군정목표)는 슬로건 배너 이미지뿐이라 별도 공약목록 없음.",
       "verified": true
     },
     "5110": {
@@ -2353,19 +2358,24 @@
     },
     "5113": {
       "name": "철원군",
-      "slogan": null,
-      "ci": null,
+      "slogan": "사람과 일자리 중심, 모두가 잘 사는 철원",
+      "ci": "https://www.cwg.go.kr/site/www/images/common/logo.png",
       "photoUrl": null,
       "photoSource": null,
-      "pledges": null,
-      "pledgeSource": null,
+      "pledges": [
+        "「일자리중심 군정 기조 정착」으로 일자리 창출",
+        "「소득과 일자리중심 농정 강화」로 농가소득 안정",
+        "「지역별 경제활성화 조성」으로 상경기 향상",
+        "「현장중심 생활여건 개선」으로 군민 삶의 질 향상"
+      ],
+      "pledgeSource": "https://www.cwg.go.kr/www/contents.do?key=1933",
       "confidence": {
         "slogan": "high",
-        "ci": "med",
-        "photo": "high",
+        "ci": "high",
+        "photo": "low",
         "pledges": "high"
       },
-      "notes": "캡처된 페이지는 철원군 인트로(포털 진입) 화면뿐이며 greeting/pledge/pledge2 스크린샷 및 JSON 미존재. 홈 화면은 '철원군청 누리집에 오신 것을 환영합니다' 환영문구와 철원군청/고향사랑기부제/관광포털 3개 바로가기 링크만 표시(캐치프레이즈 아님→slogan null). ciImages에는 상단 환영문구 이미지(title_txt.png)와 하단 푸터로고(footer_logo.png)만 존재, 헤더 심볼로고 없음→ci null. contentImages 비어있어 군수 초상 없음→photoUrl null. 공약 페이지 없음→pledges null.",
+      "notes": "slogan/pledges는 pledge2(군정비전, key=1933) 화면에서 확인: 군정비전 '사람과 일자리 중심, 모두가 잘 사는 철원' + 4대 역점목표. 홈화면 우측 '철원군수실' 박스에 군수 초상이 보이나 home.json contentImages에 해당 인물사진 URL이 없어(팝업·RSS 이미지만 존재) photoUrl=null. CI는 헤더 심볼로고 logo.png(alt 철원군청). pledge.jpg는 SGIS 정책통계지도라 무관, greeting.jpg는 군수 인사말이 아닌 신철원전통시장 페이지.",
       "verified": true
     },
     "5114": {
@@ -2411,18 +2421,18 @@
     "5116": {
       "name": "인제군",
       "slogan": null,
-      "ci": null,
+      "ci": "https://www.inje.go.kr/page/portal/images/inje/logo_01.png",
       "photoUrl": null,
       "photoSource": null,
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
         "slogan": "low",
-        "ci": "low",
-        "photo": "low",
-        "pledges": "low"
+        "ci": "high",
+        "photo": "high",
+        "pledges": "high"
       },
-      "notes": "home.jpg/home.json만 존재. snapshot.ciImages·contentImages 모두 빈 배열이라 실재 URL 없음→ci·photoUrl null. 홈 화면은 공지·행사 배너 위주로 군정 캐치프레이즈 미노출→slogan null(날조 금지). greeting/pledge 캡처 없어 공약 수집 불가→pledges null. 헤더에 '인제군' 로고 텍스트만 보이나 심볼로고 URL 스냅샷에 부재.",
+      "notes": "슬로건: home는 기관명 '인제군청', greeting 헤더는 '군민과 함께하는 열린군수실'(열린군수실 소개문구)로 실제 군정 캐치프레이즈 아님→null(날조 금지). CI: 헤더 심볼로고 logo_01.png(alt 인제군, 165x66); serch/menu 아이콘 제외. 사진: greeting.jpg에는 군수 서명(최상기)만 있고 초상 사진 없음, greetingSnapshot.contentImages 비어있음→null. 공약: pledge(mayor/pledge)는 '매니페스토란?' 개념 설명 페이지(각국 국기 사례)로 실제 공약 아님→null; pledge2는 참여마당 '제안소개' 페이지로 공약 아님.",
       "verified": true
     },
     "5117": {
@@ -2760,7 +2770,7 @@
         "photo": "low",
         "pledges": "low"
       },
-      "notes": "home.json 스냅샷의 모든 이미지 배열(ciImages, contentImages)이 비어있고 greeting/pledge URL도 없음. greeting.jpg/pledge.jpg/pledge2.jpg 파일 미존재(홈만 캡처됨). home.jpg의 헤더에 '아산시' 심볼로고가 보이나 ciImages에 URL 없어 null. 본문 텍스트 '천년의 숲길 봉곡사(마음이 먼저 걷는 산사)'는 관광/사찰 홍보 문구로 시정 캐치프레이즈 아님. 시장 초상·공약 확인 불가. 스냅샷에 실재 URL 없어 전 필드 null 처리.",
+      "notes": "home.json 스냅샷의 모든 이미지 배열(ciImages, contentImages)이 비어있고 greeting/pledge URL도 없음(finalUrl=/main/vy/, title='아산시청'). greeting.jpg/pledge.jpg/pledge2.jpg 미존재, 홈만 캡처됨. home.jpg 헤더에 '아산시' 심볼로고가 보이나 ciImages에 URL 없어 null. 본문은 '현충사(성웅 이순신의 숨결을 따라)' 관광/사적 홍보 슬라이드와 메뉴버튼(아산 방문의 해, 아산페이, 아산시 누리집)뿐 — 시정 캐치프레이즈 아님. 시장 초상은 화면에 이순신 표준영정만 보여 인물사진 아님, 공약 페이지 없음. 스냅샷에 실재 URL이 전무하여 전 필드 null 처리.",
       "verified": true
     },
     "4405": {
@@ -3357,7 +3367,7 @@
         "photo": "high",
         "pledges": "high"
       },
-      "notes": "home.jpg 캐러셀 1/5 슬라이드에 '군민을 행복한/만들어'(=군민을 행복하게 만들어) 캐치프레이즈 이미지가 보이나 텍스트가 잘려 부분 판독→slogan low. ciImages·greeting/pledge 스냅샷 없음, contentImages는 전부 배너(취임인사·피해지원금 등)뿐이라 헤더 심볼로고·군수 초상·공약 URL 모두 확인 불가→null. greeting.jpg/pledge.jpg/pledge2.jpg 파일 부재.",
+      "notes": "home.jpg 캐러셀 1/5 슬라이드에 '군민을/행복한/만들어' 캐치프레이즈 이미지가 보이나 문구가 잘려 부분 판독(온전한 어미 미확인)→slogan low. home.json ciImages 빈 배열, contentImages는 전부 2140x400 배너(취임인사·피해지원금·군민안전보험·출생기본소득·야간민원실)뿐이고 헤더 심볼로고 URL 부재→ci null. greeting/pledge/pledge2 스냅샷·URL 및 greeting.jpg/pledge.jpg/pledge2.jpg 파일 자체가 존재하지 않아 군수 초상·공약 확인 불가→photo/pledges 모두 null.",
       "verified": true
     },
     "4607": {
@@ -3606,41 +3616,47 @@
         "photo": "low",
         "pledges": "low"
       },
-      "notes": "인트로 스플래시 페이지(intro/intro.htm)만 캡처됨. 화면에는 완도문화관광·완도군청·해양치유센터·고향사랑기부제 4개 진입 카드만 존재하고, 실제 홈페이지로 진입 전 단계임. DOM 스냅샷의 ciImages·contentImages 배열이 모두 비어 있고 greeting/pledge/pledge2 스크린샷과 스냅샷도 존재하지 않음. 캐치프레이즈·심볼로고·군수 초상·공약 정보를 확인할 수 없어 전 항목 null 처리(날조 금지).",
+      "notes": "캡처된 페이지가 완도군청 본청이 아니라 완도문화관광(tour) 서브사이트임(finalUrl=/tour/index.cs, title=완도문화관광). 홈 화면의 '가고싶은 섬 완도'는 관광 캐치프레이즈이고 헤더는 기관명 '완도문화관광'이라 군정 슬로건 아님→null. ciImages에는 og:image(gigca_seo.png, alt=og:image)만 있어 헤더 심볼로고 아님→null. greetingUrl(m=263)은 인사말이 아니라 '전통시장' 관광 콘텐츠 페이지이며, contentImages는 모두 관광지·시장 사진으로 군수 초상 없음→photoUrl null. pledge/pledge2 스크린샷·스냅샷 부존재하고 공약·핵심가치 페이지 미확인→pledges null. 전 항목 근거 부족으로 null(날조 금지). 본청(www.wando.go.kr) 인사말·군정목표 페이지 재수집 필요.",
       "verified": true
     },
     "4621": {
       "name": "진도군",
-      "slogan": null,
-      "ci": null,
-      "photoUrl": null,
-      "photoSource": null,
-      "pledges": null,
-      "pledgeSource": null,
+      "slogan": "역동하는 진도 행복한 일등군민",
+      "ci": "https://www.jindo.go.kr/themes/home/images/common/ji_logo.gif",
+      "photoUrl": "https://www.jindo.go.kr/themes/mayor/images/main_2026/img_mayor.jpg",
+      "photoSource": "https://www.jindo.go.kr/mayor/main.cs",
+      "pledges": [
+        "함께하는 소통사회",
+        "차별화된 문화관광",
+        "활력있는 지역경제",
+        "빈틈없는 맞춤복지",
+        "군민중심 혁신행정"
+      ],
+      "pledgeSource": "https://www.jindo.go.kr/mayor/sub.cs?m=24",
       "confidence": {
-        "slogan": "low",
-        "ci": "low",
-        "photo": "low",
-        "pledges": "low"
+        "slogan": "high",
+        "ci": "high",
+        "photo": "high",
+        "pledges": "high"
       },
-      "notes": "finalUrl은 intro.jsp('진도군청 시작 화면') 스플래시/인트로 페이지로, 5개 포털 카드(대표누리집·고향사랑기부제·일취월장·관광누리집·행사일정)와 Jindo 브랜드 로고만 존재. 군정 캐치프레이즈 없음(slogan=null). ciImages의 유일 항목은 og:image favicon_144.png(파비콘)으로 헤더 심볼로고 아님→ci=null. greeting/pledge/pledge2 캡처 파일 및 스냅샷 없음(contentImages 비어있음). 군수 초상·공약 확인 불가→모두 null.",
+      "notes": "슬로건은 군정방침 '역동하는 진도 행복한 일등군민'으로 pledge/pledge2 화면 및 img_vision_2026.jpg alt에서 확인. CI는 홈 헤더 심볼로고 ji_logo.gif(태극기·확대/축소 아이콘·검색·날씨배너 제외). 군수 초상은 열린군수실(greeting) 비주얼 배너의 img_mayor.jpg(이재각 군수, alt visual_img)로 화면상 인물사진 확인됨. 공약은 vision 이미지 alt에 명시된 군정 5대 핵심가치. 재수집분으로 인트로/스플래시 아닌 정상 캡처 확보됨.",
       "verified": true
     },
     "4622": {
       "name": "신안군",
       "slogan": null,
-      "ci": null,
-      "photoUrl": null,
-      "photoSource": null,
+      "ci": "https://www.shinan.go.kr/images/www/main2/logo.png",
+      "photoUrl": "https://www.shinan.go.kr/images/mayor/main/mvisual_260702_1.jpg",
+      "photoSource": "greeting",
       "pledges": null,
       "pledgeSource": null,
       "confidence": {
         "slogan": "low",
-        "ci": "low",
-        "photo": "low",
+        "ci": "high",
+        "photo": "med",
         "pledges": "low"
       },
-      "notes": "홈 화면에는 '군민 소통장구', '신안군 대표 누리집' 등 메뉴/섹션 제목만 보이고 실제 군정 캐치프레이즈는 없음(기관명 '신안군'). ciImages는 covid_intro_logo.png/covid_intro_copy_logo.png(코로나 인트로 로고)와 greeting의 mayor/main/logo.jpg(열린군수실 로고)뿐, 헤더 심볼로고로 확신 어려워 null. greeting.jpg는 실제로 '군수에게 바란다' 민원 게시판 페이지(군수 김태성)로 초상 사진 없음(contentImages 빈 배열). pledge.jpg/pledge2.jpg 및 pledgeSnapshot 없음 → 공약 확인 불가로 null.",
+      "notes": "홈 화면에 군정 캐치프레이즈 없음(메뉴/뉴스/배너만, 기관명 '신안군')→slogan null. CI는 헤더 심볼로고 logo.png(alt '1004 신안군', 179x51); gnb_ico1~6은 자주찾는서비스 아이콘이라 제외. greeting(열린군수실) 화면에 '민선9기 김태성 신안군수 취임식' 인물사진 확인, greetingSnapshot.contentImages의 취임식 슬라이드 mvisual_260702_1.jpg 채택(취임식 발표 슬라이드; 초상 확신 med). pledge=연륙연도교현황(인프라 표), pledge2=정책포럼(토론게시판 0건, 매니페스토개념)로 실제 공약/핵심가치 없음→pledges null.",
       "verified": true
     },
     "4701": {
@@ -4116,7 +4132,7 @@
         "photo": "low",
         "pledges": "low"
       },
-      "notes": "캡처가 안티봇 차단 페이지(/tracer/info.jsp, '개발자 도구 감지')에 걸려 실제 통영시청 홈페이지 콘텐츠가 없음. greeting/pledge/pledge2 스크린샷 및 스냅샷 부재, ciImages 빈 배열, contentImages는 block-icon.png뿐. 슬로건·CI·초상·공약 추출 불가.",
+      "notes": "캡처가 안티봇 차단 페이지(finalUrl=/tracer/info.jsp, 화면 '개발자 도구 감지 - 브라우저 개발자 도구를 닫고 이용해주세요')에 걸려 실제 통영시청 홈페이지 콘텐츠 없음. greeting/pledge/pledge2 스크린샷·스냅샷 부재, ciImages 빈 배열, contentImages는 block-icon.png(256x256 차단 아이콘)뿐이라 인물사진 없음. 슬로건·CI·시장 초상·공약 추출 불가.",
       "verified": true
     },
     "4804": {
@@ -4230,19 +4246,26 @@
     },
     "4810": {
       "name": "함안군",
-      "slogan": null,
-      "ci": null,
+      "slogan": "군민의 눈높이로 새롭게 도약하는 더 큰 함안",
+      "ci": "https://www.haman.go.kr/_res/portal/img/inc/logo@2x_2026.png",
       "photoUrl": null,
       "photoSource": null,
-      "pledges": null,
-      "pledgeSource": null,
+      "pledges": [
+        "역동적인 혁신경제",
+        "풍요로운 희망농업",
+        "매력적인 문화관광",
+        "격조높은 복지교육",
+        "살기좋은 균형도시",
+        "신뢰받는 열린행정"
+      ],
+      "pledgeSource": "https://www.haman.go.kr/02434/02441/02441.web",
       "confidence": {
-        "slogan": "low",
-        "ci": "low",
+        "slogan": "high",
+        "ci": "high",
         "photo": "low",
-        "pledges": "low"
+        "pledges": "high"
       },
-      "notes": "home.jpg는 intro.jsp 스플래시(인트로) 페이지로, 실제 메인 홈페이지가 아님. 큰 텍스트는 '가야고분군(GAYA TUMULI) 세계유산 등재' 홍보 배너로 군정 캐치프레이즈가 아니어서 slogan=null. greeting/pledge/pledge2 하위 캡처 파일 및 스냅샷 배열 자체가 없어 인사말·공약 확인 불가 → photoUrl/pledges=null. ciImages에는 foot_logo2@2x.png(alt=함안군, 푸터 로고)와 og:image(logo@2x.png)만 존재. 헤더 심볼로고는 없고 foot_logo2가 유일한 함안군 CI 마크라 이를 채택했으나 푸터 변형이라 low. contentImages는 대통령선거 열람 안내 layer 이미지뿐이라 인물 초상 후보 없음.",
+      "notes": "슬로건은 인사말·공약과실천 페이지의 군정비전(더 큰 함안). CI는 홈 헤더 심볼로고 logo@2x_2026.png(alt=함안군 HAMAN); 다른 ciImages는 캐시안내 팝업배너와 og:image 중복이라 제외. 군수(차석호) 초상은 greeting.jpg에서 확인되나 greetingSnapshot.contentImages에는 서브 배너(v1pr01.jpg)만 있고 인물사진 URL이 실재하지 않아 photoUrl=null. 공약은 pledge(공약과 실천/군정지표)의 6대 전략목표로 pledgeSnapshot 이미지 alt와 일치. pledge2(주요정책목록)는 뉴스형 목록이라 미사용.",
       "verified": true
     },
     "4811": {
@@ -4349,19 +4372,24 @@
     },
     "4816": {
       "name": "함양군",
-      "slogan": null,
-      "ci": null,
-      "photoUrl": null,
-      "photoSource": null,
-      "pledges": null,
-      "pledgeSource": null,
+      "slogan": "힘찬 도약! 함께여는 함양",
+      "ci": "https://www.hygn.go.kr/_res/portal/img/inc/logo@2x.png",
+      "photoUrl": "https://www.hygn.go.kr/_res/mayor/img/sub/greeting1_img01.jpg",
+      "photoSource": "https://www.hygn.go.kr/mayor/01291/01296.web",
+      "pledges": [
+        "웰니스 문화관광 - 온 국민이 찾GO, 오르GO, 쉬GO 머무는 웰빙 도시",
+        "스마트 도시행정 - AX시대 맞춤형 행정 서비스 및 안전도시 구축",
+        "선순환 지역경제 - 신농업, 물류, 스포츠의 중심 도시 육성",
+        "모두의 동행복지 - 어느 누구도 소외되지 않는 따뜻한 공동체"
+      ],
+      "pledgeSource": "https://www.hygn.go.kr/00432/00891/01021.web",
       "confidence": {
-        "slogan": "low",
-        "ci": "low",
-        "photo": "low",
-        "pledges": "low"
+        "slogan": "high",
+        "ci": "high",
+        "photo": "high",
+        "pledges": "high"
       },
-      "notes": "홈은 인트로/스플래시 게이트웨이 페이지(제목 '함양군 대표누리집')로 실제 군정 콘텐츠 미표시. 화면 상단 '2027 함양방문의 해'는 관광 캠페인 문구로 군정 캐치프레이즈가 아님→slogan null. ciImages 배열 비어 있음→ci null. contentImages는 인트로 타이틀 이미지와 서비스중단·선거인명부 팝업뿐, 군수 초상 없음→photoUrl null. greeting/pledge 캡처 및 스냅샷(greetingUrl/pledgeUrl/pledgeSnapshot 등) 부재→pledges null. 갈무리 파일도 home.jpg/home.json만 존재.",
+      "notes": "슬로건은 홈 헤더 CI(logo@2x.png alt='Powerful·Together·HAMYANG 힘찬도약! 함께여는 함양')와 군정목표 페이지 CI에서 일치 확인. CI는 헤더 심볼로고 logo@2x.png(454x126) 채택, flogo.png는 푸터 로고. 인사말 페이지에서 함양군수 진병영 초상 확인, greeting1_img01.jpg(alt='함양군수 진병영') 사용. 공약과실천(pledge) 페이지는 '페이지 준비중'이라 사용 불가 → 군정목표(pledge2) 페이지의 군정방침 4대 핵심가치를 공약으로 채택.",
       "verified": true
     },
     "4817": {
@@ -4378,7 +4406,7 @@
         "photo": "low",
         "pledges": "low"
       },
-      "notes": "home.jpg는 인트로 스플래시(intro.jsp)로 가족 이미지와 '2026 거창방문의 해 VISIT GEOCHANG YEAR'(관광 캠페인) 및 메뉴 링크(대표누리집·거창 문화관광 등)만 표시. 군정 캐치프레이즈 아님→slogan null. greeting/pledge/pledge2 캡처 및 스냅샷 없음(파일 미존재, home.json에 greeting/pledgeSnapshot 부재)→photo·pledges null. ciImages는 인트로 배너로고(logo@2x.png, alt '2026 거창방문의 해')와 og:image 포털로고뿐, 헤더 심볼로고 확인 불가→ci null.",
+      "notes": "home.jpg는 인트로 스플래시(intro.jsp): 유채꽃밭+손 이미지에 '2026 거창방문의 해 VISIT GEOCHANG YEAR'(관광 캠페인)와 '치유의 시간' 문구, 그리고 메뉴 링크 버튼(대표누리집·거창 문화관광·거창 반값여행·거창군 예약정보·고향사랑기부제)만 표시. 관광 캠페인/방문의 해 문구는 군정 캐치프레이즈 아님, title은 '거창군청'(기관명)→slogan null. greeting/pledge/pledge2 캡처 및 스냅샷 부재(파일 미존재, home.json에 greeting/pledgeSnapshot 없음)→photo·pledges null. ciImages는 인트로 배너로고(logo@2x.png, alt '2026 거창방문의 해')와 og:image 포털로고뿐이며 인트로 화면에는 헤더 심볼로고 없음→ci null.",
       "verified": true
     },
     "4818": {

@@ -97,7 +97,9 @@ export async function launch({ width = 1440, height = 3000, scale = 1 } = {}) {
       '--no-first-run',
       '--no-default-browser-check',
       '--disable-background-timer-throttling',
-      '--disable-features=Translate,CalculateNativeWinOcclusion',
+      // 일부 지자체 사이트가 자동화 브라우저를 감지해 차단하므로 자동화 표식을 줄인다.
+      '--disable-blink-features=AutomationControlled',
+      '--disable-features=Translate,CalculateNativeWinOcclusion,AutomationControlled',
       `--user-data-dir=${userDir}`,
       `--remote-debugging-port=${DEBUG_PORT}`,
       '--remote-debugging-address=127.0.0.1',
@@ -118,6 +120,10 @@ export async function launch({ width = 1440, height = 3000, scale = 1 } = {}) {
   await cdp('Page.enable');
   await cdp('Runtime.enable');
   await cdp('Network.enable');
+  // 페이지 로드 전에 자동화 탐지 표식(navigator.webdriver)을 감춘다.
+  await cdp('Page.addScriptToEvaluateOnNewDocument', {
+    source: "Object.defineProperty(navigator, 'webdriver', { get: () => undefined });",
+  }).catch(() => {});
   await cdp('Emulation.setDeviceMetricsOverride', {
     width,
     height,
