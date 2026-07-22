@@ -1,0 +1,38 @@
+{
+  "_comment": "기초 지자체 AI정책 큐레이션. code -> AiPolicy (src/lib/types.ts). crawl_basic.py 가 읽어 basic.json 의 aiPolicy 를 채운다. 확인되지 않은 값(예산·전담부서 등)은 날조하지 않고 null 로 둔다. 강남구(1123)를 레퍼런스 샘플로 시작하고 나머지는 점진 보완.",
+  "_schema": {
+    "summary": "비전/캐치프레이즈 한 줄 | null",
+    "programs": "[{name, category(인재양성|실증|행정혁신|인프라|산업창업|거버넌스|기타), description?, scale?, period?, status?(계획|추진중|완료), source?}] | null",
+    "department": "전담 부서 | null (미확인이면 null)",
+    "source": "대표 출처 URL | null",
+    "updatedAt": "ISO 날짜 | null"
+  },
+  "policies": {
+    "1123": {
+      "summary": "강남, AI가 삶이 되는 지능형 도시",
+      "programs": [
+        {
+          "name": "AI 실증사업 (민관협력 오픈이노베이션 제4회)",
+          "category": "실증",
+          "description": "민원창구 실시간 번역(투명 OLED), 구청 로비 AI 홀로그램 안내, 동 주민센터 생성형 AI 업무 어시스턴트, 버스정류장·스마트쉼터 AI 음성인식 키오스크, 복지시설 AIoT, 양재천 스마트 공원 관리 등 생활 밀착 실증.",
+          "scale": "8개 기업 (보조금 지원형 5 + 기회제공형 3)",
+          "period": "2026-06~",
+          "status": "추진중",
+          "source": "http://www.thesegye.com/news/view/1065562118323034"
+        },
+        {
+          "name": "2026년 강남구 청년 AI 아카데미",
+          "category": "인재양성",
+          "description": "바이오·헬스케어, IT서비스 2개 과정의 프로젝트 기반 실무교육. 강남 거주·관내 재직 청년 대상, 교육비 무료.",
+          "scale": "30명",
+          "period": "2026-07-07 ~ 2026-09-02",
+          "status": "추진중",
+          "source": "https://www.sijung.co.kr/news/articleView.html?idxno=430683"
+        }
+      ],
+      "department": null,
+      "source": "https://www.gangnam.go.kr",
+      "updatedAt": "2026-07-22"
+    }
+  }
+}

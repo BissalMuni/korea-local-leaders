@@ -24,6 +24,48 @@ export interface RegionSeed {
   lng?: number;
 }
 
+/** AI정책 개별 사업의 분류 축 (강남구 케이스에서 도출) */
+export type AiProgramCategory =
+  | "인재양성" // 교육·아카데미 (예: 청년 AI 아카데미)
+  | "실증" // 리빙랩·오픈이노베이션 실증 (예: AI가 삶이 되는 지능형 도시)
+  | "행정혁신" // 민원·행정 내부 AI 도입
+  | "인프라" // GPU·데이터센터·플랫폼 구축
+  | "산업창업" // 기업지원·창업·투자
+  | "거버넌스" // 조례·전략·전담조직
+  | "기타";
+
+/** 지자체 AI정책의 개별 사업 */
+export interface AiProgram {
+  /** 사업명 */
+  name: string;
+  /** 분류 */
+  category: AiProgramCategory;
+  /** 한두 문장 설명. 없으면 null */
+  description?: string | null;
+  /** 규모 (예: "8개 기업", "30명", "예산 5억"). 없으면 null */
+  scale?: string | null;
+  /** 추진 기간/시기 (예: "2026-07 ~ 2026-09", "2026-06~"). 없으면 null */
+  period?: string | null;
+  /** 진행 상태 */
+  status?: "계획" | "추진중" | "완료" | null;
+  /** 근거 출처 URL. 없으면 null */
+  source?: string | null;
+}
+
+/** 지자체 AI정책 묶음 — Governor에 선택적으로 붙는 차원 */
+export interface AiPolicy {
+  /** 비전/캐치프레이즈 한 줄 (예: "강남, AI가 삶이 되는 지능형 도시") */
+  summary: string | null;
+  /** 개별 사업 목록. 없으면 null */
+  programs: AiProgram[] | null;
+  /** 전담 조직/부서 (예: "스마트도시과"). 미확인이면 null — 날조 금지 */
+  department: string | null;
+  /** 대표 출처 URL */
+  source: string | null;
+  /** 마지막 갱신 시각 (ISO). 없으면 null */
+  updatedAt: string | null;
+}
+
 /** 크롤러가 채우는 단체장 정보 + 시드 병합 결과 (UI가 소비) */
 export interface Governor extends RegionSeed {
   /** 단체장 성명 */
@@ -44,6 +86,8 @@ export interface Governor extends RegionSeed {
   ci: string | null;
   /** 주요공약 (5대 공약 등). 없으면 null */
   pledges: string[] | null;
+  /** 지자체 AI정책 (선택). 미수집 지자체는 생략 또는 null */
+  aiPolicy?: AiPolicy | null;
   /** 데이터 출처 URL */
   source: string | null;
   /** 마지막 수집 시각 (ISO) */

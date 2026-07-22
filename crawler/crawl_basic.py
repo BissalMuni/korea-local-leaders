@@ -39,6 +39,7 @@ OUT_DATA = ROOT / "data" / "basic.json"
 HOMEPAGES_FILE = ROOT / "crawler" / "basic_homepages.json"
 PHOTOS_FILE = ROOT / "crawler" / "basic_photos.json"
 VISION_FILE = ROOT / "crawler" / "basic_vision.json"
+AI_POLICY_FILE = ROOT / "crawler" / "basic_ai_policy.json"
 WIKI_API = "https://ko.wikipedia.org/w/api.php"
 WIKI_PAGE = "제9회 전국동시지방선거 기초자치단체장"
 HEADERS = {"User-Agent": "korea-local-leaders/0.1 (data prep)"}
@@ -220,6 +221,17 @@ def load_vision() -> dict[str, dict]:
     }
 
 
+def load_ai_policy() -> dict[str, dict]:
+    """crawler/basic_ai_policy.json 의 code -> AiPolicy (수동 큐레이션) 매핑.
+
+    확인된 값만 큐레이션되어 있으며, 미수집 지자체는 키가 없어 aiPolicy 는 null 로 둔다.
+    """
+    if not AI_POLICY_FILE.exists():
+        return {}
+    data = json.loads(AI_POLICY_FILE.read_text(encoding="utf-8"))
+    return {code: p for code, p in data.get("policies", {}).items() if p}
+
+
 def main() -> int:
     print("위키 9회 기초단체장 파싱 중...")
     records = fetch_records()
@@ -227,7 +239,8 @@ def main() -> int:
     homepages = load_homepages()
     photos = load_photos()
     vision = load_vision()
-    print(f"  홈페이지 매핑 {len(homepages)}곳 · 기관장 사진 {len(photos)}곳 · 비전추출 {len(vision)}곳 로드")
+    ai_policy = load_ai_policy()
+    print(f"  홈페이지 매핑 {len(homepages)}곳 · 기관장 사진 {len(photos)}곳 · 비전추출 {len(vision)}곳 · AI정책 {len(ai_policy)}곳 로드")
 
     # 광역별로 묶어 정렬 후 코드 부여 (광역코드 + 2자리 일련번호)
     rows: list[dict] = []
@@ -249,6 +262,7 @@ def main() -> int:
                 "slogan": v.get("slogan") or None, "vision": None,
                 "photoUrl": v.get("photoUrl") or photos.get(code) or None,
                 "ci": v.get("ci") or None, "pledges": v.get("pledges") or None,
+                "aiPolicy": ai_policy.get(code) or None,
                 "source": f"https://ko.wikipedia.org/wiki/{WIKI_PAGE}",
                 "lastCrawledAt": now_iso(), "manualOverride": False,
             })

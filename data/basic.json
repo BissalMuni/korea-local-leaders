@@ -548,6 +548,32 @@
       "photoUrl": "https://www.gangnam.go.kr/assets/leader/image/202606/main-person.png",
       "ci": "https://www.gangnam.go.kr/assets/images/contents/04/040401_img01.png",
       "pledges": null,
+      "aiPolicy": {
+        "summary": "강남, AI가 삶이 되는 지능형 도시",
+        "programs": [
+          {
+            "name": "AI 실증사업 (민관협력 오픈이노베이션 제4회)",
+            "category": "실증",
+            "description": "민원창구 실시간 번역(투명 OLED), 구청 로비 AI 홀로그램 안내, 동 주민센터 생성형 AI 업무 어시스턴트, 버스정류장·스마트쉼터 AI 음성인식 키오스크, 복지시설 AIoT, 양재천 스마트 공원 관리 등 생활 밀착 실증.",
+            "scale": "8개 기업 (보조금 지원형 5 + 기회제공형 3)",
+            "period": "2026-06~",
+            "status": "추진중",
+            "source": "http://www.thesegye.com/news/view/1065562118323034"
+          },
+          {
+            "name": "2026년 강남구 청년 AI 아카데미",
+            "category": "인재양성",
+            "description": "바이오·헬스케어, IT서비스 2개 과정의 프로젝트 기반 실무교육. 강남 거주·관내 재직 청년 대상, 교육비 무료.",
+            "scale": "30명",
+            "period": "2026-07-07 ~ 2026-09-02",
+            "status": "추진중",
+            "source": "https://www.sijung.co.kr/news/articleView.html?idxno=430683"
+          }
+        ],
+        "department": null,
+        "source": "https://www.gangnam.go.kr",
+        "updatedAt": "2026-07-22"
+      },
       "source": "https://ko.wikipedia.org/wiki/제9회 전국동시지방선거 기초자치단체장",
       "lastCrawledAt": "2026-07-14T14:33:43+00:00",
       "manualOverride": false
